@@ -1,6 +1,9 @@
 <!-- HEADER -->
 <header class="header">
-    <div class="row-fluid">
+    <div class="logo-mobile visible-phone">
+      <img src="img/logo_mobile.jpg" alt="ouisharefest">
+    </div>
+    <div class="row-fluid hidden-phone">
       <div class="span4 offset1">
         <div class="logosmall">
           <img src='img/logosmall.jpg' alt="OuiShare + La Fonderie">
@@ -16,7 +19,7 @@
         </div>
       </div>
     </div>
-    <div class="row-fluid">
+    <div class="row-fluid hidden-phone">
       <div class="span2 offset1">
         <div class="wave">
           <img src='img/wave.jpg' alt="2-3-4 may">

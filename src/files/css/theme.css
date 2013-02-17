@@ -621,13 +621,127 @@ display: block;
   }
 }
 @media only screen and (max-width : 480px) {
-  /* speakers */
-  .speaker-photo .photo {box-shadow: 0 0 0 3px rgba(0,0,0,.07);}
-  .speech-title {font-weight: bolder;}
-  .speech-time {
-    color:#2b2b2b;
-    background: transparent;
-    font-weight: bolder;
+  header{
+      padding:0;
   }
-  .github-link { display: none; }
+  .logo-mobile{
+      margin: 0 auto;
+      width:300px;
+      height:278px;
+  }
+  .logo-mobile img{
+      max-width:100%;
+  }
+  .about {
+      background: white;
+      padding: 0;
+      margin:0;
+      height: 536px;
+  }
+  .aboutframe {
+    position:relative;
+    height: 480px;
+    width:100%;
+    background:white;
+    padding:2em;
+    margin:0 auto;
+    width:100%;
+  }
+  .aboutframe h3{
+      font-size:1.2em;
+  }
+  .content section .topic{
+     height:0% !important;
+  }
+  .topics {
+     height:0% !important;
+     padding:0;
+ }
+    .speakers{
+      padding:0;
+      height: 270% !important;
+    }
+    .speakers h3 {
+        text-align: center;
+        text-transform:uppercase;
+        padding: 2em;
+        font-size:1.6em;
+    }
+    .speakers-list{
+        padding:0;
+    }
+    .speakers-item{
+        height:1em;
+        margin-bottom:1em;
+    }
+    .speakers-name{
+        text-align:left;
+        margin:0;
+        font-size:0.8em;
+    }
+    .speakers-item p {
+        font-size:1em;
+        text-transform:uppercase;
+    }
+    .speakers-company{
+        text-align: right;
+        font-size:0.8em;
+    }
+  .partners{
+      padding:0;
+  }
+  .partners-phone h3{
+      font-size:1.6em;
+      padding: 1.5em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  .partners-phone p{
+      color: #666;
+      font-size: 1em;
+      text-align: center;
+      text-transform: uppercase;
+  }
+  .sponsors{
+      height:1750px !important;
+  }
+  .sponsors-list{
+      padding:0;
+  }
+  .team-phone h2{
+      font-size:1.6em;
+      padding: 1.5em;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight:bold;
+  }
+  .team-phone h3{
+      font-size:1.2em;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight:normal;
+  }
+  .team-phone p{
+      text-align: center;
+  }
+  .sponsor-item{
+      margin:0;
+  }
+  .credits{
+    margin:0;;
+    padding:0;
+  }
+  .credits p{
+    font-size:0.7em;
+    color:#0000ff;
+  }
+  .credits h2{font-size:1.2em;color:#a6a6ff;}
+  .credits h3{font-size:0.8em;color:#a6a6ff;}
+
+  .register{
+      background: white;
+  }
+  .registerright{
+      height:510px;
+  }
 }

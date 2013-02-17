@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid hidden-phone">
   <div class="team-container">
     <div class="row-fluid">
       <div class="teamtext span10">
@@ -19,7 +19,7 @@
         <% for sponsor, index in @sponsors: %>
         <div class="span6">
           <li class="sponsor-item" itemscope itemtype="http://schema.org/Person">
-            <div class="sponsor-photo">
+            <div class="sponsor-photo hidden-phone">
               <img src="<%= sponsor.photo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
             </div>
             <div class="sponsor-details">
@@ -77,4 +77,49 @@
       </div>
     </div>
   </div>
+</div>
+<div class="team-phone visible-phone">
+    <h2>Team</h2>
+    <ul class="sponsors-list">
+    <% for sponsor, index in @sponsors: %>
+      <li class="sponsor-item" itemscope itemtype="http://schema.org/Person">
+        <div class="sponsor-details">
+          <h3 class="sponsor-name">
+            <%= sponsor.name %>
+          </h3>
+          <p>
+            <span class="sponsor-tags">
+              <%= sponsor.tags %>
+            </span>
+            <br/>
+            <span class="sponsor-twitter">
+              <img src="img/twitter.jpg" alt="twitter"/>
+              @
+              <%= sponsor.twitter %>
+            </span>
+            <br/>
+            <span class="sponsor-quote">
+              <%= sponsor.quote %>
+            </span>
+          </p>
+        </div>
+      </li>
+      <% end %>
+    </ul>
+    <div class="credits">
+      <h3>
+        Design
+      </h3>
+      <p>
+        Nicolas Couturier, Angeline Ostinelli & Benoit Verjat.
+        <a href="httpl://www.g-u-i.net" target="_blank">g-u-i.net</a>
+      </p>
+      <h3>
+        Development
+      </h3>
+      <p>
+        Alban Leveau-Vallier,
+        <a href="http://nukomeet.com" target="_blank">Nukomeet</a>
+      </p>
+    </div>
 </div>

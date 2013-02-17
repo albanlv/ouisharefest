@@ -1,5 +1,5 @@
 <!-- NAVIGATION -->
-<div class="navbar">
+<div class="navbar hidden-phone">
   <nav id="nav">
     <div class="navbar-inner">
       <ul class="wrapper nav">

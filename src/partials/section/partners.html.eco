@@ -1,5 +1,5 @@
 <div class="row-fluid">
-  <div class="partnersframe span6 offset3">
+  <div class="partnersframe span6 offset3 hidden-phone">
     <div class="row-fluid">
       <div class="fonderie2 span6 offset3">
         <a href="http://www.lafonderie-idf.fr/" target="_blank">
@@ -43,7 +43,7 @@
     </div>
   </div>
 </div>
-<div class="row-fluid">
+<div class="row-fluid hidden-phone">
   <div class="span5 offset3">
     <div class="partnerstext">
       <p>
@@ -57,5 +57,51 @@
         </span>
       </p>
     </div>
+  </div>
+</div>
+<div class="partners-phone visible-phone">
+  <h3>Partners</h3>
+  <p>
+    <a href="http://www.lafonderie-idf.fr/" target="_blank">
+      La Fonderie
+    </a>
+  </p>
+  <p>
+    <a href="http://www.shareable.net/" target="_blank">
+      Shareable
+    </a>
+  </p>
+  <p>
+    <a href="http://collaborativeconsumption.com/" target="_blank">
+      Collaborativeconsumption
+    </a>
+  </p>
+  <p>
+    <a href="http://p2pfoundation.net/" target="_blank">
+      P2P Foundation
+    </a>
+  </p>
+  <p>
+    <a href="http://meshing.it/companies/59759-Mesh-Labs" target="_blank">
+      Meshlabs
+    </a>
+  </p>
+  <p>
+    <a href="http://www.deskmag.com/fr" target="_blank">
+      Desmag
+    </a>
+  <p>
+    <a href="http://fing.org/" target="_blank">
+      Fing
+    </a>
+  <p>
+  <div class="partnerstext">
+    <p>
+      If you would like to become a partner,
+      please contact us at <br/>
+      <a href="mailto:contribute@ouisharefest.com">
+        contribute@ouisharefest.com
+      </a>
+    </p>
   </div>
 </div>
