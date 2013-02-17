@@ -27,13 +27,13 @@ module.exports =
     # you can also change order here and it will reflect on page
     sections: [
       'about'
-      'topics hidden-phone'
+      'topics'
       'speakers'
       #'schedule'
       'partners'
       'sponsors'
-      'location hidden-phone'
-      'contribute hidden-phone'
+      'location'
+      'contribute'
       'register'
       #'contact'
     ]
