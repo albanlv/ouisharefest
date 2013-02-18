@@ -34,8 +34,9 @@
                 <br/>
                 <span class="sponsor-twitter">
                   <img src="img/twitter.jpg" alt="twitter"/>
-                  @
-                  <%= sponsor.twitter %>
+                  <a href="http://www.twitter.com/<%= sponsor.twitter %>">
+                    @<%= sponsor.twitter %>
+                  </a>
                 </span>
               </p>
               <span class="sponsor-quote">
