@@ -1,5 +1,6 @@
 <div class="container-fluid hidden-phone">
   <div class="team-container">
+    <h2 class="hidden-phone">Team</h2>
     <div class="row-fluid">
       <div class="teamtext span10">
         <p>

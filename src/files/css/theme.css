@@ -17,6 +17,11 @@ h2, h3, h4 {
   margin-bottom:.4em;
   letter-spacing: -.02em;
 }
+h2{
+    font-size:4em;
+    text-align:center;
+    margin-bottom:1em;
+}
 h3 {font-size: 2em;}
 h4 {font-size:3em;}
 p {
@@ -187,9 +192,11 @@ display: block;
 .aboutframe {
     position:absolute;
     top:50%;
-    height: 24em;
-    width:70em;
-    margin-top:-12em;
+    right: 50%;
+    left:50%;
+    height: 400px;
+    width:50%;
+    margin:-200px -25% auto;
     background:rgba(255,255,255, 0.8);
     padding:2em;
 }
@@ -208,17 +215,20 @@ display: block;
    color:white;
    height:100% !important;
    display:block;
-   padding-bottom:10em;
+}
+.container-fluid.topicscontainer.hidden-phone{
+    height:100%;
 }
 .topicscontainer{
     width:100%;
+    height:100%;
 }
 .topics h3{
   color:white;
   font-weight:bold;
   line-height:1.3em;
 }
-.carousel .carousel-inner .slide .item {
+.carousel, .carousel-inner, .slide, .item {
     height:100%;
     max-height:100%;
     width:100%;
@@ -232,9 +242,10 @@ display: block;
     height:200px;
     width:60%;
     top:50%;
-    margin: 0 auto;
+    left:50%;
+    right:50%;
+    margin: -100px -30% auto;
     background: rgba(166,166,255,0.85);
-    margin-top:-100px;
 }
 .carousel-caption p{
     line-height:2;
@@ -288,7 +299,7 @@ display: block;
    SPEAKER
    ========================================================================== */
 .speakers{
-  padding-top:10em;
+  padding-top:4em;
   height: 270% !important;
 }
 .speaker-container{
@@ -383,7 +394,7 @@ display: block;
   background-color: #e6e6ff;
 }
 .team-container{
-    padding:5% 15%;
+    padding:4% 15%;
 }
 .teamtext{
   padding-left:10em;
@@ -543,9 +554,6 @@ display: block;
 
    .aboutframe {
     padding:1em;
-    height:310px;
-    width:65%;
-    margin-top:-155px;
   }
   .aboutframe h3{
     font-size:1.6em;
@@ -606,9 +614,6 @@ display: block;
   }
   .twitter{
       margin-left:1.2em;
-  }
-  .aboutframe{
-      margin-top:10px;
   }
   .partners{
       padding-top:4em;

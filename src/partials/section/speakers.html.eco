@@ -1,5 +1,5 @@
+<h2 class="hidden-phone">Speakers</h2>
 <div class="container-fluid hidden-phone speaker-container">
-  <h3>Speakers</h3>
   <ul class="speakers-list">
       <div class="row-fluid">
         <% for speaker, index in @schedule: %>
