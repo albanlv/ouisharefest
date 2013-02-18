@@ -484,6 +484,7 @@ display: block;
   display:block;
   width: 12em;
   height: 9em;
+  margin-top: -5em;
   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
   border-radius:         70%  50%  70%  50%  / 60%   70%   90%  90%;
 }
