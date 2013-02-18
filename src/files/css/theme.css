@@ -359,12 +359,19 @@ display: block;
    PARTNERS
    ========================================================================== */
 .partners{
-    padding-top:14em;
     background: url('../img/backgrounds/background_partners.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+.centerpartners{
+    position:absolute;
+    top:50%;
+    left:50%;
+    right:50%;
+    height:400px;
+    margin: -200px -25% auto;
 }
 .partnersframe{
     background:white;
