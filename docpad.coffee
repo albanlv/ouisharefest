@@ -6,7 +6,7 @@ module.exports =
     # Conference info
     conf:
       name: "OuiShare Fest : a three-day festival about the collaborative economy"
-      description: " "
+      description: "A three-day festival bringing together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future. Paris, May 2-3-4, 2013."
       date: "may 2-3-4 2013"
       price: " "
       venue: " "
