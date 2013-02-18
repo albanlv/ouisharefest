@@ -300,7 +300,6 @@ display: block;
    ========================================================================== */
 .speakers{
   padding-top:4em;
-  height: 270% !important;
 }
 .speaker-container{
     padding-left:10%;
@@ -397,7 +396,6 @@ display: block;
    ========================================================================== */
 .sponsors{
   display:block;
-  height: 270% !important;
   background-color: #e6e6ff;
 }
 .team-container{
@@ -575,9 +573,6 @@ display: block;
   .carousel-caption p{
       font-weight: 1em;
       line-height: 1.4em;
-  }
-  .sponsors{
-      height: 290% !important;
   }
   .partners{
       padding-top: 8em;
