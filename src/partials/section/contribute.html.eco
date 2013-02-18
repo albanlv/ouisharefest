@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid hidden-phone">
   <div class="row-fluid">
     <div class="contributetext span7 offset3">
       <h3>
