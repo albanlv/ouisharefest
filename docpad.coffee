@@ -409,7 +409,7 @@ module.exports =
       photo: "img/team/Team_Antonin.jpg"
       twitter: "AntoLeonard"
       tags: "#Partnerships #PR #Program"
-      quote: "Let's fucking do it"
+      quote: "Shaping the future. Together"
     ,
       name: "Francesca Pick"
       photo: "img/team/Team_Francesca.jpg"
