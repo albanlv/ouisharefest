@@ -16,11 +16,11 @@ module.exports =
 
     # Site info
     site:
-      url: "http://ouisharefest.net"
+      url: "http://ouisharefest.com"
       googleanalytics: "UA-37109643-1"
       images:
         cover: " "
-        facebook: " "
+        facebook: "http://ouisharefest.com/img/logo_mobile.jpg"
 
     # Active sections on the website
     # to deactivate comment out with '#'
