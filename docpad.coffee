@@ -443,7 +443,7 @@ module.exports =
     ,
       name: "Tomas Mancin"
       photo: "img/team/Team_Tomas.jpg"
-      twitter: "T_M_Arch"
+      twitter: "T_M_Arch_"
       tags: "#CoTalk #Social #Alchemy"
       quote: "I want to see the sparkles in their eyes!"
     ,

@@ -59,7 +59,7 @@
         <div class="span2">
           <h2>Design</h2>
         </div>
-        <div class="span8 offset2">
+        <div class="span8 offset1">
           <p>
             Nicolas Couturier, Angeline Ostinelli & Benoit Verjat.
             <a href="httpl://www.g-u-i.net" target="_blank">g-u-i.net</a>
@@ -70,7 +70,7 @@
         <div class="span2">
           <h2>Development</h2>
         </div>
-        <div class="span8 offset2">
+        <div class="span8 offset1">
           <p>
             Alban Leveau-Vallier,
             <a href="http://nukomeet.com" target="_blank">Nukomeet</a>
