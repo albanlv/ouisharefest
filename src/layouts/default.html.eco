@@ -8,9 +8,10 @@
   <meta name="author" content="<%= @conf.name %>">
   <meta name="description" content="<%= @conf.description %>">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:title" content="OuiShare Fest : A Collaborative Economy Festival ?" />
+  <meta property="og:title" content="OuiShare Fest : A Collaborative Economy Festival" />
   <meta property="og:description" content="A three-day festival bringing together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future. Paris, May 2-3-4, 2013." />
   <meta property="og:image" content="http://ouisharefest.com/img/logo_mobile.jpg" />
+  <meta property="og:url" content="http://ouisharefest.com/" />
 
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
