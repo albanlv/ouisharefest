@@ -372,6 +372,7 @@ display: block;
     background-size: cover;
 }
 .partners h2{
+    margin-top: 0;
     margin-left: -60px;
 }
 .centerpartners{
@@ -542,6 +543,8 @@ display: block;
     height:100%;
 }
 .register h2{
+    margin-top: .5em;
+    margin-bottom: .5em;
     margin-left: 160px;
 }
 .register h3 {
