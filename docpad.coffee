@@ -414,7 +414,7 @@ module.exports =
       tags: "#Experience #Program #Community"
       quote: "Let's play the collaborative game. It's gonna be AWESOME."
     ,
-      name: "Elf Pavlik"
+      name: "elf Pavlik"
       photo: "img/team/Team_Elf.jpg"
       twitter: "elfpavlik"
       tags: "#Community #Collaboration #Labs"
