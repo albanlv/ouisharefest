@@ -1,5 +1,6 @@
-<div class="row-fluid">
-  <div class="partnersframe span6 offset3">
+<div class="centerpartners">
+  <h2 class="hidden-phone">Partners</h2>
+  <div class="partnersframe hidden-phone">
     <div class="row-fluid">
       <div class="fonderie2 span6 offset3">
         <a href="http://www.lafonderie-idf.fr/" target="_blank">
@@ -24,7 +25,7 @@
         </a>
       </div>
     </div>
-    <div class="row-fuid">
+    <div class="row-fluid">
       <div class="meshlabs logo span4">
         <a href="http://meshing.it/companies/59759-Mesh-Labs" target="_blank">
           <img src="img/partners/meshlabs.jpg" alt="Meshlabs"/>
@@ -42,10 +43,7 @@
       </div>
     </div>
   </div>
-</div>
-<div class="row-fluid">
-  <div class="span5 offset3">
-    <div class="partnerstext">
+  <div class="partnerstext hidden-phone">
       <p>
         If you would like to become a partner,
         <br/>
@@ -56,6 +54,51 @@
           </a>
         </span>
       </p>
-    </div>
+  </div>
+</div>
+<div class="partners-phone visible-phone">
+  <h3>Partners</h3>
+  <p>
+    <a href="http://www.lafonderie-idf.fr/" target="_blank">
+      La Fonderie
+    </a>
+  </p>
+  <p>
+    <a href="http://www.shareable.net/" target="_blank">
+      Shareable
+    </a>
+  </p>
+  <p>
+    <a href="http://collaborativeconsumption.com/" target="_blank">
+      Collaborativeconsumption
+    </a>
+  </p>
+  <p>
+    <a href="http://p2pfoundation.net/" target="_blank">
+      P2P Foundation
+    </a>
+  </p>
+  <p>
+    <a href="http://meshing.it/companies/59759-Mesh-Labs" target="_blank">
+      Meshlabs
+    </a>
+  </p>
+  <p>
+    <a href="http://www.deskmag.com/fr" target="_blank">
+      Deskmag
+    </a>
+  <p>
+    <a href="http://fing.org/" target="_blank">
+      Fing
+    </a>
+  <p>
+  <div class="partnerstext">
+    <p>
+      If you would like to become a partner,
+      please contact us at <br/>
+      <a href="mailto:contribute@ouisharefest.com">
+        contribute@ouisharefest.com
+      </a>
+    </p>
   </div>
 </div>

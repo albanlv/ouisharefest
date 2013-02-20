@@ -17,6 +17,10 @@ h2, h3, h4 {
   margin-bottom:.4em;
   letter-spacing: -.02em;
 }
+h2{
+    font-size:4em;
+    margin:1em;
+}
 h3 {font-size: 2em;}
 h4 {font-size:3em;}
 p {
@@ -187,9 +191,11 @@ display: block;
 .aboutframe {
     position:absolute;
     top:50%;
-    height: 24em;
-    width:70em;
-    margin-top:-12em;
+    right: 50%;
+    left:50%;
+    height: 400px;
+    width:50%;
+    margin:-200px -25% auto;
     background:rgba(255,255,255, 0.8);
     padding:2em;
 }
@@ -208,17 +214,20 @@ display: block;
    color:white;
    height:100% !important;
    display:block;
-   padding-bottom:10em;
+}
+.container-fluid.topicscontainer.hidden-phone{
+    height:100%;
 }
 .topicscontainer{
     width:100%;
+    height:100%;
 }
 .topics h3{
   color:white;
   font-weight:bold;
   line-height:1.3em;
 }
-.carousel .carousel-inner .slide .item {
+.carousel, .carousel-inner, .slide, .item {
     height:100%;
     max-height:100%;
     width:100%;
@@ -232,9 +241,10 @@ display: block;
     height:200px;
     width:60%;
     top:50%;
-    margin: 0 auto;
+    left:50%;
+    right:50%;
+    margin: -100px -30% auto;
     background: rgba(166,166,255,0.85);
-    margin-top:-100px;
 }
 .carousel-caption p{
     line-height:2;
@@ -275,21 +285,28 @@ display: block;
     font-weight:bold;
     line-height:0.4em;
 }
+.location h3 a{
+    border-bottom: 1px dotted;
+}
 .cabaret{
-    width:700px;
-    height:438px;
+    width:800px;
+    height:500px;
 }
 .cabaret img {
     width: 800px;
     height: 500px;
     max-width: 100%;
 }
+#venue-video {
+    margin: 30px 0 50px;
+    width: 640px;
+    height: 480px;
+}
 /* =============================================================================
    SPEAKER
    ========================================================================== */
 .speakers{
-  padding-top:10em;
-  height: 270% !important;
+  padding-top:4em;
 }
 .speaker-container{
     padding-left:10%;
@@ -348,12 +365,23 @@ display: block;
    PARTNERS
    ========================================================================== */
 .partners{
-    padding-top:14em;
     background: url('../img/backgrounds/background_partners.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+.partners h2{
+    margin-top: 0;
+    margin-left: -60px;
+}
+.centerpartners{
+    position:absolute;
+    top:50%;
+    left:50%;
+    right:50%;
+    height:400px;
+    margin: -200px -25% auto;
 }
 .partnersframe{
     background:white;
@@ -379,11 +407,10 @@ display: block;
    ========================================================================== */
 .sponsors{
   display:block;
-  height: 270% !important;
   background-color: #e6e6ff;
 }
 .team-container{
-    padding:5% 15%;
+    padding:4% 15%;
 }
 .teamtext{
   padding-left:10em;
@@ -422,7 +449,6 @@ display: block;
 .sponsors p {font-size:1em;}
 .credits{
   margin-top:4em;
-  padding-left:10em;
 }
 .credits p{
   font-size:1em;
@@ -455,6 +481,12 @@ display: block;
     font-size:1em;
     padding:2em;
 }
+.call.french p{
+    padding: 2em 0 0 2em;
+}
+.volunteer.call.french p{
+    padding-top:1.2em;
+}
 .post {
   display:block;
   width: 16em;
@@ -466,6 +498,7 @@ display: block;
   display:block;
   width: 12em;
   height: 9em;
+  margin-top: -5em;
   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
   border-radius:         70%  50%  70%  50%  / 60%   70%   90%  90%;
 }
@@ -509,6 +542,11 @@ display: block;
     padding-top:4%;
     height:100%;
 }
+.register h2{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 160px;
+}
 .register h3 {
     font-size:2em;
     line-height:1.8em;
@@ -516,11 +554,11 @@ display: block;
 .register p {
     font-size: 1em;
 }
-.registerright{
-    height:375px;
-}
 .registerright iframe{
     overflow:hidden;
+}
+#registerbutton{
+    text-align: center;
 }
 
 /* =============================================================================
@@ -543,9 +581,6 @@ display: block;
 
    .aboutframe {
     padding:1em;
-    height:310px;
-    width:65%;
-    margin-top:-155px;
   }
   .aboutframe h3{
     font-size:1.6em;
@@ -559,9 +594,6 @@ display: block;
   .carousel-caption p{
       font-weight: 1em;
       line-height: 1.4em;
-  }
-  .sponsors{
-      height: 290% !important;
   }
   .partners{
       padding-top: 8em;
@@ -607,9 +639,6 @@ display: block;
   .twitter{
       margin-left:1.2em;
   }
-  .aboutframe{
-      margin-top:10px;
-  }
   .partners{
       padding-top:4em;
   }
@@ -620,14 +649,137 @@ display: block;
       display:none;
   }
 }
-@media only screen and (max-width : 480px) {
-  /* speakers */
-  .speaker-photo .photo {box-shadow: 0 0 0 3px rgba(0,0,0,.07);}
-  .speech-title {font-weight: bolder;}
-  .speech-time {
-    color:#2b2b2b;
-    background: transparent;
-    font-weight: bolder;
+@media only screen and (max-width : 600px) {
+  body{
+      padding:0;
   }
-  .github-link { display: none; }
+  header{
+      padding:0;
+  }
+  .content section{
+      min-height:0%;
+  }
+  .location, .contribute{
+      padding:0
+  }
+  .logo-mobile{
+      margin: 0 auto;
+      width:300px;
+      height:278px;
+  }
+  .logo-mobile img{
+      max-width:100%;
+  }
+  .about {
+      background: white;
+      padding: 0;
+      margin:0;
+      height: 600px;
+  }
+  .aboutframe-phone {
+    position:relative;
+    height: 600px;
+    background:white;
+    padding:2em;
+    margin:0 auto;
+  }
+  .aboutframe-phone h3{
+      font-size:1.2em;
+    font-weight:bold;
+    line-height:1.4em;
+  }
+.aboutframe-phone p{
+    font-size: 1.2em;
+}
+  .topics {
+     height:0% !important;
+     padding:0;
+ }
+    .speakers{
+      padding:0;
+      height:1140px !important;
+    }
+    .speakers h3 {
+        text-align: center;
+        text-transform:uppercase;
+        padding: 2em;
+        font-size:1.6em;
+    }
+    .speakers-list{
+        padding:0;
+    }
+    .speakers-item{
+        height:1em;
+        margin-bottom:1em;
+    }
+    .speakers-name{
+        text-align:left;
+        margin:0;
+        font-size:0.8em;
+    }
+    .speakers-item p {
+        font-size:1em;
+        text-transform:uppercase;
+    }
+    .speakers-company{
+        text-align: right;
+        font-size:0.8em;
+    }
+  .partners{
+      padding:0;
+  }
+  .partners-phone h3{
+      font-size:1.6em;
+      padding: 1.5em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  .partners-phone p{
+      color: #666;
+      font-size: 1em;
+      text-align: center;
+      text-transform: uppercase;
+  }
+  .sponsors{
+      height:1750px !important;
+  }
+  .sponsors-list{
+      padding:0;
+  }
+  .team-phone h2{
+      font-size:1.6em;
+      padding: 1.5em;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight:bold;
+  }
+  .team-phone h3{
+      font-size:1.2em;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight:normal;
+  }
+  .team-phone p{
+      text-align: center;
+  }
+  .sponsor-item{
+      margin:0;
+  }
+  .credits{
+    margin:0;;
+    padding:0;
+  }
+  .credits p{
+    font-size:0.7em;
+    color:#0000ff;
+  }
+  .credits h2{font-size:1.2em;color:#a6a6ff;}
+  .credits h3{font-size:0.8em;color:#a6a6ff;}
+
+  .register{
+      background: white;
+  }
+  .registerright{
+      height:510px;
+  }
 }

@@ -6,7 +6,7 @@ module.exports =
     # Conference info
     conf:
       name: "OuiShare Fest : a three-day festival about the collaborative economy"
-      description: " "
+      description: "A three-day festival bringing together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future. Paris, May 2-3-4, 2013."
       date: "may 2-3-4 2013"
       price: " "
       venue: " "
@@ -16,11 +16,11 @@ module.exports =
 
     # Site info
     site:
-      url: "http://ouisharefest.net"
+      url: "http://ouisharefest.com"
       googleanalytics: "UA-37109643-1"
       images:
         cover: " "
-        facebook: " "
+        facebook: "http://ouisharefest.com/img/logo_mobile.jpg"
 
     # Active sections on the website
     # to deactivate comment out with '#'
@@ -176,6 +176,15 @@ module.exports =
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
         time: "17h00"
     ,
+      name: "April Rinne"
+      photo: "img/speakers/rinne.jpg"
+      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      company: "Collaborative Lab"
+      twitter: "woz"
+      presentation:
+        title: "Why do I prefer Android over iPhone"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    ,
       name: "Thomas Lommée"
       photo: "img/speakers/Speakers_Lommee_Thomas.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -212,14 +221,15 @@ module.exports =
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ,
-      name: "Mar Alarcon"
-      photo: "img/speakers/Speakers_Alarcon_Mar.jpg"
+      name: "Olivier Grémillon"
+      photo: "img/speakers/gremillon.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "SocialCar"
-      twitter: "woz"
+      company: "Airbnb"
+      twitter: "stevie"
       presentation:
-        title: "Why do I prefer Android over iPhone"
+        title: "Presenting iPad"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "14h00"
     ,
       name: "Carsten Foertsch"
       photo: "img/speakers/Speakers_Foertsch_Carsten.jpg"
@@ -250,15 +260,14 @@ module.exports =
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       time: "15h00"
     ,
-      name: "Olivier Grémillon"
-      photo: "img/speakers/gremillon.jpg"
+      name: "Mar Alarcon"
+      photo: "img/speakers/Speakers_Alarcon_Mar.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Airbnb"
-      twitter: "stevie"
+      company: "SocialCar"
+      twitter: "woz"
       presentation:
-        title: "Presenting iPad"
+        title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "14h00"
     ,
       name: "Jacopo Amistani"
       photo: "img/speakers/amistani.jpg"
@@ -280,15 +289,14 @@ module.exports =
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
         time: "14h00"
     ,
-      name: "Julianne Becker"
-      photo: "img/speakers/becker.jpg"
+      name: "Guilhem Chéron"
+      photo: "img/speakers/Speakers_Cheron_Guilhem.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Deskwanted "
-      twitter: "stevie"
+      company: "La Ruche Qui Dit Oui"
+      twitter: "woz"
       presentation:
-        title: "Presenting iPad"
+        title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "14h00"
     ,
       name: "Clément Alteresco"
       photo: "img/speakers/alteresco.jpg"
@@ -345,14 +353,15 @@ module.exports =
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ,
-      name: "Guilhem Chéron"
-      photo: "img/speakers/Speakers_Cheron_Guilhem.jpg"
+      name: "Julianne Becker"
+      photo: "img/speakers/becker.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "La Ruche Qui Dit Oui"
-      twitter: "woz"
+      company: "Deskwanted "
+      twitter: "stevie"
       presentation:
-        title: "Why do I prefer Android over iPhone"
+        title: "Presenting iPad"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "14h00"
     ,
       name: "Eric van der Broek"
       photo: "img/speakers/Speakers_VanDenBroek_Eric.jpg"
@@ -400,7 +409,7 @@ module.exports =
       photo: "img/team/Team_Antonin.jpg"
       twitter: "AntoLeonard"
       tags: "#Partnerships #PR #Program"
-      quote: "Let's fucking do it"
+      quote: "Shaping the future. Together"
     ,
       name: "Francesca Pick"
       photo: "img/team/Team_Francesca.jpg"
@@ -410,7 +419,7 @@ module.exports =
     ,
       name: "Cristobal Gracia"
       photo: "img/team/Team_Cristo.jpg"
-      twitter: "CristobGarcia"
+      twitter: "CristobGracia"
       tags: "#Experience #Program #Community"
       quote: "Let's play the collaborative game. It's gonna be AWESOME."
     ,
@@ -434,7 +443,7 @@ module.exports =
     ,
       name: "Tomas Mancin"
       photo: "img/team/Team_Tomas.jpg"
-      twitter: "T_M_Arch"
+      twitter: "T_M_Arch_"
       tags: "#CoTalk #Social #Alchemy"
       quote: "I want to see the sparkles in their eyes!"
     ,

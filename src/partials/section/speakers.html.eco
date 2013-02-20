@@ -1,11 +1,12 @@
-<div class="container-fluid speaker-container">
+<div class="container-fluid hidden-phone speaker-container">
+<h2 class="hidden-phone">Speakers</h2>
   <ul class="speakers-list">
       <div class="row-fluid">
         <% for speaker, index in @schedule: %>
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
             <% if speaker.photo: %>
-            <span class="speaker-photo">
+            <span class="speaker-photo hidden-phone">
               <img class="photo" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
             </span>
             <% end %>
@@ -20,4 +21,21 @@
       <% end %>
       </div>
     </ul>
+</div>
+<div class="visible-phone">
+  <h3>Speakers</h3>
+  <ul class="speakers-list">
+    <% for speaker, index in @schedule: %>
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <%= speaker.name %>
+          </span>
+          <span class="speakers-company pull-right">
+            <%= speaker.company %>
+          </span>
+        </p>
+      </li>
+    <% end %>
+  </ul>
 </div>
