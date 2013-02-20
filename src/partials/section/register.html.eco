@@ -1,6 +1,12 @@
 <div class="row-fluid">
+  <h2 class="hidden-phone">Register</h2>
   <div class="registerright span8 offset2">
-    <iframe src="https://www.weezevent.com/widget_billeterie.php?id_evenement=30219&amp;code=38902&amp;cas=1" width="650" height="600"></iframe>
+    <p><strong>OuiShare and La Fonderie</strong> are non-profit organizations and we would like everybody to be able to participate in the Fest.</p>
+    <p id='registerbutton'>
+      <a href="http://www.weezevent.com/ouishare-fest" target="_blank">
+        <img src="img/register.png" />
+      </a>
+    </p>
   </div>
 </div>
 <div class="row-fluid hidden-phone">

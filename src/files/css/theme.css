@@ -537,11 +537,11 @@ display: block;
 .register p {
     font-size: 1em;
 }
-.registerright{
-    height:375px;
-}
 .registerright iframe{
     overflow:hidden;
+}
+#registerbutton{
+    text-align: center;
 }
 
 /* =============================================================================
