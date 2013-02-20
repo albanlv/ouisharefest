@@ -4,8 +4,7 @@
     <div class="row-fluid">
       <div class="teamtext span10">
         <p>
-          OuiShare is an open global community of passionate people working to accelerate the shift towards a more collaborative economy.
-          We are entrepreneurs, designers, makers, researchers, public officials, citizens and much more.
+          OuiShare is an open global community of people working to accelerate the shift towards a collaborative economy. We are entrepreneurs, designers, makers, researchers, public officials, citizens and <strong>more</strong>.
           <br/>
           Find out more about us on
           <a href="http://ouishare.net" target="_blank">
@@ -15,33 +14,33 @@
         </p>
       </div>
     </div>
-    <ul class="sponsors-list">
+    <ul class="team-list">
       <div class="row-fluid">
-        <% for sponsor, index in @sponsors: %>
+        <% for teammember, index in @team: %>
         <div class="span6">
-          <li class="sponsor-item" itemscope itemtype="http://schema.org/Person">
-            <div class="sponsor-photo hidden-phone">
-              <img src="<%= sponsor.photo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
+          <li class="teammember-item" itemscope itemtype="http://schema.org/Person">
+            <div class="teammember-photo hidden-phone">
+              <img src="<%= teammember.photo %>" alt="<%= teammember.name %>" class="photo" itemprop="image">
             </div>
-            <div class="sponsor-details">
-              <h3 class="sponsor-name">
-                <%= sponsor.name %>
+            <div class="teammember-details">
+              <h3 class="teammember-name">
+                <%= teammember.name %>
               </h3>
               <p>
-                <span class="sponsor-tags">
-                  <%= sponsor.tags %>
+                <span class="teammember-tags">
+                  <%= teammember.tags %>
                 </span>
                 <br/>
-                <span class="sponsor-twitter">
+                <span class="teammember-twitter">
                   <img src="img/twitter.jpg" alt="twitter"/>
-                  <a href="http://www.twitter.com/<%= sponsor.twitter %>">
-                    @<%= sponsor.twitter %>
+                  <a href="http://www.twitter.com/<%= teammember.twitter %>" target="_blank">
+                    @<%= teammember.twitter %>
                   </a>
                 </span>
               </p>
-              <span class="sponsor-quote">
+              <span class="teammember-quote">
                 <p>
-                  <%= sponsor.quote %>
+                  <%= teammember.quote %>
                 </p>
               </span>
             </div>
@@ -82,26 +81,26 @@
 </div>
 <div class="team-phone visible-phone">
     <h2>Team</h2>
-    <ul class="sponsors-list">
-    <% for sponsor, index in @sponsors: %>
-      <li class="sponsor-item" itemscope itemtype="http://schema.org/Person">
-        <div class="sponsor-details">
-          <h3 class="sponsor-name">
-            <%= sponsor.name %>
+    <ul class="team-list">
+    <% for teammember, index in @team: %>
+      <li class="teammember-item" itemscope itemtype="http://schema.org/Person">
+        <div class="teammember-details">
+          <h3 class="teammember-name">
+            <%= teammember.name %>
           </h3>
           <p>
-            <span class="sponsor-tags">
-              <%= sponsor.tags %>
+            <span class="teammember-tags">
+              <%= teammember.tags %>
             </span>
             <br/>
-            <span class="sponsor-twitter">
+            <span class="teammember-twitter">
               <img src="img/twitter.jpg" alt="twitter"/>
               @
-              <%= sponsor.twitter %>
+              <%= teammember.twitter %>
             </span>
             <br/>
-            <span class="sponsor-quote">
-              <%= sponsor.quote %>
+            <span class="teammember-quote">
+              <%= teammember.quote %>
             </span>
           </p>
         </div>

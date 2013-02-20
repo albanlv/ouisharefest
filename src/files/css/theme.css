@@ -405,7 +405,7 @@ display: block;
 /* =============================================================================
    SPONSORS/TEAM
    ========================================================================== */
-.sponsors{
+.team{
   display:block;
   background-color: #e6e6ff;
 }
@@ -418,35 +418,35 @@ display: block;
   font-weight:bold;
   margin-bottom:3em;
 }
-.sponsor-photo .photo {
+.teammember-photo .photo {
   display:block;
   width: 140px;
   height: 140px;
   border-radius:50% 50% 50% 50%;
 }
-.sponsor-photo img{
+.teammember-photo img{
    width: 140px;
    height: 140px;
    max-width:100%;
 }
-.sponsor-item {
+.teammember-item {
   margin-bottom:4em;
 }
-.sponsor-photo {
+.teammember-photo {
   display: inline-block;
   float:left;
   margin-right:1em;
   width: 10em;
   height: 10em;
 }
-.sponsor-details{
+.teammember-details{
  }
-.sponsor-name{font-size:1.4em;font-weight:bold;}
-.sponsor-item p {line-height:1em; font-size:1em;}
-.sponsor-twitter{color:#a6a6ff;}
-.sponsor-quote{color:#a6a6ff;font-style:italic;font-size:0.8em;}
-.sponsor-tags{font-size:1.1em;color:#a6a6ff;}
-.sponsors p {font-size:1em;}
+.teammember-name{font-size:1.4em;font-weight:bold;}
+.teammember-item p {line-height:1em; font-size:1em;}
+.teammember-twitter{color:#a6a6ff;}
+.teammember-quote{color:#a6a6ff;font-style:italic;font-size:0.8em;}
+.teammember-tags{font-size:1.1em;color:#a6a6ff;}
+.team p {font-size:1em;}
 .credits{
   margin-top:4em;
 }
@@ -740,10 +740,10 @@ display: block;
       text-align: center;
       text-transform: uppercase;
   }
-  .sponsors{
+  .team{
       height:1750px !important;
   }
-  .sponsors-list{
+  .team-list{
       padding:0;
   }
   .team-phone h2{
@@ -762,7 +762,7 @@ display: block;
   .team-phone p{
       text-align: center;
   }
-  .sponsor-item{
+  .teammember-item{
       margin:0;
   }
   .credits{

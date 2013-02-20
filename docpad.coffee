@@ -31,7 +31,8 @@ module.exports =
       'speakers'
       #'schedule'
       'partners'
-      'sponsors'
+      #'sponsors'
+      'team'
       'location'
       'contribute'
       'register'
@@ -45,7 +46,7 @@ module.exports =
       location: "Location"
       speakers: "Speakers"
       schedule: "Schedule"
-      sponsors: "Team"
+      team: "Team"
       partners: "Partners"
       contribute: "Contribute"
       register: "Register"
@@ -111,7 +112,7 @@ module.exports =
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ,
-      name: "Frédéric Mazella"
+      name: "Frédéric Mazzella"
       photo: "img/speakers/Speakers_Mazella_Frederic.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "BlaBlaCar"
@@ -148,14 +149,15 @@ module.exports =
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ,
-      name: "Céline Lazorthes"
-      photo: "img/speakers/Speakers_Lazorthes_Celine.jpg"
+      name: "Olivier Grémillon"
+      photo: "img/speakers/gremillon.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Leetchi"
-      twitter: "woz"
+      company: "Airbnb"
+      twitter: "stevie"
       presentation:
-        title: "Why do I prefer Android over iPhone"
+        title: "Presenting iPad"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: "14h00"
     ,
       name: "Joe Justice"
       photo: "img/speakers/justice.jpg"
@@ -220,16 +222,6 @@ module.exports =
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    ,
-      name: "Olivier Grémillon"
-      photo: "img/speakers/gremillon.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Airbnb"
-      twitter: "stevie"
-      presentation:
-        title: "Presenting iPad"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "14h00"
     ,
       name: "Carsten Foertsch"
       photo: "img/speakers/Speakers_Foertsch_Carsten.jpg"
@@ -392,7 +384,7 @@ module.exports =
     ]
 
     # List of Sponsors
-    sponsors: [
+    team: [
       name: "Flore Berlingen"
       photo: "img/team/Team_Flore.jpg"
       twitter: "FloreBerlin"
@@ -423,7 +415,7 @@ module.exports =
       tags: "#Experience #Program #Community"
       quote: "Let's play the collaborative game. It's gonna be AWESOME."
     ,
-      name: "Elf Pavlik"
+      name: "elf Pavlik"
       photo: "img/team/Team_Elf.jpg"
       twitter: "elfpavlik"
       tags: "#Community #Collaboration #Labs"
