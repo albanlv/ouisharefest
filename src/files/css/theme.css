@@ -285,6 +285,9 @@ display: block;
     font-weight:bold;
     line-height:0.4em;
 }
+.location h3 a{
+    border-bottom: 1px dotted;
+}
 .cabaret{
     width:800px;
     height:500px;
@@ -293,6 +296,11 @@ display: block;
     width: 800px;
     height: 500px;
     max-width: 100%;
+}
+#venue-video {
+    margin: 30px 0 50px;
+    width: 640px;
+    height: 480px;
 }
 /* =============================================================================
    SPEAKER
