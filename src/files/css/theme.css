@@ -371,6 +371,9 @@ display: block;
     -o-background-size: cover;
     background-size: cover;
 }
+.partners h2{
+    margin-left: -60px;
+}
 .centerpartners{
     position:absolute;
     top:50%;
@@ -537,6 +540,9 @@ display: block;
     background-color:rgba(252,238,33,1);
     padding-top:4%;
     height:100%;
+}
+.register h2{
+    margin-left: 160px;
 }
 .register h3 {
     font-size:2em;
