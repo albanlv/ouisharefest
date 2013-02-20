@@ -31,7 +31,8 @@ module.exports =
       'speakers'
       #'schedule'
       'partners'
-      'sponsors'
+      #'sponsors'
+      'team'
       'location'
       'contribute'
       'register'
@@ -45,7 +46,7 @@ module.exports =
       location: "Location"
       speakers: "Speakers"
       schedule: "Schedule"
-      sponsors: "Team"
+      team: "Team"
       partners: "Partners"
       contribute: "Contribute"
       register: "Register"
@@ -383,7 +384,7 @@ module.exports =
     ]
 
     # List of Sponsors
-    sponsors: [
+    team: [
       name: "Flore Berlingen"
       photo: "img/team/Team_Flore.jpg"
       twitter: "FloreBerlin"
