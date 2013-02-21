@@ -58,7 +58,6 @@ module.exports =
       photo: "img/speakers/Speakers_Gansky_Lisa.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "MeshLabs"
-      company_url:"http://meshing.it/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -68,7 +67,6 @@ module.exports =
       photo: "img/speakers/Speakers_Bauwens_Michel.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "P2P Foundation"
-      company_url:"http://p2pfoundation.net/"
       twitter: "littlechuck"
       presentation:
         title: "How to kill a elephant with one finger"
@@ -79,7 +77,6 @@ module.exports =
       photo: "img/speakers/Speakers_Anderson_Lauren.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "CollaborativeConsumption"
-      company_url:"http://collaborativeconsumption.com/"
       twitter: "linus"
       presentation:
         title: "Digging into a Linux Kernel"
@@ -90,7 +87,6 @@ module.exports =
       photo: "img/speakers/stiegler.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Ars Industrialis"
-      company_url: "http://www.arsindustrialis.org/"
       twitter: "linus"
       presentation:
         title: "Digging into a Linux Kernel"
@@ -101,7 +97,6 @@ module.exports =
       photo: "img/speakers/Speakers_Cornella_Alfons.jpg"
       bio: "Lorem ipsum diolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Co-Society"
-      company_url: "http://www.co-society.com/"
       twitter: "zuck"
       presentation:
         title: "Revealing Facebook Secrets"
@@ -112,7 +107,6 @@ module.exports =
       photo: "img/speakers/Speakers_Taddei_Francois.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "CRI"
-      company_url: "http://www.cri-paris.org/en/cri/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -122,7 +116,6 @@ module.exports =
       photo: "img/speakers/Speakers_Mazella_Frederic.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "BlaBlaCar"
-      company_url: "http://www.blablacar.com/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -132,7 +125,6 @@ module.exports =
       photo: "img/speakers/Speakers_Goulden_Helen.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Nesta"
-      company_url: "http://www.nesta.org.uk/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -142,7 +134,6 @@ module.exports =
       photo: "img/speakers/Speakers_Barnikel_Markus.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Carpooling"
-      company_url: "http://www.carpooling.com/
       twitter: "billy95"
       presentation:
         title: "Introducing Windows 12"
@@ -153,7 +144,6 @@ module.exports =
       photo: "img/speakers/Speakers_Menichinelli_Massimo.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Aalto University FabLab"
-      company_url: "http://fablab.aalto.fi/site/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -163,7 +153,6 @@ module.exports =
       photo: "img/speakers/gremillon.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Airbnb"
-      company_url: "http://www.airbnb.com/
       twitter: "stevie"
       presentation:
         title: "Presenting iPad"
@@ -174,7 +163,6 @@ module.exports =
       photo: "img/speakers/justice.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Wikispeed"
-      company_url: "http://www.wikispeed.com/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -184,7 +172,6 @@ module.exports =
       photo: "img/speakers/Speakers_Dekker_Edial.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Gidsy"
-      company_url: "http://gidsy.com/
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -195,7 +182,6 @@ module.exports =
       photo: "img/speakers/rinne.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Collaborative Lab"
-      company_url: "http://cclab.collaborativeconsumption.com"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -205,7 +191,6 @@ module.exports =
       photo: "img/speakers/Speakers_Lommee_Thomas.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "OpenStructures"
-      company_url: "http://www.openstructures.net/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -215,7 +200,6 @@ module.exports =
       photo: "img/speakers/Speakers_Ricordeau_Vincent.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "KissKissBankBank"
-      company_url: "http://www.kisskissbankbank.com/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -225,7 +209,6 @@ module.exports =
       photo: "img/speakers/Speakers_Romano_Zoe.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "OpenWear"
-      company_url: "http://www.openwear.org/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -235,7 +218,6 @@ module.exports =
       photo: "img/speakers/Speakers_Boucherot_Alexandre.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Ulule"
-      company_url: "http://ulule.com/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -245,7 +227,6 @@ module.exports =
       photo: "img/speakers/Speakers_Foertsch_Carsten.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Deskmag"
-      company_url: "http://www.deskmag.com/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -255,7 +236,6 @@ module.exports =
       photo: "img/speakers/speakers_Giorgi_Cedric.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Cookening"
-      company_url: "http://www.cookening.com/"
       twitter: "stevie"
       presentation:
         title: "Presenting iPad"
@@ -266,7 +246,6 @@ module.exports =
       photo: "img/speakers/Speakers_Nghiem_Thanh.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "MoviLab"
-      company_url: "http://movilab.eu/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -277,7 +256,6 @@ module.exports =
       photo: "img/speakers/Speakers_Alarcon_Mar.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "SocialCar"
-      company: "http://www.socialcar.com/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -287,7 +265,6 @@ module.exports =
       photo: "img/speakers/amistani.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Open Source Ecology"
-      company_url: "http://opensourceecology.org/"
       twitter: "stevie"
       presentation:
         title: "Presenting iPad"
@@ -297,8 +274,7 @@ module.exports =
       name: "Jay Cousins"
       photo: "img/speakers/cousins.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Open Design City"
-      company_url: "http://www.opendesigncity.de/"
+      company: "Open Design City "
       twitter: "stevie"
       presentation:
         title: "Presenting iPad"
@@ -309,7 +285,6 @@ module.exports =
       photo: "img/speakers/Speakers_Cheron_Guilhem.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "La Ruche Qui Dit Oui"
-      company_url: "http://www.laruchequiditoui.fr/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -319,7 +294,6 @@ module.exports =
       photo: "img/speakers/alteresco.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Share Your Office"
-      company_url: "http://www.shareyouroffice.com/"
       twitter: "stevie"
       presentation:
         title: "Presenting iPad"
@@ -330,7 +304,6 @@ module.exports =
       photo: "img/speakers/Speakers_Matofska_Benita.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "People Who Share"
-      company_url: "http://www.compareandshare.com/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -340,7 +313,6 @@ module.exports =
       photo: "img/speakers/Speakers_Schulbaum_Olivier.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Goteo"
-      company_url: "http://goteo.org/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -350,7 +322,6 @@ module.exports =
       photo: "img/speakers/Speakers_Diez_Tomas.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "FabLab Barcelona"
-      company_url: "http://fablabbcn.org/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -360,7 +331,6 @@ module.exports =
       photo: "img/speakers/roger.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "La Fonderie"
-      company_url: "http://www.lafonderie-idf.fr/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -370,7 +340,6 @@ module.exports =
       photo: "img/speakers/boisseau.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Bedycasa"
-      company_url: "http://www.bedycasa.com/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -380,7 +349,6 @@ module.exports =
       photo: "img/speakers/becker.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Deskwanted "
-      company_url: "https://www.deskwanted.com/"
       twitter: "stevie"
       presentation:
         title: "Presenting iPad"
@@ -391,7 +359,6 @@ module.exports =
       photo: "img/speakers/Speakers_VanDenBroek_Eric.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Mutinerie Coworking"
-      company_url: "http://www.mutinerie.org/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -401,7 +368,6 @@ module.exports =
       photo: "img/speakers/Speakers_Makkonen_Juho.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "ShareTribe"
-      company_url: "https//www.sharetribe.com/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -411,7 +377,6 @@ module.exports =
       photo: "img/speakers/marchandise.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Fing"
-      company_url: "http://fing.org"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
