@@ -277,7 +277,7 @@ module.exports =
       photo: "img/speakers/Speakers_Alarcon_Mar.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "SocialCar"
-      company: "http://www.socialcar.com/"
+      company_url: "http://www.socialcar.com/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"

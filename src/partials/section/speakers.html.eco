@@ -11,7 +11,7 @@
             </span>
             <% end %>
             <h3 class="speakers-name"><%= speaker.name %></h3>
-            <span class="speakers-company"><p><%= speaker.company %></p></span>
+            <span class="speakers-company"><p><a href="<%= speaker.company_url %>"><%= speaker.company %></a></p></span>
           </li>
         </div>
         <% if (index+1)%5 == 0: %>
@@ -32,7 +32,7 @@
             <%= speaker.name %>
           </span>
           <span class="speakers-company pull-right">
-            <%= speaker.company %>
+            <a href="<%= speaker.company_url %>"><%= speaker.company %></a>
           </span>
         </p>
       </li>
