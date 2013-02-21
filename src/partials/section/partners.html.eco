@@ -8,40 +8,19 @@
         </a>
       </div>
     </div>
-    <div class="row-fluid">
-      <div class="shareable logo span4">
-        <a href="http://www.shareable.net/" target="_blank">
-          <img src="img/partners/shareable.jpg" alt="Shareable"/>
-        </a>
+    <% for partner, index in @partners: %>
+      <% if index % 3 == 0: %>
+      <div class="row-fluid">
+      <% end %>
+        <div class="logo span4">
+          <a href="<%= partner.url %>" target="_blank">
+            <img src="<%= partner.logo_url %>" alt="<%= partner.name %>"/>
+          </a>
+        </div>
+      <% if index % 3 == 2: %>
       </div>
-      <div class="cc logo span4">
-        <a href="http://collaborativeconsumption.com/" target="_blank">
-          <img src="img/partners/cc.jpg" alt="Collaborative Consumption"/>
-        </a>
-      </div>
-      <div class="p2p logo span4">
-        <a href="http://p2pfoundation.net/" target="_blank">
-          <img src="img/partners/p2p.jpg" alt="peer-to-peer"/>
-        </a>
-      </div>
-    </div>
-    <div class="row-fluid">
-      <div class="meshlabs logo span4">
-        <a href="http://meshing.it/companies/59759-Mesh-Labs" target="_blank">
-          <img src="img/partners/meshlabs.jpg" alt="Meshlabs"/>
-        </a>
-      </div>
-      <div class="deskmag logo span4">
-        <a href="http://www.deskmag.com/fr" target="_blank">
-          <img src="img/partners/deskmag.jpg" alt="Deskmag"/>
-        </a>
-      </div>
-      <div class="fing logo span4">
-        <a href="http://fing.org/" target="_blank">
-          <img src="img/partners/fing.jpg" alt="Fing">
-        </a>
-      </div>
-    </div>
+      <% end %>
+    <% end %>
   </div>
   <div class="partnerstext hidden-phone">
       <p>
@@ -63,35 +42,13 @@
       La Fonderie
     </a>
   </p>
+  <% for partner, index in @partners: %>
   <p>
-    <a href="http://www.shareable.net/" target="_blank">
-      Shareable
+    <a href="<%= partner.url %>" target="_blank">
+      <%= partner.name %>
     </a>
   </p>
-  <p>
-    <a href="http://collaborativeconsumption.com/" target="_blank">
-      Collaborativeconsumption
-    </a>
-  </p>
-  <p>
-    <a href="http://p2pfoundation.net/" target="_blank">
-      P2P Foundation
-    </a>
-  </p>
-  <p>
-    <a href="http://meshing.it/companies/59759-Mesh-Labs" target="_blank">
-      Meshlabs
-    </a>
-  </p>
-  <p>
-    <a href="http://www.deskmag.com/fr" target="_blank">
-      Deskmag
-    </a>
-  <p>
-    <a href="http://fing.org/" target="_blank">
-      Fing
-    </a>
-  <p>
+  <% end %>
   <div class="partnerstext">
     <p>
       If you would like to become a partner,

@@ -459,3 +459,29 @@ module.exports =
     ]
 
     # List of Partners
+    # image size 150x100px
+    partners: [
+      name: "Shareable"
+      logo_url: "img/partners/shareable.jpg"
+      url: "http://www.shareable.net/"
+    ,
+      name: "Collaborative Consumption"
+      logo_url: "img/partners/cc.jpg"
+      url: "http://collaborativeconsumption.com/"
+    ,
+      name: "P2P Foundation"
+      logo_url: "img/partners/p2p.jpg"
+      url: "http://p2pfoundation.net/"
+    ,
+      name: "Meshlabs"
+      logo_url: "img/partners/meshlabs.jpg"
+      url: "http://meshing.it/companies/59759-Mesh-Labs"
+    ,
+      name: "Deskmag"
+      logo_url: "img/partners/deskmag.jpg"
+      url: "http://deskmag.com"
+    ,
+      name: "Fing"
+      logo_url: "img/partners/fing.jpg"
+      url: "http://fing.org/"
+    ]
