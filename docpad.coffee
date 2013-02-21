@@ -391,6 +391,7 @@ module.exports =
       photo: "img/speakers/Speakers_VanDenBroek_Eric.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Mutinerie Coworking"
+      company_url: "http://www.mutinerie.org/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -400,6 +401,7 @@ module.exports =
       photo: "img/speakers/Speakers_Makkonen_Juho.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "ShareTribe"
+      company_url: "https//www.sharetribe.com/"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -409,6 +411,7 @@ module.exports =
       photo: "img/speakers/marchandise.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Fing"
+      company_url: "http://fing.org"
       twitter: "woz"
       presentation:
         title: "Why do I prefer Android over iPhone"
