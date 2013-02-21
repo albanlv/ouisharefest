@@ -5,14 +5,33 @@ module.exports =
 
     # Conference info
     conf:
-      name: "OuiShare Fest : a three-day festival about the collaborative economy"
-      description: "A three-day festival bringing together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future. Paris, May 2-3-4, 2013."
-      date: "may 2-3-4 2013"
+      name:
+        en: "OuiShare Fest : a three-day festival about the collaborative economy"
+        fr: ""
+      description:
+        en: "A three-day festival bringing together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future. Paris, May 2-3-4, 2013."
+        fr: ''
+      date:
+        en: "may 2-3-4 2013"
+        fr: ""
       price: " "
       venue: " "
       address: " "
       city: " "
       state: " "
+
+    # Open Graph Protocol metadata (Facebook)
+    og:
+      title:
+        en: "OuiShare Fest : A Collaborative Economy Festival"
+        fr: ""
+      description:
+        en: "A three-day festival bringing together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future. Paris, May 2-3-4, 2013."
+        fr: ""
+      url:
+        en: "http://ouisharefest.com/"
+        fr: "http://ouisharefest.com/fr.html"
+      image: "http://ouisharefest.com/img/logo_mobile.jpg"
 
     # Site info
     site:
