@@ -376,12 +376,8 @@ display: block;
     margin-left: -60px;
 }
 .centerpartners{
-    position:absolute;
-    top:50%;
-    left:50%;
-    right:50%;
-    height:400px;
-    margin: -200px -25% auto;
+    width: 600px;
+    margin: 25px auto;
 }
 .partnersframe{
     background:white;
