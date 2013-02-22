@@ -87,6 +87,13 @@ module.exports =
         en: "Register"
         fr: "S'inscrire"
 
+    # Misc texts ;)
+    misc:
+      partners:
+        invitation:
+          en: "If you would like to become a partner,<br/>please contact us at <span class='contact'><a href='mailto:contribute@ouisharefest.com'>contribute@ouisharefest.com</a></span>"
+          fr: ""
+
     # Content for About section
     about: [
       title:
