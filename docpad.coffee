@@ -106,38 +106,38 @@ module.exports =
     # Content for Topics section
     topics: [
       title:
-        en: ""
+        en: "The Collaborative Economy in Europe is gaining momentum."
         fr: ""
       description:
-        en: ""
+        en: "Countless collaborative, peer-to-peer, and open alternatives are reinventing the way we produce and use goods, resources and services, harnessing the power of communities."
         fr: ""
     ,
       title:
-        en: ""
+        en: "Collaborative Consumption"
         fr: ""
       description:
-        en: ""
+        en: "leverages the power of the internet and peer-to-peer networks to reinvent how we share, rent, swap or trade goods and services."
         fr: ""
     ,
       title:
-        en: ""
+        en: "Makers and Peer Production"
         fr: ""
       description:
-        en: ""
+        en: "are ushering in a new industrial revolution. Manufacturing is being democratized by digital fabrication tools (3D printers), local production facilities (FabLabs) and the sharing of open souce hardware designs."
         fr: ""
     ,
       title:
-        en: ""
+        en: "Peer-to-Peer Finance"
         fr: ""
       description:
-        en: ""
+        en: "distributes capital through crowdfunding and peer-to-peer lending, while alternative currencies and gift economies create new forms of value exchange"
         fr: ""
     ,
       title:
-        en: ""
+        en: "Open Knowledge"
         fr: ""
       description:
-        en: ""
+        en: "creates the basis for building sustainable societies by opening and democratizing governments, science, education, culture and the economy."
         fr: ""
     ]
 
