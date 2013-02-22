@@ -93,6 +93,16 @@ module.exports =
         invitation:
           en: "If you would like to become a partner,<br/>please contact us at <span class='contact'><a href='mailto:contribute@ouisharefest.com'>contribute@ouisharefest.com</a></span>"
           fr: ""
+      team:
+        intro:
+          en: "OuiShare is an open global community of people working to accelerate the shift towards a collaborative economy. We are entrepreneurs, designers, makers, researchers, public officials, citizens and <strong>more</strong>.<br/>Find out more about us on"
+          fr: ""
+        design:
+          en: "Design"
+          fr: ""
+        development:
+          en: "Development"
+          fr: ""
 
     # Content for About section
     about: [
@@ -519,74 +529,122 @@ module.exports =
       name: "Flore Berlingen"
       photo: "/img/team/Team_Flore.jpg"
       twitter: "FloreBerlin"
-      tags: "#Coordination"
-      quote: "OuiShare Fest is not only about collaboration, it is collaborative."
+      tags:
+        en: "#Coordination"
+        fr: ""
+      quote:
+        en: "OuiShare Fest is not only about collaboration, it is collaborative."
+        fr: ""
     ,
       name: "Benjamin Tincq"
       photo: "/img/team/Team_Ben.jpg"
       twitter: "Btincq"
-      tags: "#Program #CoDesign #Partnerships"
-      quote: "I can't wait :)"
+      tags:
+        en: "#Program #CoDesign #Partnerships"
+        fr: ""
+      quote:
+        en: "I can't wait :)"
+        fr: ""
     ,
       name: "Antonin Léonard"
       photo: "/img/team/Team_Antonin.jpg"
       twitter: "AntoLeonard"
-      tags: "#Partnerships #PR #Program"
-      quote: "Shaping the future. Together"
+      tags:
+        en: "#Partnerships #PR #Program"
+        fr: ""
+      quote:
+        en: "Shaping the future. Together"
+        fr: ""
     ,
       name: "Francesca Pick"
       photo: "/img/team/Team_Francesca.jpg"
       twitter: "Francesca_sp"
-      tags: "#Communication #PR #Program"
-      quote: "I can't wait to bring together all the mover's and shakers in the collaborative economy!"
+      tags:
+        en: "#Communication #PR #Program"
+        fr: ""
+      quote:
+        en: "I can't wait to bring together all the mover's and shakers in the collaborative economy!"
+        fr: ""
     ,
       name: "Cristobal Gracia"
       photo: "/img/team/Team_Cristo.jpg"
       twitter: "CristobGracia"
-      tags: "#Experience #Program #Community"
-      quote: "Let's play the collaborative game. It's gonna be AWESOME."
+      tags:
+        en: "#Experience #Program #Community"
+        fr: ""
+      quote:
+        en: "Let's play the collaborative game. It's gonna be AWESOME."
+        fr: ""
     ,
       name: "elf Pavlik"
       photo: "/img/team/Team_Elf.jpg"
       twitter: "elfpavlik"
-      tags: "#Community #Collaboration #Labs"
-      quote: "All together we can make this world work for everyone!"
+      tags:
+        en: "#Community #Collaboration #Labs"
+        fr: ""
+      quote:
+        en: "All together we can make this world work for everyone!"
+        fr: ""
     ,
       name: "Célya Gruson-Daniel"
       photo: "/img/team/Team_Celya.jpg"
       twitter: "Celyagd"
-      tags: "#OpenScience #Program"
-      quote: "If you have knowledge, let other light their candles at it. (Margaret Fuller)"
+      tags:
+        en: "#OpenScience #Program"
+        fr: ""
+      quote:
+        en: "If you have knowledge, let other light their candles at it. (Margaret Fuller)"
+        fr: ""
     ,
       name: "Simone Cicero"
       photo: "/img/team/Team_Simone.jpg"
       twitter: "meedabyte"
-      tags: "#Program #CoDesign"
-      quote: "I want to make this Fest, the Fest of learning"
+      tags:
+        en: "#Program #CoDesign"
+        fr: ""
+      quote:
+        en: "I want to make this Fest, the Fest of learning"
+        fr: ""
     ,
       name: "Tomas Mancin"
       photo: "/img/team/Team_Tomas.jpg"
       twitter: "T_M_Arch_"
-      tags: "#CoTalk #Social #Alchemy"
-      quote: "I want to see the sparkles in their eyes!"
+      tags:
+        en: "#CoTalk #Social #Alchemy"
+        fr: ""
+      quote:
+        en: "I want to see the sparkles in their eyes!"
+        fr: ""
     ,
       name: "Maxime Lathuilière"
       photo: "/img/team/maxime.jpg"
       twitter: "Maxlath"
-      tags: "#Design #Communication"
-      quote: "Your task is not to foresee the future, but to enable it” (Antoine de Saint-Exupéry)"
+      tags:
+        en: "#Design #Communication"
+        fr: ""
+      quote:
+        en: "Your task is not to foresee the future, but to enable it” (Antoine de Saint-Exupéry)"
+        fr: ""
     ,
       name: "Jean-Baptiste Roger"
       photo: "/img/speakers/roger.jpg"
       twitter: "jbroger"
-      tags: "#Fonderie #IdF #Director"
-      quote: "Changing the world needs not only fresh ideas, but also new methods."
+      tags:
+        en: "#Fonderie #IdF #Director"
+        fr: ""
+      quote:
+        en: "Changing the world needs not only fresh ideas, but also new methods."
+        fr: ""
     ,
       name: "Karine Goldberg"
       photo: "/img/team/Team_Karine.jpg"
       twitter: "KaSaraGold"
-      tags: "#Fonderie #IdF #Communication"
-      quote: "Together, we are stronger ! Let’s listen to the echo of the 'co'..."
+      tags:
+        en: "#Fonderie #IdF #Communication"
+        fr: ""
+      quote:
+        en: "Together, we are stronger ! Let’s listen to the echo of the 'co'..."
+        fr: ""
     ]
 
     # List of Partners
