@@ -195,16 +195,6 @@ module.exports =
         fr: "<strong>La troisième journée</strong> sera <strong>totalement gratuite</strong> et ouverte au public, avec une succession d’activités permettant de découvrir et expérimenter l’économie et les modes de vie collaboratifs. Les ateliers pratiques, fablabs éphémères, sessions de live-crowdfunding et autres démonstrations se tiendront au Cabaret Sauvage, le lieu principal du festival, mais aussi aux quatre coins de Paris et d’Île-de-France. Restez à l’écoute pour connaître le programme au plus tôt."
     # The entire schedule
     schedule: [
-      name: "Lisa Gansky"
-      photo: "img/speakers/Speakers_Gansky_Lisa.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "MeshLabs"
-      company_url:"http://meshing.it/"
-      twitter: "woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    ,
       name: "Michel Bauwens"
       photo: "img/speakers/Speakers_Bauwens_Michel.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
