@@ -27,8 +27,8 @@
 
   <div class="global">
 
-    <%-@partial('nav.html.eco', @)%>
-    <%-@partial('header.html.eco', @)%>
+    <%-@partial('nav.html', @)%>
+    <%-@partial('header.html')%>
 
     <!-- CONTENT -->
     <div class="content" id="content">
