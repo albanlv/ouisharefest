@@ -3,6 +3,9 @@ module.exports =
   # These are variables will be accessible via our templates
   templateData:
 
+    # Enabled languages
+    languages: ["en", "fr"]
+
     # Conference info
     conf:
       name:
@@ -28,14 +31,12 @@ module.exports =
       description:
         en: "A three-day festival bringing together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future. Paris, May 2-3-4, 2013."
         fr: ""
-      url:
-        en: "http://ouisharefest.com/"
-        fr: "http://ouisharefest.com/fr.html"
+      url:"http://ouisharefest.com/"
       image: "http://ouisharefest.com/img/logo_mobile.jpg"
 
     # Site info
     site:
-      url: "http://ouisharefest.com"
+      url: "http://ouisharefest.com/"
       googleanalytics: "UA-37109643-1"
       images:
         cover: " "
@@ -50,26 +51,41 @@ module.exports =
       'speakers'
       #'schedule'
       'partners'
-      #'sponsors'
       'team'
       'location'
       'contribute'
       'register'
-      #'contact'
     ]
 
     # Labels which you can translate to other languages
     labels:
-      about: "About"
-      topics: "Topics"
-      location: "Location"
-      speakers: "Speakers"
-      schedule: "Schedule"
-      team: "Team"
-      partners: "Partners"
-      contribute: "Contribute"
-      register: "Register"
-      contact: "Contact"
+      about:
+        en: "About"
+        fr: "Le Fest"
+      topics:
+        en: "Topics"
+        fr: "Thèmes"
+      speakers:
+        en: "Speakers"
+        fr: "Intervenants"
+      schedule:
+        en: "Schedule"
+        fr: ""
+      partners:
+        en: "Partners"
+        fr: "Partenaires"
+      team:
+        en: "Team"
+        fr: "Équipe"
+      location:
+        en: "Location"
+        fr: "Lieu"
+      contribute:
+        en: "Contribute"
+        fr: "Contribuer"
+      register:
+        en: "Register"
+        fr: "S'inscrire"
 
     # The entire schedule
     schedule: [

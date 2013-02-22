@@ -4,21 +4,21 @@
     <div class="navbar-inner">
       <ul class="wrapper nav">
         <li class="nav-item">
-          <a class="brand" href="#"><img src="img/logo.svg" alt="OuiShareFest"></a>
+          <a class="brand" href="#"><img src="/img/logo.svg" alt="OuiShareFest"></a>
         </li>
         <% for section in @sections : %>
         <li class="nav-item">
-          <a href="#<%= section %>" title="<%= @labels[section] %>" class="nav-link <%= section %>-nav"><%= @labels[section] %></a>
+          <a href="#<%= section %>" title="<%= @labels[section][@document.language] %>" class="nav-link <%= section %>-nav"><%= @labels[section][@document.language] %></a>
         </li>
         <% end %>
         <li class="nav-item">
           <a href="https://www.facebook.com/ouishare" target="_blank" class="facebook nav-link">
-            <img src='img/facebook_icon.jpg' class='facebook_icon' alt="facebook">
+            <img src='/img/facebook_icon.jpg' class='facebook_icon' alt="facebook">
           </a>
         </li>
         <li class="nav-item">
           <a href="https://twitter.com/ouisharefest" target="_blank" class="twitter nav-link">
-            <img src='img/twitter_icon.jpg' class='twitter_icon' alt="twitter">
+            <img src='/img/twitter_icon.jpg' class='twitter_icon' alt="twitter">
           </a>
         </li>
         <li class="nav-item">
@@ -27,9 +27,11 @@
           </a>
         </li>
         <li class="nav-item pull-right">
-          <a href="fr.html" class="fr nav-link">
-            FR
+          <% for language in @languages : %>
+          <a href="<%= '/' + language %>" class="nav-link">
+            <%= language.toUpperCase() %>
           </a>
+          <% end %>
         </li>
       </ul>
     </div>

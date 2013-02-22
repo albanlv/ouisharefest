@@ -10,15 +10,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:title" content="<%= @og.title[@document.language] %>" />
   <meta property="og:description" content="<%= @og.description[@document.language] %>" />
-  <meta property="og:url" content="<%= @og.url[@document.language] %>" />
+  <meta property="og:url" content="<%= @og.url + [@document.language] + '/' %>" />
   <meta property="og:image" content="<%= @og.image %>" />
 
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 
   <!-- STYLES -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="css/theme.css">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="/css/theme.css">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
   <!-- / STYLES -->
 
@@ -49,7 +49,7 @@
   </div>
 
   <script src="http://ouisharefest.com/logo/lib/jquery-1.8.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
   <script>
     $(document).ready(function(){
       $('.carousel').carousel(
