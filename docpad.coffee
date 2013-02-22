@@ -190,6 +190,17 @@ module.exports =
         en: "Become<br/>a sponsor"
         fr: ""
 
+    # Content for Register section
+    register:
+      first:
+        en: "<strong>OuiShare and La Fonderie</strong> are non-profit organizations and we would like everybody to be able to participate in the Fest."
+        fr: ""
+      second:
+        en: "<strong>Days 1 and 2</strong> are for <strong>professionals</strong> seeking to learn about this new economy and build its future together. Expect panels, plenary sessions, workshops, barcamps and much more. Tickets are limited and prices range from 120 to 350 euros, depending on the resources of your organization and when you purchase them. There is a limited number of early bird tickets so don’t wait to book yours!<br/>Students, please <a href='mailto:hello@ouisharefest.com'>get in touch</a> with us - we have some discount tickets reserved for you. PS.: Food, drinks and closing party are included."
+        fr: ""
+      third:
+        en: "<strong>Day 3</strong>will be <strong>totally free</strong> and open to the public. Live crowdfunding sessions, maker's labs, how-to workshops and various activities about sharing lifestyles at the main conference location as well as satellite events all across Paris will let people experience the collaborative economy first hand. Stay tuned for the program."
+        fr: ""
     # The entire schedule
     schedule: [
       name: "Lisa Gansky"
