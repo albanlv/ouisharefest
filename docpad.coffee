@@ -14,14 +14,6 @@ module.exports =
       description:
         en: "A three-day festival bringing together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future. Paris, May 2-3-4, 2013."
         fr: ''
-      date:
-        en: "may 2-3-4 2013"
-        fr: ""
-      price: " "
-      venue: " "
-      address: " "
-      city: " "
-      state: " "
 
     # Open Graph Protocol metadata (Facebook)
     og:
