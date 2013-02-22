@@ -127,6 +127,7 @@ module.exports =
         en: "Co-designed with its community, OuiShare Fest will feature a wide range of hands-on activities and great live music.<br/><strong>Day 1-2</strong> will gather 500 professionals and public officials.<br/><strong>Day 3</strong> will be free and open to the public."
         fr: ""
     ]
+
     # Content for Topics section
     topics: [
       title:
@@ -164,6 +165,30 @@ module.exports =
         en: "creates the basis for building sustainable societies by opening and democratizing governments, science, education, culture and the economy."
         fr: ""
     ]
+
+    # Content for Contribute section
+    contribute:
+      title:
+        en: "Not just another business conference"
+        fr: ""
+      description:
+        en: "From its conceptualization to d-day, OuiShare Fest will be co-designed by the OuiShare community and its partners to make this event a truly collaborative experience."
+        fr: ""
+      post:
+        en: "Post an idea<br/>on our idea wall"
+        fr: ""
+      codesign:
+        en: "Help us<br/>co-design<br/>the program"
+        fr: ""
+      host:
+        en: "Host<br/>a satellite event"
+        fr: ""
+      volunteer:
+        en: "Volunteer<br/>For d-day"
+        fr: ""
+      sponsor:
+        en: "Become<br/>a sponsor"
+        fr: ""
 
     # The entire schedule
     schedule: [

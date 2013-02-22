@@ -2,10 +2,10 @@
   <div class="row-fluid">
     <div class="contributetext span7 offset3">
       <h3>
-        Not just another business conference
+        <%= @contribute.title[@document.language] %>
       </h3>
       <p>
-        From its conceptualization to d-day, OuiShare Fest will be co-designed by the OuiShare community and its partners to make this event a truly collaborative experience.
+        <%= @contribute.description[@document.language] %>
       </p>
     </div>
   </div>
@@ -14,9 +14,7 @@
       <div class="call post">
         <a href="http://wallwisher.com/wall/OuiShareFest" target="_blank">
           <p>
-            Post an idea
-            <br/>
-            on our idea wall
+            <%- @contribute.post[@document.language] %>
           </p>
         </a>
       </div>
@@ -27,11 +25,7 @@
       <div class="call codesign">
         <a href="http://bit.ly/OuiShareFestCall" target="_blank">
           <p>
-            Help us
-            <br/>
-            co-design
-            <br/>
-            the program
+            <%- @contribute.codesign[@document.language] %>
           </p>
         </a>
       </div>
@@ -42,9 +36,7 @@
       <div class="host call">
         <a href="mailto:contribute@ouisharefest.com?subject=Satellite%20Event%20for%20OuiShare%20Fest">
           <p>
-            Host
-            <br/>
-            a satellite event
+            <%- @contribute.host[@document.language] %>
           </p>
         </a>
       </div>
@@ -55,9 +47,7 @@
       <div class="volunteer call">
         <a href="http://bit.ly/OuiShareFestCall" target="_blank">
           <p>
-            Volunteer
-            <br/>
-            For d-day
+            <%- @contribute.volunteer[@document.language] %>
           </p>
         </a>
       </div>
@@ -68,9 +58,7 @@
       <div class="become call">
         <a href="mailto:contribute@ouisharefest.com?subject=OuiShare%20Fest%20Partnership">
           <p>
-            Become
-            <br/>
-            a sponsor
+            <%- @contribute.sponsor[@document.language] %>
           </p>
         </a>
       </div>
