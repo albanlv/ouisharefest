@@ -103,6 +103,13 @@ module.exports =
         development:
           en: "Development"
           fr: ""
+      location:
+        title:
+          en: "Join us in this magical place"
+          fr: ""
+        paris:
+          en: "Paris"
+          fr: ""
 
     # Content for About section
     about: [
