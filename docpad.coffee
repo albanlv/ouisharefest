@@ -87,6 +87,60 @@ module.exports =
         en: "Register"
         fr: "S'inscrire"
 
+    # Content for About section
+    about: [
+      title:
+        en: "The first major European event dedicated to the collaborative economy."
+        fr: ""
+      description:
+        en: "This three-day festival will bring together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future.<br/><strong>Paris, May 2-3-4, 2013.</strong></p>"
+        fr: ""
+    ,
+      title:
+        en: "Not just another business conference."
+        fr: ""
+      description:
+        en: "Co-designed with its community, OuiShare Fest will feature a wide range of hands-on activities and great live music.<br/><strong>Day 1-2</strong> will gather 500 professionals and public officials.<br/><strong>Day 3</strong> will be free and open to the public."
+        fr: ""
+    ]
+    # Content for Topics section
+    topics: [
+      title:
+        en: ""
+        fr: ""
+      description:
+        en: ""
+        fr: ""
+    ,
+      title:
+        en: ""
+        fr: ""
+      description:
+        en: ""
+        fr: ""
+    ,
+      title:
+        en: ""
+        fr: ""
+      description:
+        en: ""
+        fr: ""
+    ,
+      title:
+        en: ""
+        fr: ""
+      description:
+        en: ""
+        fr: ""
+    ,
+      title:
+        en: ""
+        fr: ""
+      description:
+        en: ""
+        fr: ""
+    ]
+
     # The entire schedule
     schedule: [
       name: "Lisa Gansky"
