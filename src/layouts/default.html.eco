@@ -2,23 +2,23 @@
 <html itemscope itemtype="http://schema.org/Event">
 <head>
 
-  <title itemprop="name"><%= @conf.name %></title>
+  <title itemprop="name"><%= @conf.name[@document.language] %></title>
 
   <meta charset="utf-8">
-  <meta name="author" content="<%= @conf.name %>">
-  <meta name="description" content="<%= @conf.description %>">
+  <meta name="author" content="<%= @conf.name[@document.language] %>">
+  <meta name="description" content="<%= @conf.description[@document.language] %>">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:title" content="OuiShare Fest : A Collaborative Economy Festival" />
-  <meta property="og:description" content="A three-day festival bringing together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future. Paris, May 2-3-4, 2013." />
-  <meta property="og:image" content="http://ouisharefest.com/img/logo_mobile.jpg" />
-  <meta property="og:url" content="http://ouisharefest.com/" />
+  <meta property="og:title" content="<%= @og.title[@document.language] %>" />
+  <meta property="og:description" content="<%= @og.description[@document.language] %>" />
+  <meta property="og:url" content="<%= @og.url + [@document.language] + '/' %>" />
+  <meta property="og:image" content="<%= @og.image %>" />
 
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 
   <!-- STYLES -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="css/theme.css">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="/css/theme.css">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
   <!-- / STYLES -->
 
@@ -27,13 +27,21 @@
 
   <div class="global">
 
-    <%-@partial('nav.html.eco', @)%>
-    <%-@partial('header.html.eco', @)%>
+    <%-@partial('nav.html', @)%>
+    <%-@partial('header.html')%>
 
     <!-- CONTENT -->
     <div class="content" id="content">
       <div class="wrapper">
-        <%- @content %>
+        <% for section in @sections : %>
+          <!-- <%= section.toUpperCase() %> -->
+
+          <section class="<%= section %>" id="<%= section %>">
+            <%- @partial("section/#{section}.html.eco", @) %>
+          </section>
+
+          <!-- / <%= section.toUpperCase() %> -->
+        <% end %>
       </div>
     </div>
     <!-- / CONTENT -->
@@ -41,7 +49,7 @@
   </div>
 
   <script src="http://ouisharefest.com/logo/lib/jquery-1.8.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
   <script>
     $(document).ready(function(){
       $('.carousel').carousel(

@@ -1,10 +1,10 @@
 <div class="centerpartners">
-  <h2 class="hidden-phone">Partners</h2>
+  <h2 class="hidden-phone"><%= @labels.partners[@document.language] %></h2>
   <div class="partnersframe hidden-phone">
     <div class="row-fluid">
       <div class="fonderie2 span6 offset3">
         <a href="http://www.lafonderie-idf.fr/" target="_blank">
-          <img src="img/partners/fonderie.jpg" alt="La Fonderie"/>
+          <img src="/img/partners/fonderie.jpg" alt="La Fonderie"/>
         </a>
       </div>
     </div>
@@ -23,20 +23,13 @@
     <% end %>
   </div>
   <div class="partnerstext hidden-phone">
-      <p>
-        If you would like to become a partner,
-        <br/>
-        please contact us at
-        <span class="contact">
-          <a href="mailto:contribute@ouisharefest.com">
-            contribute@ouisharefest.com
-          </a>
-        </span>
-      </p>
+    <p>
+      <%- @misc.partners.invitation[@document.language] %>
+    </p>
   </div>
 </div>
 <div class="partners-phone visible-phone">
-  <h3>Partners</h3>
+  <h3><%= @labels.partners[@document.language] %></h3>
   <p>
     <a href="http://www.lafonderie-idf.fr/" target="_blank">
       La Fonderie
@@ -51,11 +44,7 @@
   <% end %>
   <div class="partnerstext">
     <p>
-      If you would like to become a partner,
-      please contact us at <br/>
-      <a href="mailto:contribute@ouisharefest.com">
-        contribute@ouisharefest.com
-      </a>
+      <%- @misc.partners.invitation[@document.language] %>
     </p>
   </div>
 </div>
