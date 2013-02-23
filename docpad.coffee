@@ -736,7 +736,7 @@ module.exports =
       size: "M"
     ,
       name: "Your logo"
-      logo_url: "https://dl.dropbox.com/u/4752604/your-logo.JPG"
+      logo_url: "https://dl.dropbox.com/u/4752604/you.JPG"
       url: "http://www.ouisharefest.com/#contribute"
       type: "partner"
       size: "M"
