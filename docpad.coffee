@@ -735,9 +735,9 @@ module.exports =
       type: "media"
       size: "M"
     ,
-      name: "Your logo"
+      name: "You"
       logo_url: "https://dl.dropbox.com/u/4752604/you.JPG"
-      url: "http://www.ouisharefest.com/#contribute"
+      url: "mailto:contribute@ouisharefest.com"
       type: "partner"
       size: "M"
     ]
