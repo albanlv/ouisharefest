@@ -200,7 +200,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "P2P Foundation"
       company_url:"http://p2pfoundation.net/"
-      twitter: "littlechuck"
+      twitter: "mbauwens"
       presentation:
         title: "How to kill a elephant with one finger"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -211,7 +211,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "CollaborativeConsumption"
       company_url:"http://collaborativeconsumption.com/"
-      twitter: "linus"
+      twitter: "l__anderson"
       presentation:
         title: "Digging into a Linux Kernel"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -222,7 +222,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Ars Industrialis"
       company_url: "http://www.arsindustrialis.org/"
-      twitter: "linus"
+      twitter: "arsindustrialis"
       presentation:
         title: "Digging into a Linux Kernel"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -233,7 +233,7 @@ module.exports =
       bio: "Lorem ipsum diolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Co-Society"
       company_url: "http://www.co-society.com/"
-      twitter: "zuck"
+      twitter: "acornella"
       presentation:
         title: "Revealing Facebook Secrets"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -244,7 +244,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "CRI"
       company_url: "http://www.cri-paris.org/en/cri/"
-      twitter: "woz"
+      twitter: "FrancoisTaddei"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -254,7 +254,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "BlaBlaCar"
       company_url: "http://www.blablacar.com/"
-      twitter: "woz"
+      twitter: "mazaic"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -274,7 +274,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Carpooling"
       company_url: "http://www.carpooling.com/"
-      twitter: "billy95"
+      twitter: "MarkusBarnikel"
       presentation:
         title: "Introducing Windows 12"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -285,7 +285,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Aalto University FabLab"
       company_url: "http://fablab.aalto.fi/site/"
-      twitter: "woz"
+      twitter: "openp2pdesign"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -295,7 +295,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Airbnb"
       company_url: "http://www.airbnb.com/"
-      twitter: "stevie"
+      twitter: "ogremillon"
       presentation:
         title: "Presenting iPad"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -306,7 +306,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Wikispeed"
       company_url: "http://www.wikispeed.com/"
-      twitter: "woz"
+      twitter: "kiwikungfu"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -316,7 +316,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Gidsy"
       company_url: "http://gidsy.com/"
-      twitter: "woz"
+      twitter: "edial"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -327,7 +327,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Collaborative Lab"
       company_url: "http://cclab.collaborativeconsumption.com"
-      twitter: "woz"
+      twitter: "aprilrinne"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -347,7 +347,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Cookening"
       company_url: "http://www.cookening.com/"
-      twitter: "stevie"
+      twitter: "cgiorgi"
       presentation:
         title: "Presenting iPad"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -358,7 +358,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "KissKissBankBank"
       company_url: "http://www.kisskissbankbank.com/"
-      twitter: "woz"
+      twitter: "VinceRicordeau"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -368,7 +368,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "OpenWear"
       company_url: "http://www.openwear.org/"
-      twitter: "woz"
+      twitter: "zoescope"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -378,7 +378,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Ulule"
       company_url: "http://ulule.com/"
-      twitter: "woz"
+      twitter: "cemonsieur"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -388,7 +388,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Deskmag"
       company_url: "http://www.deskmag.com/"
-      twitter: "woz"
+      twitter: "carstenfoertsch"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -409,7 +409,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "SocialCar"
       company_url: "http://www.socialcar.com/"
-      twitter: "woz"
+      twitter: "maralarco"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -419,7 +419,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Open Source Ecology"
       company_url: "http://opensourceecology.org/"
-      twitter: "stevie"
+      twitter: "woz"
       presentation:
         title: "Presenting iPad"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -430,7 +430,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Open Design City"
       company_url: "http://www.opendesigncity.de/"
-      twitter: "stevie"
+      twitter: "woz"
       presentation:
         title: "Presenting iPad"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -441,7 +441,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "La Ruche Qui Dit Oui"
       company_url: "http://www.laruchequiditoui.fr/"
-      twitter: "woz"
+      twitter: "ruchequiditoui"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -451,7 +451,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Share Your Office"
       company_url: "http://www.shareyouroffice.com/"
-      twitter: "stevie"
+      twitter: "Calte"
       presentation:
         title: "Presenting iPad"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -462,7 +462,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "People Who Share"
       company_url: "http://www.compareandshare.com/"
-      twitter: "woz"
+      twitter: "benitamatofska"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -472,7 +472,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Goteo"
       company_url: "http://goteo.org/"
-      twitter: "woz"
+      twitter: "goteofunding"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -482,7 +482,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "FabLab Barcelona"
       company_url: "http://fablabbcn.org/"
-      twitter: "woz"
+      twitter: "tomasdiez"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -492,17 +492,17 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "La Fonderie"
       company_url: "http://www.lafonderie-idf.fr/"
-      twitter: "woz"
+      twitter: "jbroger"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
     ,
-      name: "Magalie Boisseau-Becceril"
+        name: "Magalie Boisseau-Becceril"
       photo: "img/speakers/boisseau.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Bedycasa"
       company_url: "http://www.bedycasa.com/"
-      twitter: "woz"
+      twitter: "BedyCasa"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -512,7 +512,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Deskwanted "
       company_url: "https://www.deskwanted.com/"
-      twitter: "stevie"
+      twitter: "woz"
       presentation:
         title: "Presenting iPad"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -523,7 +523,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Mutinerie Coworking"
       company_url: "http://www.mutinerie.org/"
-      twitter: "woz"
+      twitter: "GargaBloom"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -533,7 +533,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "ShareTribe"
       company_url: "https//www.sharetribe.com/"
-      twitter: "woz"
+      twitter: "Kusti"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -543,7 +543,7 @@ module.exports =
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Fing"
       company_url: "http://fing.org"
-      twitter: "woz"
+      twitter: "jfmarchandise"
       presentation:
         title: "Why do I prefer Android over iPhone"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
@@ -643,13 +643,13 @@ module.exports =
     ,
       name: "Maxime Lathuilière"
       photo: "/img/team/maxime.jpg"
-      twitter: "Maxlath"
+      twitter: "maxlath"
       tags:
         en: "#Design #Communication"
         fr: "#Design #Communication"
       quote:
         en: "Your task is not to foresee the future, but to enable it” (Antoine de Saint-Exupéry)"
-        fr: "L'important n'est pas de prévoir l'avenir mais de le rendre possible. [Antoine de Saint Exupéry]"
+        fr: "L'important n'est pas de prévoir l'avenir mais de le rendre possible. (Antoine de Saint Exupéry)"
     ,
       name: "Jean-Baptiste Roger"
       photo: "/img/speakers/roger.jpg"
@@ -735,9 +735,9 @@ module.exports =
       type: "media"
       size: "M"
     ,
-      name: "Your logo"
-      logo_url: "https://dl.dropbox.com/u/4752604/your-logo.JPG"
-      url: "http://www.ouisharefest.com/#contribute"
+      name: "You"
+      logo_url: "https://dl.dropbox.com/u/4752604/you.JPG"
+      url: "mailto:contribute@ouisharefest.com"
       type: "partner"
       size: "M"
     ]
