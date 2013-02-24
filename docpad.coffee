@@ -19,7 +19,7 @@ module.exports =
     og:
       title:
         en: "OuiShare Fest : A Collaborative Economy Festival"
-        fr: ""
+        fr: "Le festival de l'économie collaborative"
       description:
         en: "A three-day festival bringing together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future. Paris, May 2-3-4, 2013."
         fr: "Ce festival de trois jours rassemblera une large communauté d’entrepreneurs, designers, makers, économistes, investisseurs, acteurs publics et citoyens pour construire le futur de l’économie collaborative. Les 2, 3 et 4 mai 2013 à Paris."
