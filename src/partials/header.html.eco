@@ -12,7 +12,7 @@
       <div class="presskit span2 offset4">
         <div class="presskitshape">
           <div class="presskittext">
-            <a href="https://dl.dropbox.com/u/47516925/OuiShareFest-Press-kit.zip">
+            <a href="<%= @site.presskit_url %>">
               presskit
             </a>
           </div>
