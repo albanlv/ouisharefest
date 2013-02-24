@@ -13,7 +13,7 @@ module.exports =
         fr: "OuiShare Fest : un festival de trois jours sur l'économie collaborative"
       description:
         en: "A three-day festival bringing together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future. Paris, May 2-3-4, 2013."
-        fr: ''
+        fr: "Ce festival de trois jours rassemblera une large communauté d’entrepreneurs, designers, makers, économistes, investisseurs, acteurs publics et citoyens pour construire le futur de l’économie collaborative. Les 2, 3 et 4 mai 2013 à Paris."
 
     # Open Graph Protocol metadata (Facebook)
     og:
@@ -22,7 +22,7 @@ module.exports =
         fr: ""
       description:
         en: "A three-day festival bringing together a global community of entrepreneurs, designers, makers, economists, investors, politicians and citizens to build a collaborative future. Paris, May 2-3-4, 2013."
-        fr: ""
+        fr: "Ce festival de trois jours rassemblera une large communauté d’entrepreneurs, designers, makers, économistes, investisseurs, acteurs publics et citoyens pour construire le futur de l’économie collaborative. Les 2, 3 et 4 mai 2013 à Paris."
       url:"http://ouisharefest.com/"
       image: "http://ouisharefest.com/img/logo_mobile.jpg"
 
