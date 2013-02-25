@@ -701,7 +701,7 @@ module.exports =
       size: "M"
     ,
       name: "Collaborative Consumption"
-      logo_url: "/img/partners/cc.jpg"
+      logo_url: "https://dl.dropbox.com/u/4752604/CC-Email-Signature-Logo-V1.png"
       url: "http://collaborativeconsumption.com/"
       type: "media"
       size: "M"
