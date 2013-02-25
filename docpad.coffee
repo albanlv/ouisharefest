@@ -693,7 +693,7 @@ module.exports =
       url: "http://www.leetchi.com/"
       type: "partner"
       size: "M"
-   ,
+    ,
       name: "TrustCloud"
       logo_url: "https://dl.dropbox.com/u/4752604/TrustCloud_logo_240px.png"
       url: "http://www.trustcloud.com/"
