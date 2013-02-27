@@ -689,7 +689,7 @@ module.exports =
       size: "M"
     ,
       name: "Leetchi"
-      logo_url: "https://dl.dropbox.com/u/4752604/Leetchi-C2C-Payments.png"
+      logo_url: "http://www.flickr.com/photos/ouishare/8513377777/in/set-72157632877327506"
       url: "http://www.leetchi.com/"
       type: "partner"
       size: "M"
