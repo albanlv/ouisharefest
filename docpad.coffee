@@ -677,25 +677,25 @@ module.exports =
     # image size 150x100px
     partners: [
       name: "Drivy"
-      logo_url: "https://dl.dropbox.com/u/4752604/rsz_21drivy_a_lg_nobaseline.png"
+      logo_url: "http://www.flickr.com/photos/ouishare/8514488412/"
       url: "http://www.drivy.com"
       type: "partner"
       size: "M"
     ,
       name: "Airbnb"
-      logo_url: "https://dl.dropbox.com/u/4752604/Logo_airbnb_d%C3%A9tour%C3%A9.png"
+      logo_url: "http://www.flickr.com/photos/ouishare/8513377787/"
       url: "http://www.airbnb.com"
       type: "partner"
       size: "M"
     ,
       name: "Leetchi"
-      logo_url: "http://www.flickr.com/photos/ouishare/8513377777/in/set-72157632877327506"
+      logo_url: "http://www.flickr.com/photos/ouishare/8513377777/"
       url: "http://www.leetchi.com/"
       type: "partner"
       size: "M"
     ,
       name: "TrustCloud"
-      logo_url: "https://dl.dropbox.com/u/4752604/TrustCloud_logo_240px.png"
+      logo_url: "http://www.flickr.com/photos/ouishare/8514488392/"
       url: "http://www.trustcloud.com/"
       type: "partner"
       size: "M"
@@ -707,7 +707,7 @@ module.exports =
       size: "M"
     ,
       name: "Collaborative Consumption"
-      logo_url: "https://dl.dropbox.com/u/4752604/cc-signature-red-black-v1.jpg"
+      logo_url: "http://www.flickr.com/photos/ouishare/8513377963/"
       url: "http://collaborativeconsumption.com/"
       type: "media"
       size: "M"
@@ -737,13 +737,13 @@ module.exports =
       size: "M"
     ,
       name: "Weezevent"
-      logo_url: "https://dl.dropbox.com/u/4752604/Weezevent.png"
+      logo_url: "http://www.flickr.com/photos/ouishare/8514488396/"
       url: "http://www.weezevent.com/"
       type: "media"
       size: "M"
     ,
       name: "You"
-      logo_url: "https://dl.dropbox.com/u/4752604/you.JPG"
+      logo_url: "http://www.flickr.com/photos/ouishare/8514488394/"
       url: "mailto:contribute@ouisharefest.com"
       type: "partner"
       size: "M"
