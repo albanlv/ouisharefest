@@ -743,7 +743,7 @@ module.exports =
       size: "M"
     ,
       name: "You"
-      logo_url: "http://www.flickr.com/photos/ouishare/8514488394/"
+      logo_url: "http://farm9.staticflickr.com/8391/8514488394_a497cc3760_o.jpg"
       url: "mailto:contribute@ouisharefest.com"
       type: "partner"
       size: "M"
