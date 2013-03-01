@@ -9,7 +9,18 @@
           <img src='/img/logosmall.jpg' alt="OuiShare + La Fonderie">
         </div>
       </div>
-      <div class="presskit span2 offset4">
+      <div class="social span2 offset1">
+          <a href="https://www.facebook.com/ouishare" target="_blank" class="facebook nav-link">
+            <img src='/img/facebook_icon.jpg' class='facebook_icon' alt="facebook">
+          </a>
+          <a href="https://twitter.com/ouisharefest" target="_blank" class="twitter nav-link">
+            <img src='/img/twitter_icon.jpg' class='twitter_icon' alt="twitter">
+          </a>
+          <a href="http://blog.ouisharefest.com" target="_blank" class="blog nav-link">
+            blog
+          </a>
+      </div>
+      <div class="presskit span2 offset1">
         <div class="presskitshape">
           <div class="presskittext">
             <a href="<%= @site.presskit_url %>">
