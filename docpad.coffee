@@ -1,4 +1,14 @@
 module.exports =
+  plugins:
+    feedr:
+      feeds:
+        en:
+          url: 'http://takemesharing.com/translations/en.json'
+          cache: false
+        fr:
+          url: 'http://takemesharing.com/translations/fr.json'
+          cache: false
+
 
   # These are variables will be accessible via our templates
   templateData:
