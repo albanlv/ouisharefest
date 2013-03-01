@@ -2,14 +2,32 @@ module.exports =
   plugins:
     feedr:
       feeds:
+        de:
+          url: 'http://ouisharefest.com/translations/de.json'
+          cache: false
+        el:
+          url: 'http://ouisharefest.com/translations/el.json'
+          cache: false
         en:
           url: 'http://ouisharefest.com/translations/en.json'
+          cache: false
+        es:
+          url: 'http://ouisharefest.com/translations/es.json'
+          cache: false
+        et:
+          url: 'http://ouisharefest.com/translations/et.json'
           cache: false
         fr:
           url: 'http://ouisharefest.com/translations/fr.json'
           cache: false
-        de:
-          url: 'http://ouisharefest.com/translations/de.json'
+        it:
+          url: 'http://ouisharefest.com/translations/it.json'
+          cache: false
+        pl:
+          url: 'http://ouisharefest.com/translations/pl.json'
+          cache: false
+        pt_BR:
+          url: 'http://ouisharefest.com/translations/pt_BR.json'
           cache: false
 
 
@@ -17,7 +35,7 @@ module.exports =
   templateData:
 
     # Enabled languages
-    languages: ["en", "fr", "de"]
+    languages: ["de", "el", "en", "es", "et", "fr", "it", "pl", "pt_BR"]
 
     # Open Graph Protocol metadata (Facebook)
     og:
