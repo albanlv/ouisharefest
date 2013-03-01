@@ -35,7 +35,7 @@ module.exports =
   templateData:
 
     # Enabled languages
-    languages: ["de", "el", "en", "es", "et", "fr", "it", "pl", "pt_BR"]
+    languages: [["de", "de"], ["el", "el"], ["en", "en"], ["es", "es"], ["et", "et"], ["fr", "fr"], ["it", "it"], ["pl", "pl"], ["pt_BR", "pt(Br)"]]
 
     # Open Graph Protocol metadata (Facebook)
     og:

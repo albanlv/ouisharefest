@@ -11,12 +11,16 @@
           <a href="#<%= section %>" title="<%= @t.sections[section] %>" class="nav-link <%= section %>-nav"><%= @t.sections[section] %></a>
         </li>
         <% end %>
-        <li class="nav-item pull-right">
+        <li class="languages nav-item pull-right">
           |
           <% for language in @languages : %>
-          <a href="<%= '/' + language %>" class="nav-link">
-            <%= language %>
-          </a>
+            <% if language[0] == @document.language : %>
+            <span><%= language[1] %>
+            <% else : %>
+            <a href="<%= '/' + language[0] %>" class="nav-link">
+              <%= language[1] %>
+            </a>
+            <% end %>
           <% end %>
         </li>
       </ul>
