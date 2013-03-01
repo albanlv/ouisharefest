@@ -3,13 +3,13 @@ module.exports =
     feedr:
       feeds:
         en:
-          url: 'http://takemesharing.com/translations/en.json'
+          url: 'http://ouisharefest.com/translations/en.json'
           cache: false
         fr:
-          url: 'http://takemesharing.com/translations/fr.json'
+          url: 'http://ouisharefest.com/translations/fr.json'
           cache: false
         de:
-          url: 'http://takemesharing.com/translations/de.json'
+          url: 'http://ouisharefest.com/translations/de.json'
           cache: false
 
 
