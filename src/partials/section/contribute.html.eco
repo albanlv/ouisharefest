@@ -2,10 +2,10 @@
   <div class="row-fluid">
     <div class="contributetext span7 offset3">
       <h3>
-        <%= @contribute.title[@document.language] %>
+        <%= @t.contribute.title %>
       </h3>
       <p>
-        <%= @contribute.description[@document.language] %>
+        <%= @t.contribute.description %>
       </p>
     </div>
   </div>
@@ -14,7 +14,7 @@
       <div class="call post">
         <a href="http://wallwisher.com/wall/OuiShareFest" target="_blank">
           <p>
-            <%- @contribute.post[@document.language] %>
+            <%- @t.contribute.post %>
           </p>
         </a>
       </div>
@@ -25,7 +25,7 @@
       <div class="call codesign">
         <a href="http://bit.ly/OuiShareFestCall" target="_blank">
           <p>
-            <%- @contribute.codesign[@document.language] %>
+            <%- @t.contribute.codesign %>
           </p>
         </a>
       </div>
@@ -36,7 +36,7 @@
       <div class="host call">
         <a href="mailto:contribute@ouisharefest.com?subject=Satellite%20Event%20for%20OuiShare%20Fest">
           <p>
-            <%- @contribute.host[@document.language] %>
+            <%- @t.contribute.host %>
           </p>
         </a>
       </div>
@@ -47,7 +47,7 @@
       <div class="volunteer call">
         <a href="http://bit.ly/OuiShareFestCall" target="_blank">
           <p>
-            <%- @contribute.volunteer[@document.language] %>
+            <%- @t.contribute.volunteer %>
           </p>
         </a>
       </div>
@@ -58,7 +58,7 @@
       <div class="become call">
         <a href="mailto:contribute@ouisharefest.com?subject=OuiShare%20Fest%20Partnership">
           <p>
-            <%- @contribute.sponsor[@document.language] %>
+            <%- @t.contribute.sponsor %>
           </p>
         </a>
       </div>
