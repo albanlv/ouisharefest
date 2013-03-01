@@ -8,13 +8,16 @@ module.exports =
         fr:
           url: 'http://takemesharing.com/translations/fr.json'
           cache: false
+        de:
+          url: 'http://takemesharing.com/translations/de.json'
+          cache: false
 
 
   # These are variables will be accessible via our templates
   templateData:
 
     # Enabled languages
-    languages: ["en", "fr"]
+    languages: ["en", "fr", "de"]
 
     # Conference info
     conf:
