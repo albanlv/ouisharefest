@@ -1,10 +1,10 @@
 <div class="container-fluid hidden-phone">
   <div class="team-container">
-    <h2 class="hidden-phone"><%= @labels.team[@document.language] %></h2>
+    <h2 class="hidden-phone"><%= @t.sections.team %></h2>
     <div class="row-fluid">
       <div class="teamtext span10">
         <p>
-          <%- @misc.team.intro[@document.language] %>
+          <%- @t.team.intro %>
           <a href="http://ouishare.net" target="_blank">
             OuiShare.net
           </a>
@@ -26,7 +26,7 @@
               </h3>
               <p>
                 <span class="teammember-tags">
-                  <%= teammember.tags[@document.language] %>
+                  <%= teammember.tags %>
                 </span>
                 <br/>
                 <span class="teammember-twitter">
@@ -38,7 +38,7 @@
               </p>
               <span class="teammember-quote">
                 <p>
-                  <%= teammember.quote[@document.language] %>
+                  <%= teammember.quote %>
                 </p>
               </span>
             </div>
@@ -54,7 +54,7 @@
     <div class="credits">
       <div class="row-fluid">
         <div class="span2">
-          <h2><%- @misc.team.design[@document.language] %></h2>
+          <h2><%- @t.team.design %></h2>
         </div>
         <div class="span8 offset1">
           <p>
@@ -65,7 +65,7 @@
       </div>
       <div class="row-fluid">
         <div class="span2">
-          <h2><%- @misc.team.development[@document.language] %></h2>
+          <h2><%- @t.team.development %></h2>
         </div>
         <div class="span8 offset1">
           <p>
@@ -78,7 +78,7 @@
   </div>
 </div>
 <div class="team-phone visible-phone">
-    <h2><%= @labels.team[@document.language] %></h2>
+    <h2><%= @t.sections.team %></h2>
     <ul class="team-list">
     <% for teammember, index in @team: %>
       <li class="teammember-item" itemscope itemtype="http://schema.org/Person">
@@ -88,7 +88,7 @@
           </h3>
           <p>
             <span class="teammember-tags">
-              <%= teammember.tags[@document.language] %>
+              <%= teammember.tags %>
             </span>
             <br/>
             <span class="teammember-twitter">
@@ -98,7 +98,7 @@
             </span>
             <br/>
             <span class="teammember-quote">
-              <%= teammember.quote[@document.language] %>
+              <%= teammember.quote %>
             </span>
           </p>
         </div>
@@ -107,14 +107,14 @@
     </ul>
     <div class="credits">
       <h3>
-        <%- @misc.team.design[@document.language] %>
+        <%- @t.team.design %>
       </h3>
       <p>
         Nicolas Couturier, Angeline Ostinelli & Benoit Verjat.
         <a href="httpl://www.g-u-i.net" target="_blank">g-u-i.net</a>
       </p>
       <h3>
-        <%- @misc.team.development[@document.language] %>
+        <%- @t.team.development %>
       </h3>
       <p>
         Alban Leveau-Vallier,
