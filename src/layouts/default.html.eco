@@ -1,16 +1,17 @@
+<% @t = @feedr.feeds[@document.language][@document.language] %>
 <!doctype html>
 <html itemscope itemtype="http://schema.org/Event">
 <head>
 
-  <title itemprop="name"><%= @conf.name[@document.language] %></title>
+  <title itemprop="name"><%= @t.conf.name %></title>
 
   <meta charset="utf-8">
-  <meta name="author" content="<%= @conf.name[@document.language] %>">
-  <meta name="description" content="<%= @conf.description[@document.language] %>">
+  <meta name="author" content="<%= @t.conf.name %>">
+  <meta name="description" content="<%= @t.conf.description %>">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:title" content="<%= @og.title[@document.language] %>" />
-  <meta property="og:description" content="<%= @og.description[@document.language] %>" />
-  <meta property="og:url" content="<%= @og.url + [@document.language] + '/' %>" />
+  <meta property="og:title" content="<%= @t.og.title %>" />
+  <meta property="og:description" content="<%= @t.og.description %>" />
+  <meta property="og:url" content="<%= @og.url +  + '/' %>" />
   <meta property="og:image" content="<%= @og.image %>" />
 
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">

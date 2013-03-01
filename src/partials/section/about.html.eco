@@ -2,12 +2,13 @@
   <div class="row-fluid">
     <div class="span9 offset2">
       <div class="aboutframe">
-        <% for part in @about : %>
+        <% parts = [@t.about['1'], @t.about['2']] %>
+        <% for part in parts : %>
         <h3>
-          <%= part.title[@document.language] %>
+          <%= part.title %>
         </h3>
         <p itemprop="description">
-          <%- part.description[@document.language] %>
+          <%- part.description %>
         </p>
         <% end %>
       </div>
@@ -15,12 +16,13 @@
   </div>
 </div>
 <div class="aboutframe-phone visible-phone">
-  <% for part in @about : %>
+  <% parts = [@t.about['1'], @t.about['2']] %>
+  <% for part in parts : %>
   <h3>
-    <%= part.title[@document.language] %>
+    <%= part.title %>
   </h3>
   <p itemprop="description">
-    <%- part.description[@document.language] %>
+    <%- part.description %>
   </p>
   <% end %>
 </div>

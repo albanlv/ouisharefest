@@ -1,5 +1,5 @@
 <div class="centerpartners">
-  <h2 class="hidden-phone"><%= @labels.partners[@document.language] %></h2>
+  <h2 class="hidden-phone"><%= @t.sections.partners %></h2>
   <div class="partnersframe hidden-phone">
     <div class="row-fluid">
       <div class="fonderie2 span6 offset3">
@@ -24,12 +24,12 @@
   </div>
   <div class="partnerstext hidden-phone">
     <p>
-      <%- @misc.partners.invitation[@document.language] %>
+      <%- @t.partners.invitation %>
     </p>
   </div>
 </div>
 <div class="partners-phone visible-phone">
-  <h3><%= @labels.partners[@document.language] %></h3>
+  <h3><%= @t.sections.partners %></h3>
   <p>
     <a href="http://www.lafonderie-idf.fr/" target="_blank">
       La Fonderie
@@ -44,7 +44,7 @@
   <% end %>
   <div class="partnerstext">
     <p>
-      <%- @misc.partners.invitation[@document.language] %>
+      <%- @t.partners.invitation %>
     </p>
   </div>
 </div>

@@ -8,7 +8,7 @@
         </li>
         <% for section in @sections : %>
         <li class="nav-item">
-          <a href="#<%= section %>" title="<%= @labels[section][@document.language] %>" class="nav-link <%= section %>-nav"><%= @labels[section][@document.language] %></a>
+          <a href="#<%= section %>" title="<%= @t.sections[section] %>" class="nav-link <%= section %>-nav"><%= @t.sections[section] %></a>
         </li>
         <% end %>
         <li class="nav-item">

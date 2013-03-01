@@ -1,11 +1,11 @@
 <div class="row-fluid">
-  <h2 class="hidden-phone"><%= @labels.register[@document.language] %></h2>
+  <h2 class="hidden-phone"><%= @t.sections.register %></h2>
   <div class="registerright span8 offset2">
     <p>
-      <%- @register.first[@document.language] %>
+      <%- @t.register.first %>
     </p>
     <p>
-      <%- @register.second[@document.language] %>
+      <%- @t.register.second %>
     </p>
     <p id='registerbutton'>
       <a href="http://www.weezevent.com/ouishare-fest" target="_blank">
@@ -13,7 +13,7 @@
       </a>
     </p>
     <p>
-      <%- @register.third[@document.language] %>
+      <%- @t.register.third %>
     </p>
   </div>
 </div>
