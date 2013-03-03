@@ -13,15 +13,15 @@
         <% end %>
         <li class="languages nav-item pull-right">
           |
+          <select name="language" id="lang-dropdown">
           <% for language in @languages : %>
-            <% if language[0] == @document.language : %>
-            <span><%= language[1] %>
-            <% else : %>
-            <a href="<%= '/' + language[0] %>" class="nav-link">
+            <option 
+              value="<%= language[0] %>"
+              <%= 'selected' if language[0] == @document.language %>>
               <%= language[1] %>
-            </a>
-            <% end %>
+            </option>
           <% end %>
+          </select>
         </li>
       </ul>
     </div>
