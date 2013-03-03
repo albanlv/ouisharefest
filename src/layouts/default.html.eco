@@ -53,9 +53,13 @@
   <script src="/js/bootstrap.min.js"></script>
   <script>
     $(document).ready(function(){
-      $('.carousel').carousel(
-          'pause'
-      );
+      $('.carousel').carousel('pause');
+
+      $('#lang-dropdown').change(function() {
+        $("#lang-dropdown option:selected").each(function () {
+          window.location.href = 'http://' + window.location.host + '/' + this.value;
+        });
+      });
     });
   </script>
 
