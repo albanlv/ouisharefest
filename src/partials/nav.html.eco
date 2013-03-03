@@ -11,8 +11,22 @@
           <a href="#<%= section %>" title="<%= @t.sections[section] %>" class="nav-link <%= section %>-nav"><%= @t.sections[section] %></a>
         </li>
         <% end %>
+        <li class="nav-item">
+          <a href="https://www.facebook.com/ouishare" target="_blank" class="facebook nav-link">
+            <img src='/img/facebook_icon.jpg' class='facebook_icon' alt="facebook">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://twitter.com/ouisharefest" target="_blank" class="twitter nav-link">
+            <img src='/img/twitter_icon.jpg' class='twitter_icon' alt="twitter">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="http://blog.ouisharefest.com" target="_blank" class="blog nav-link">
+            blog
+          </a>
+        </li>
         <li class="languages nav-item pull-right">
-          |
           <select name="language" id="lang-dropdown">
           <% for language in @languages : %>
             <option 

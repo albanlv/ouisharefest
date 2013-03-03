@@ -94,6 +94,13 @@ nav .languages span {
 .nav-item {
   display: inline-block;
 }
+.nav-item .blog {
+  padding: 0 5px;
+  margin: 0 5px;
+  border: 1px solid #888;
+  border-top: none;
+  border-bottom: none;
+}
 .nav-link {
     color:#e7e7e7;
     padding:0em 0.5em;
