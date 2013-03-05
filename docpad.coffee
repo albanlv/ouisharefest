@@ -118,8 +118,8 @@ module.exports =
     ,
       name: "Massimo Menichinelli"
       photo: "img/speakers/Speakers_Menichinelli_Massimo.jpg"
-      company: "Aalto University FabLab"
-      company_url: "http://fablab.aalto.fi/site/"
+      company: "openp2pdesign"
+      company_url: "openp2pdesign.org"
       twitter: "openp2pdesign"
     ,
       name: "Olivier Grémillon"
