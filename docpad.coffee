@@ -364,12 +364,6 @@ module.exports =
       type: "partner"
       size: "M"
     ,
-      name: "TrustCloud"
-      logo_url: "http://farm9.staticflickr.com/8391/8514488392_8da603f2fd_o.png"
-      url: "http://www.trustcloud.com/"
-      type: "partner"
-      size: "M"
-    ,
       name: "Shareable"
       logo_url: "/img/partners/shareable.jpg"
       url: "http://www.shareable.net/"
