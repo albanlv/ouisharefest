@@ -119,7 +119,7 @@ module.exports =
       name: "Massimo Menichinelli"
       photo: "img/speakers/Speakers_Menichinelli_Massimo.jpg"
       company: "openp2pdesign"
-      company_url: "openp2pdesign.org"
+      company_url: "http://openp2pdesign.org"
       twitter: "openp2pdesign"
     ,
       name: "Olivier Grémillon"
