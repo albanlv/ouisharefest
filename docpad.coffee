@@ -274,7 +274,7 @@ module.exports =
       twitter: "sparkfun"
     ,
       name: "Doc Searls"
-      photo: ""
+      photo: "http://www.id-conf.com/pics/docsearls.jpg"
       company: "Intention Economy"
       company_url: "http://searls.com"
       twitter: "dsearls"
