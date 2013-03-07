@@ -275,8 +275,8 @@ module.exports =
     ,
       name: "Doc Searls"
       photo: "http://www.id-conf.com/pics/docsearls.jpg"
-      company: "Intention Economy"
-      company_url: "http://searls.com"
+      company: "Project VRM"
+      company_url: "https://cyber.law.harvard.edu/projectvrm/Main_Page"
       twitter: "dsearls"
     ]
 
