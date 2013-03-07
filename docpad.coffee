@@ -357,7 +357,7 @@ module.exports =
 
     # List of Partners
 
-    # image size
+    # image size: 302x140px (151x140xp)
     main_partners: [
       name: "La Fonderie"
       logo_url: "http://farm9.staticflickr.com/8517/8517873487_f6ff212e7c_o.png"
@@ -365,7 +365,7 @@ module.exports =
 
     ]
 
-    # image size: ?x? px
+    # image size: 173x80px
     event_partners: [
       name: "Airbnb"
       logo_url: "http://farm9.staticflickr.com/8368/8518985630_07403e83f5_o.png"
@@ -385,7 +385,7 @@ module.exports =
       url: "http://www.fabernovel.com/"
     ]
 
-    # image size: ?x? px
+    # image size: 173x80px
     program_partners: [
       name: "P2P Foundation"
       logo_url: "http://farm9.staticflickr.com/8524/8517873473_a714834450_o.png"
@@ -408,7 +408,7 @@ module.exports =
       url: "http://sharelex.org/"
     ]
 
-    # image size: ?x? px
+    # image size: 173x80px
     media_partners: [
       name: "Shareable"
       logo_url: "http://farm9.staticflickr.com/8226/8526959247_4ee1074239_o.png"
@@ -419,7 +419,7 @@ module.exports =
       url: "http://deskmag.com"
     ]
 
-    # image size: ?x? px
+    # image size: 113x52px
     supporters: [
       name: "Weezevent"
       logo_url: "http://farm9.staticflickr.com/8511/8526959239_2c7a823e81_o.png"
