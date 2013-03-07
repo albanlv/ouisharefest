@@ -348,64 +348,69 @@ module.exports =
     # image size
     main_partners: [
       name: "La Fonderie"
-      logo_url: "/img/partners/fonderie.jpg"
+      logo_url: "http://farm9.staticflickr.com/8517/8517873487_f6ff212e7c_o.png"
       url: "http://www.lafonderie-idf.fr/"
 
     ]
 
     # image size: ?x? px
     event_partners: [
-      name: "Drivy"
-      logo_url: "http://farm9.staticflickr.com/8381/8514488412_4a4c0655f4_o.png"
-      url: "http://www.drivy.com"
-    ,
       name: "Airbnb"
-      logo_url: "http://farm9.staticflickr.com/8240/8513377787_0b895e3e97_o.png"
+      logo_url: "http://farm9.staticflickr.com/8368/8518985630_07403e83f5_o.png"
       url: "http://www.airbnb.com"
     ,
       name: "Leetchi"
-      logo_url: "http://farm9.staticflickr.com/8108/8513377777_e760f65649_o.png"
+      logo_url: "http://farm9.staticflickr.com/8526/8518985632_80a69ace5f_o.png"
       url: "http://www.leetchi.com/"
     ,
-      name: "TrustCloud"
-      logo_url: "http://farm9.staticflickr.com/8391/8514488392_8da603f2fd_o.png"
-      url: "http://www.trustcloud.com/"
+      name: "Drivy"
+      logo_url: "http://farm9.staticflickr.com/8381/8514488412_4a4c0655f4_o.png"
+      url: "http://www.drivy.com"
+
+    ,
+      name: "FaberNovel"
+      logo_url: "http://farm9.staticflickr.com/8367/8526959273_d22ebd6d1d_o.png"
+      url: "http://www.fabernovel.com/"
     ]
 
     # image size: ?x? px
     program_partners: [
       name: "P2P Foundation"
-      logo_url: "/img/partners/p2p.jpg"
+      logo_url: "http://farm9.staticflickr.com/8524/8517873473_a714834450_o.png"
       url: "http://p2pfoundation.net/"
     ,
       name: "Collaborative Consumption"
-      logo_url: "http://farm9.staticflickr.com/8246/8513377963_cb260507a4_o.jpg"
+      logo_url: "http://farm9.staticflickr.com/8390/8528075070_1947d0ddb8_o.png"
       url: "http://collaborativeconsumption.com/"
     ,
       name: "Fing"
-      logo_url: "/img/partners/fing.jpg"
+      logo_url: "http://farm9.staticflickr.com/8101/8517873523_d50b74b774_o.png"
       url: "http://fing.org/"
     ,
       name: "Meshlabs"
-      logo_url: "/img/partners/meshlabs.jpg"
+      logo_url: "http://farm9.staticflickr.com/8528/8518985578_461a975405_o.png"
       url: "http://meshing.it/companies/59759-Mesh-Labs"
+    ,
+      name: "Sharelex"
+      logo_url: "http://farm9.staticflickr.com/8109/8526959245_578b37467d_o.png"
+      url: "http://sharelex.org/"
     ]
 
     # image size: ?x? px
     media_partners: [
       name: "Shareable"
-      logo_url: "/img/partners/shareable.jpg"
+      logo_url: "http://farm9.staticflickr.com/8226/8526959247_4ee1074239_o.png"
       url: "http://www.shareable.net/"
     ,
       name: "Deskmag"
-      logo_url: "/img/partners/deskmag.jpg"
+      logo_url: "http://farm9.staticflickr.com/8524/8526959277_d73c002cc3_o.png"
       url: "http://deskmag.com"
     ]
 
     # image size: ?x? px
     supporters: [
       name: "Weezevent"
-      logo_url: "http://farm9.staticflickr.com/8387/8514488396_dc07ea29ca_o.png"
+      logo_url: "http://farm9.staticflickr.com/8511/8526959239_2c7a823e81_o.png"
       url: "http://www.weezevent.com/"
     ,
       name: "You"
