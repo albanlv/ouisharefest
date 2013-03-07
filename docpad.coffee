@@ -266,6 +266,18 @@ module.exports =
       company: "Fing"
       company_url: "http://fing.org"
       twitter: "jfmarchandise"
+    ,
+      name: "Pete Lewis"
+      photo: "http://farm9.staticflickr.com/8370/8537206158_6c0f19ab6d_z.jpg"
+      company: "Sparkfun Electronics"
+      company_url: "http://www.sparkfun.com/"
+      twitter: "sparkfun"
+    ,
+      name: "Doc Searls"
+      photo: ""
+      company: "Intention Economy"
+      company_url: "http://searls.com"
+      twitter: "dsearls"
     ]
 
     # List of Sponsors
