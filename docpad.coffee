@@ -268,7 +268,7 @@ module.exports =
       twitter: "jfmarchandise"
     ,
       name: "Pete Lewis"
-      photo: "http://farm9.staticflickr.com/8370/8537206158_6c0f19ab6d_z.jpg"
+      photo: "http://farm9.staticflickr.com/8370/8537206158_a6795ed12e_o.jpg"
       company: "Sparkfun Electronics"
       company_url: "http://www.sparkfun.com/"
       twitter: "sparkfun"
