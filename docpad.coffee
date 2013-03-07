@@ -344,77 +344,71 @@ module.exports =
     ]
 
     # List of Partners
-    # image size 150x100px
-    partners: [
+
+    # image size
+    main_partners: [
+      name: "La Fonderie"
+      logo_url: "/img/partners/fonderie.jpg"
+      url: "http://www.lafonderie-idf.fr/"
+
+    ]
+
+    # image size: ?x? px
+    event_partners: [
       name: "Drivy"
       logo_url: "http://farm9.staticflickr.com/8381/8514488412_4a4c0655f4_o.png"
       url: "http://www.drivy.com"
-      type: "partner"
-      size: "M"
     ,
       name: "Airbnb"
       logo_url: "http://farm9.staticflickr.com/8240/8513377787_0b895e3e97_o.png"
       url: "http://www.airbnb.com"
-      type: "partner"
-      size: "M"
     ,
       name: "Leetchi"
       logo_url: "http://farm9.staticflickr.com/8108/8513377777_e760f65649_o.png"
       url: "http://www.leetchi.com/"
-      type: "partner"
-      size: "M"
     ,
       name: "TrustCloud"
       logo_url: "http://farm9.staticflickr.com/8391/8514488392_8da603f2fd_o.png"
       url: "http://www.trustcloud.com/"
-      type: "partner"
-      size: "M"
-    ,
-      name: "Shareable"
-      logo_url: "/img/partners/shareable.jpg"
-      url: "http://www.shareable.net/"
-      type: "media"
-      size: "M"
+    ]
+
+    # image size: ?x? px
+    program_partners: [
+      name: "P2P Foundation"
+      logo_url: "/img/partners/p2p.jpg"
+      url: "http://p2pfoundation.net/"
     ,
       name: "Collaborative Consumption"
       logo_url: "http://farm9.staticflickr.com/8246/8513377963_cb260507a4_o.jpg"
       url: "http://collaborativeconsumption.com/"
-      type: "media"
-      size: "M"
-    ,
-      name: "Meshlabs"
-      logo_url: "/img/partners/meshlabs.jpg"
-      url: "http://meshing.it/companies/59759-Mesh-Labs"
-      type: "media"
-      size: "M"
     ,
       name: "Fing"
       logo_url: "/img/partners/fing.jpg"
       url: "http://fing.org/"
-      type: "media"
-      size: "M"
     ,
-      name: "P2P Foundation"
-      logo_url: "/img/partners/p2p.jpg"
-      url: "http://p2pfoundation.net/"
-      type: "media"
-      size: "M"
+      name: "Meshlabs"
+      logo_url: "/img/partners/meshlabs.jpg"
+      url: "http://meshing.it/companies/59759-Mesh-Labs"
+    ]
+
+    # image size: ?x? px
+    media_partners: [
+      name: "Shareable"
+      logo_url: "/img/partners/shareable.jpg"
+      url: "http://www.shareable.net/"
     ,
       name: "Deskmag"
       logo_url: "/img/partners/deskmag.jpg"
       url: "http://deskmag.com"
-      type: "media"
-      size: "M"
-    ,
+    ]
+
+    # image size: ?x? px
+    supporters: [
       name: "Weezevent"
       logo_url: "http://farm9.staticflickr.com/8387/8514488396_dc07ea29ca_o.png"
       url: "http://www.weezevent.com/"
-      type: "media"
-      size: "M"
     ,
       name: "You"
       logo_url: "http://farm9.staticflickr.com/8391/8514488394_a497cc3760_o.jpg"
       url: "mailto:contribute@ouisharefest.com"
-      type: "partner"
-      size: "M"
     ]

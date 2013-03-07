@@ -3,12 +3,13 @@
   <div class="partnersframe hidden-phone">
     <div class="row-fluid">
       <div class="fonderie2 span6 offset3">
-        <a href="http://www.lafonderie-idf.fr/" target="_blank">
-          <img src="/img/partners/fonderie.jpg" alt="La Fonderie"/>
+        <% laFondrie = @main_partners[0] %>
+        <a href="<%= laFondrie.url %>" target="_blank">
+          <img src="<%= laFondrie.logo_url %>" alt="<%= laFondrie.name %>"/>
         </a>
       </div>
     </div>
-    <% for partner, index in @partners: %>
+    <% for partner, index in @event_partners: %>
       <% if index % 3 == 0: %>
       <div class="row-fluid">
       <% end %>
@@ -30,17 +31,15 @@
 </div>
 <div class="partners-phone visible-phone">
   <h3><%= @t.sections.partners %></h3>
-  <p>
-    <a href="http://www.lafonderie-idf.fr/" target="_blank">
-      La Fonderie
-    </a>
-  </p>
-  <% for partner, index in @partners: %>
-  <p>
-    <a href="<%= partner.url %>" target="_blank">
-      <%= partner.name %>
-    </a>
-  </p>
+  <% groups = [@main_partners, @event_partners, @program_partners, @media_partners, @supporters] %>
+  <% for group in groups : %>
+    <% for partner in group: %>
+    <p>
+      <a href="<%= partner.url %>" target="_blank">
+        <%= partner.name %>
+      </a>
+    </p>
+    <% end %>
   <% end %>
   <div class="partnerstext">
     <p>
