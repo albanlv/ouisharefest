@@ -80,18 +80,18 @@ module.exports =
       company_url:"http://collaborativeconsumption.com/"
       twitter: "l__anderson"
     ,
-      name: "Bernard Stiegler"
-      photo: "/img/speakers/stiegler.jpg"
-      company: "Ars Industrialis"
-      company_url: "http://www.arsindustrialis.org/"
-      twitter: "arsindustrialis"
-    ,
       name: "Alfons Cornella"
       photo: "/img/speakers/Speakers_Cornella_Alfons.jpg"
       company: "Co-Society"
       company_url: "http://www.co-society.com/"
       twitter: "acornella"
      ,
+      name: "Bernard Stiegler"
+      photo: "/img/speakers/stiegler.jpg"
+      company: "Ars Industrialis"
+      company_url: "http://www.arsindustrialis.org/"
+      twitter: "arsindustrialis"
+    ,
       name: "François Taddei"
       photo: "/img/speakers/Speakers_Taddei_Francois.jpg"
       company: "CRI"
