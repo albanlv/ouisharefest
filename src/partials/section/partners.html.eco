@@ -1,27 +1,60 @@
 <div class="centerpartners">
-  <h2 class="hidden-phone"><%= @t.sections.partners %></h2>
   <div class="partnersframe hidden-phone">
-    <div class="row-fluid">
-      <div class="fonderie2 span6 offset3">
-        <% laFondrie = @main_partners[0] %>
-        <a href="<%= laFondrie.url %>" target="_blank">
-          <img src="<%= laFondrie.logo_url %>" alt="<%= laFondrie.name %>"/>
-        </a>
+    <div class="partner-section">
+      <h3>Event Partners</h3>
+      <div>
+        <div class="logo logo-xl">
+          <% laFondrie = @main_partners[0] %>
+          <a href="<%= laFondrie.url %>" target="_blank">
+            <img src="<%= laFondrie.logo_url %>" alt="<%= laFondrie.name %>"/>
+          </a>
+        </div>
+        <% for partner in [@main_partners[1], @main_partners[2]] : %>
+          <div class="logo logo-l">
+            <a href="<%= partner.url %>" target="_blank">
+              <img src="<%= partner.logo_url %>" alt="<%= partner.name %>"/>
+            </a>
+          </div>
+        <% end %>
       </div>
-    </div>
-    <% for partner, index in @event_partners: %>
-      <% if index % 3 == 0: %>
-      <div class="row-fluid">
-      <% end %>
-        <div class="logo span4">
+      <% for partner in @event_partners : %>
+        <div class="logo logo-m">
           <a href="<%= partner.url %>" target="_blank">
             <img src="<%= partner.logo_url %>" alt="<%= partner.name %>"/>
           </a>
         </div>
-      <% if index % 3 == 2: %>
-      </div>
       <% end %>
-    <% end %>
+    </div>
+    <div class="partner-section">
+      <h3>Program Partners</h3>
+      <% for partner in @program_partners : %>
+        <div class="logo logo-m">
+          <a href="<%= partner.url %>" target="_blank">
+            <img src="<%= partner.logo_url %>" alt="<%= partner.name %>"/>
+          </a>
+        </div>
+      <% end %>
+    </div>
+    <div class="partner-section">
+      <h3>Media Partners</h3>
+      <% for partner in @media_partners : %>
+        <div class="logo logo-m">
+          <a href="<%= partner.url %>" target="_blank">
+            <img src="<%= partner.logo_url %>" alt="<%= partner.name %>"/>
+          </a>
+        </div>
+      <% end %>
+    </div>
+    <div class="partner-section">
+      <h3>Supporters</h3>
+      <% for partner in @supporters : %>
+        <div class="logo logo-s">
+          <a href="<%= partner.url %>" target="_blank">
+            <img src="<%= partner.logo_url %>" alt="<%= partner.name %>"/>
+          </a>
+        </div>
+      <% end %>
+    </div>
   </div>
   <div class="partnerstext hidden-phone">
     <p>

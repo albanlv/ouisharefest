@@ -362,7 +362,14 @@ module.exports =
       name: "La Fonderie"
       logo_url: "http://farm9.staticflickr.com/8517/8517873487_f6ff212e7c_o.png"
       url: "http://www.lafonderie-idf.fr/"
-
+    ,
+      name: "La Fonderie"
+      logo_url: "http://farm9.staticflickr.com/8517/8517873487_f6ff212e7c_o.png"
+      url: "http://www.lafonderie-idf.fr/"
+    ,
+      name: "La Fonderie"
+      logo_url: "http://farm9.staticflickr.com/8517/8517873487_f6ff212e7c_o.png"
+      url: "http://www.lafonderie-idf.fr/"
     ]
 
     # image size: 173x80px
