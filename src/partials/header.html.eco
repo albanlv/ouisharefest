@@ -12,7 +12,7 @@
       <div class="presskit span2 offset4">
         <div class="presskitshape">
           <div class="presskittext">
-            <a href="<%= @site.presskit_url %>">
+            <a href="<%= @data.site.presskit_url %>">
               presskit
             </a>
           </div>

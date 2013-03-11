@@ -1,0 +1,55 @@
+plugins:
+  feedr:
+    feeds:
+      data:
+        url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/data.json'
+        cache: false
+      de:
+        url: 'http://ouisharefest.com/translations/de.json'
+        cache: false
+      el:
+        url: 'http://ouisharefest.com/translations/el.json'
+        cache: false
+      en:
+        url: 'http://ouisharefest.com/translations/en.json'
+        cache: false
+      es:
+        url: 'http://ouisharefest.com/translations/es.json'
+        cache: false
+      et:
+        url: 'http://ouisharefest.com/translations/et.json'
+        cache: false
+      fr:
+        url: 'http://ouisharefest.com/translations/fr.json'
+        cache: false
+      it:
+        url: 'http://ouisharefest.com/translations/it.json'
+        cache: false
+      pl:
+        url: 'http://ouisharefest.com/translations/pl.json'
+        cache: false
+      pt_BR:
+        url: 'http://ouisharefest.com/translations/pt_BR.json'
+        cache: false
+
+
+# These are variables will be accessible via our templates
+templateData:
+
+  # Enabled languages
+  languages: [["de", "de"], ["el", "el"], ["en", "en"], ["es", "es"], ["et", "et"], ["fr", "fr"], ["it", "it"], ["pl", "pl"], ["pt_BR", "pt(Br)"]]
+
+  # Active sections on the website
+  # to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  sections: [
+    'about'
+    'topics'
+    'speakers'
+    #'schedule'
+    'partners'
+    'team'
+    'location'
+    'contribute'
+    'register'
+  ]

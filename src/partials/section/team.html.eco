@@ -14,7 +14,7 @@
     </div>
     <ul class="team-list">
       <div class="row-fluid">
-        <% for teammember, index in @team: %>
+        <% for teammember, index in @data.team: %>
         <div class="span6">
           <li class="teammember-item" itemscope itemtype="http://schema.org/Person">
             <div class="teammember-photo hidden-phone">
@@ -80,7 +80,7 @@
 <div class="team-phone visible-phone">
     <h2><%= @t.sections.team %></h2>
     <ul class="team-list">
-    <% for teammember, index in @team: %>
+    <% for teammember, index in @data.team: %>
       <li class="teammember-item" itemscope itemtype="http://schema.org/Person">
         <div class="teammember-details">
           <h3 class="teammember-name">

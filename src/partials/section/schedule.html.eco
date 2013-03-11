@@ -12,7 +12,7 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
     </thead>
     <tbody>
 
-      <% for slot in @schedule: %>
+      <% for slot in @data.schedule: %>
         <% if slot.presentation: %>
           <tr>
             <td class="schedule-time"><%= slot.presentation.time %></td>

@@ -2,7 +2,7 @@
 <h2 class="hidden-phone"><%= @t.sections.speakers %></h2>
   <ul class="speakers-list">
       <div class="row-fluid">
-        <% for speaker, index in @schedule: %>
+        <% for speaker, index in @data.schedule : %>
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
             <% if speaker.photo: %>
@@ -25,7 +25,7 @@
 <div class="visible-phone">
   <h3><%= @t.sections.speakers %></h3>
   <ul class="speakers-list">
-    <% for speaker, index in @schedule: %>
+    <% for speaker, index in @data.schedule : %>
       <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
         <p>
           <span class="speakers-name pull-left">

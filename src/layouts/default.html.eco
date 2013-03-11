@@ -1,3 +1,4 @@
+<% @data = @feedr.feeds.data %>
 <% @t = @feedr.feeds[@document.language][@document.language] %>
 <!doctype html>
 <html itemscope itemtype="http://schema.org/Event">
@@ -11,8 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:title" content="<%= @t.og.title %>" />
   <meta property="og:description" content="<%= @t.og.description %>" />
-  <meta property="og:url" content="<%= @og.url +  + '/' %>" />
-  <meta property="og:image" content="<%= @og.image %>" />
+  <meta property="og:url" content="<%= @data.og.url +  + '/' %>" />
+  <meta property="og:image" content="<%= @data.og.image %>" />
 
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
@@ -66,7 +67,7 @@
   <!-- GOOGLE ANALYTICS -->
   <script type="text/javascript">
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '<%= @site.googleanalytics %>']);
+      _gaq.push(['_setAccount', '<%= @data.site.googleanalytics %>']);
       _gaq.push(['_trackPageview']);
 
       (function() {
