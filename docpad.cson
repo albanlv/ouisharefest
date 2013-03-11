@@ -19,6 +19,9 @@ plugins:
       et:
         url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/et.json'
         cache: false
+      fi:
+        url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/fi.json'
+        cache: false
       fr:
         url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/fr.json'
         cache: false
@@ -37,7 +40,7 @@ plugins:
 templateData:
 
   # Enabled languages
-  languages: [["de", "de"], ["el", "el"], ["en", "en"], ["es", "es"], ["et", "et"], ["fr", "fr"], ["it", "it"], ["pl", "pl"], ["pt_BR", "pt(Br)"]]
+  languages: [["de", "de"], ["el", "el"], ["en", "en"], ["es", "es"], ["et", "et"], ["fi", "fi"], ["fr", "fr"], ["it", "it"], ["pl", "pl"], ["pt_BR", "pt(Br)"]]
 
   # Active sections on the website
   # to deactivate comment out with '#'
