@@ -193,7 +193,10 @@ display: block;
 /* =============================================================================
    CONTENT
  _ ========================================================================== */
-.content a{color:rgba(26,23,27,1);}
+.content a{
+  color:rgba(26,23,27,1);
+  border-bottom: 1px dotted;
+}
 /* =============================================================================
    ABOUT
    ========================================================================== */
@@ -303,9 +306,6 @@ display: block;
     font-weight:bold;
     line-height:0.4em;
 }
-.location h3 a{
-    border-bottom: 1px dotted;
-}
 .cabaret{
     width:800px;
     height:500px;
@@ -325,6 +325,9 @@ display: block;
    ========================================================================== */
 .speakers{
   padding-top:4em;
+}
+.speakers a{
+  border-bottom: none;
 }
 .speaker-container{
     padding-left:10%;
@@ -456,6 +459,9 @@ display: block;
 .team{
   display:block;
   background-color: #e6e6ff;
+}
+.team a{
+  border-bottom: none;
 }
 .team-container{
     padding:4% 15%;
