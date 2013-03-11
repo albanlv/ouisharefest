@@ -416,6 +416,9 @@ display: block;
   clear: both;
   padding: 0 0 60px;
 }
+.partner-section:last-of-type{
+  padding-bottom: 80px;
+}
 .partner-section h3{
   padding-top: 2em;
 }
