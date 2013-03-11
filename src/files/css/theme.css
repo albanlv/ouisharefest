@@ -18,7 +18,8 @@ h2, h3, h4 {
   letter-spacing: -.02em;
 }
 h2{
-    font-size:4em;
+    font-size:2.25em;
+    font-weight: bold;
     margin:1em;
 }
 h3 {font-size: 2em;}
@@ -405,6 +406,8 @@ display: block;
 }
 .partnersframe h3{
   text-align: left;
+  font-size: 1.75em;
+  font-weight: bold;
 }
 .logo-xl, .logo-l{
     padding: 10px 30px;
@@ -601,7 +604,7 @@ display: block;
 .register h2{
     margin-top: .5em;
     margin-bottom: .5em;
-    margin-left: 160px;
+    margin-left: 190px;
 }
 .register h3 {
     font-size:2em;
