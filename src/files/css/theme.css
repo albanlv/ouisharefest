@@ -396,7 +396,7 @@ display: block;
 }
 .partnersframe{
     background:white;
-    padding: 20px;
+    padding: 0 20px 40px;
 }
 .partnersframe h3{
   text-align: left;
@@ -414,7 +414,13 @@ display: block;
 }
 .partner-section{
   clear: both;
-  padding: 10px 0 40px;
+  padding: 0 0 60px;
+}
+.partner-section h3{
+  padding-top: 2em;
+}
+.partner-section:first-of-type h3{
+  padding-top: 1em;
 }
 .logo{
   float: left;
