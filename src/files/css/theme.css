@@ -434,6 +434,10 @@ display: block;
 .partner-section:first-of-type h3{
   padding-top: 1em;
 }
+
+.partner-section:last-of-type h3{
+  padding-bottom: 0.7em;
+}
 .logo{
   float: left;
 }
