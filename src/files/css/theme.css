@@ -393,6 +393,7 @@ display: block;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-top: 0;
 }
 .centerpartners{
     width: 960px;
@@ -654,9 +655,6 @@ display: block;
       font-weight: 1em;
       line-height: 1.4em;
   }
-  .partners{
-      padding-top: 8em;
-  }
   .location{
       padding-top:3em;
   }
@@ -697,9 +695,6 @@ display: block;
   }
   .twitter{
       margin-left:1.2em;
-  }
-  .partners{
-      padding-top:4em;
   }
   .volunteer{
       margin-top: -2em;
