@@ -354,6 +354,7 @@ display: block;
 .speakers-item p {
     font-size:1em;
     text-align:center;
+    margin-top: -0.5em;
 }
 .speakers-company a{
     font-size:0.8em;
