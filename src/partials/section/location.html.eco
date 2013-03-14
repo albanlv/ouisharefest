@@ -1,9 +1,9 @@
 <div class="container-fluid hidden-phone">
   <div class="row-fluid">
     <div class="span10 offset2">
-      <h3>
+      <h2>
         <%= @t.location.title %>
-      </h3>
+      </h2>
       <div id="venue-video">
 <iframe width="640" height="480" src="http://www.youtube.com/embed/M9HMDSooMvo?wmode=transparent&rel=0" frameborder="0" allowfullscreen></iframe>
       </div>

@@ -54,7 +54,7 @@
     <div class="credits">
       <div class="row-fluid">
         <div class="span2">
-          <h2><%- @t.team.design %></h2>
+          <h3><%- @t.team.design %></h3>
         </div>
         <div class="span8 offset1">
           <p>
@@ -65,7 +65,7 @@
       </div>
       <div class="row-fluid">
         <div class="span2">
-          <h2><%- @t.team.development %></h2>
+          <h3><%- @t.team.development %></h3>
         </div>
         <div class="span8 offset1">
           <p>

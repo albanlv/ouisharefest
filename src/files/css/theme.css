@@ -11,16 +11,14 @@ html {
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
-h2, h3, h4 {
+h3, h4 {
   font-size: 5em;
   font-weight: normal;
   margin-bottom:.4em;
   letter-spacing: -.02em;
 }
 h2{
-    font-size:2.25em;
-    font-weight: bold;
-    margin:1em;
+    font-size:2em;
 }
 h3 {font-size: 2em;}
 h4 {font-size:3em;}
@@ -330,6 +328,9 @@ display: block;
 .speakers a{
   border-bottom: none;
 }
+.speakers h2{
+    margin-left:2.2em;
+}
 .speaker-container{
     padding-left:10%;
 }
@@ -473,6 +474,9 @@ display: block;
 .team a{
   border-bottom: none;
 }
+.team h2{
+    margin-left:1.5em;
+}
 .team-container{
     padding:4% 15%;
 }
@@ -518,8 +522,7 @@ display: block;
   font-size:1em;
   color:#0000ff;
 }
-.credits h2{font-size:1.5em;color:#a6a6ff;}
-.credits h3{font-size:0.8em;color:#a6a6ff;}
+.credits h3{font-size:1.5em;color:#a6a6ff;}
 
 /* =============================================================================
    CONTRIBUTE
@@ -609,7 +612,6 @@ display: block;
 .register h2{
     margin-top: .5em;
     margin-bottom: .5em;
-    margin-left: 190px;
 }
 .register h3 {
     font-size:2em;

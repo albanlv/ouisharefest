@@ -1,9 +1,9 @@
 <div class="container-fluid hidden-phone">
   <div class="row-fluid">
     <div class="contributetext span7 offset3">
-      <h3>
+      <h2>
         <%= @t.contribute.title %>
-      </h3>
+      </h2>
       <p>
         <%= @t.contribute.description %>
       </p>
