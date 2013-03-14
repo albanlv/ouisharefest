@@ -9,13 +9,18 @@
             <img src="<%= laFondrie.logo_url %>" alt="<%= laFondrie.name %>"/>
           </a>
         </div>
-        <% for partner in [@data.main_partners[1], @data.main_partners[2]] : %>
-          <div class="logo logo-l" data-original-title="Both a Bank and a citizen, La Banque Postale provides services to the people, their life, their financial concerns, the area they live in. La Banque Postale has a strong presence in the community, a strong value of sharing and a strong commitment to sustainability. This commitment makes La Banque Postale a vertible partner in the community's daily economic and social life.">
-            <a href="<%= partner.url %>" target="_blank">
-              <img src="<%= partner.logo_url %>" alt="<%= partner.name %>"/>
-            </a>
-          </div>
-        <% end %>
+        <div class="logo logo-l">
+          <% laPoste = @data.main_partners[1] %>
+          <a href="<%= laPoste.url %>" target="_blank">
+            <img src="<%= laPoste.logo_url %>" alt="<%= laPoste.name %>"/>
+          </a>
+        </div>
+        <div class="logo logo-l">
+          <% laBanquePostale = @data.main_partners[2] %>
+          <a href="<%= laBanquePostale.url %>" target="_blank">
+            <img id="laBanquePostale" src="<%= laBanquePostale.logo_url %>" alt="<%= laBanquePostale.name %>" data-original-title="<%= @data.postale[@document.language] %>" />
+          </a>
+        </div>
       </div>
       <% for partner in @data.event_partners : %>
         <div class="logo logo-m">

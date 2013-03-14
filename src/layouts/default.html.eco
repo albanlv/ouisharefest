@@ -56,7 +56,7 @@
     $(document).ready(function(){
       $('.carousel').carousel('pause');
 
-      $(".logo-l").tooltip({
+      $("#laBanquePostale").tooltip({
         placement: 'bottom'
        });
 
