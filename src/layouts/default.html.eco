@@ -56,6 +56,10 @@
     $(document).ready(function(){
       $('.carousel').carousel('pause');
 
+      $(".logo-l").tooltip({
+        placement: 'bottom'
+       });
+
       $('#lang-dropdown').change(function() {
         $("#lang-dropdown option:selected").each(function () {
           window.location.href = 'http://' + window.location.host + '/' + this.value;

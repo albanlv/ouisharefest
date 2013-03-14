@@ -10,7 +10,7 @@
           </a>
         </div>
         <% for partner in [@data.main_partners[1], @data.main_partners[2]] : %>
-          <div class="logo logo-l">
+          <div class="logo logo-l" data-original-title="Both a Bank and a citizen, La Banque Postale provides services to the people, their life, their financial concerns, the area they live in. La Banque Postale has a strong presence in the community, a strong value of sharing and a strong commitment to sustainability. This commitment makes La Banque Postale a vertible partner in the community's daily economic and social life.">
             <a href="<%= partner.url %>" target="_blank">
               <img src="<%= partner.logo_url %>" alt="<%= partner.name %>"/>
             </a>
