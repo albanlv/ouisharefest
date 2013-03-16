@@ -355,6 +355,7 @@ display: block;
     font-size:0.8em;
     text-align:center;
     text-transform:uppercase;
+    line-height: 1.25em;
 }
 .speakers-item p {
     font-size:1em;
