@@ -7,7 +7,9 @@
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
             <% if speaker.photo: %>
             <span class="speaker-photo hidden-phone">
-              <img class="photo" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
+              <a title="@<%= speaker.twitter %>" href="https://twitter.com/<%= speaker.twitter %>" target="_blank">
+                <img class="photo" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
+              </a>
             </span>
             <% end %>
             <h3 class="speakers-name"><%= speaker.name %></h3>
@@ -29,7 +31,9 @@
       <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
         <p>
           <span class="speakers-name pull-left">
-            <%= speaker.name %>
+            <a href="https://twitter.com/<%= speaker.twitter %>" target="_blank">
+              <%= speaker.name %>
+            </a>
           </span>
           <span class="speakers-company pull-right">
             <a href="<%= speaker.company_url %>"><%= speaker.company %></a>
