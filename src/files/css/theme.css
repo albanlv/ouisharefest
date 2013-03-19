@@ -801,9 +801,6 @@ display: block;
       text-align: center;
       text-transform: uppercase;
   }
-  .team{
-      height:1750px !important;
-  }
   .team-list{
       padding:0;
   }
