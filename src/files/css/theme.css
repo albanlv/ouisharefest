@@ -606,7 +606,7 @@ display: block;
    REGISTER
    ========================================================================== */
 .register{
-    background-color:rgba(252,238,33,1);
+    background-color: #fcf400;
     padding-top:4%;
     height:100%;
 }
