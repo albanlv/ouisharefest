@@ -1,10 +1,8 @@
-<% sections = ["speakers", "facilitators"] %>
 <div class="container-fluid hidden-phone speaker-container">
-<% for section in sections : %>
-<h2 class="hidden-phone"><%= @t.sections[section] %></h2>
+<h2 class="hidden-phone"><%= @t.sections.speakers %></h2>
   <ul class="speakers-list">
       <div class="row-fluid">
-        <% for person, index in @data[section] : %>
+        <% for person, index in @data.speakers : %>
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
             <% if person.photo: %>
@@ -25,13 +23,11 @@
       <% end %>
       </div>
     </ul>
-<% end %>
 </div>
 <div class="visible-phone">
-<% for section in sections : %>
-  <h3><%= @t.sections[section] %></h3>
+  <h3><%= @t.sections.speakers %></h3>
   <ul class="speakers-list">
-    <% for person, index in @data[section] : %>
+    <% for person, index in @data.speakers : %>
       <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
         <p>
           <span class="speakers-name pull-left">
@@ -46,5 +42,4 @@
       </li>
     <% end %>
   </ul>
-<% end %>
 </div>
