@@ -6,37 +6,37 @@ module.exports =
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/data.json'
           cache: false
         cs:
-          url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/cs.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/cs.json'
           cache: false
         de:
-          url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/de.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/de.json'
           cache: false
         el:
-          url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/el.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/el.json'
           cache: false
         en:
-          url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/en.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/en.json'
           cache: false
         es:
-          url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/es.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/es.json'
           cache: false
         et:
-          url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/et.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/et.json'
           cache: false
         fi:
-          url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/fi.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/fi.json'
           cache: false
         fr:
-          url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/fr.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/fr.json'
           cache: false
         it:
-          url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/it.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/it.json'
           cache: false
         pl:
-          url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/pl.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/pl.json'
           cache: false
         pt_BR:
-          url: 'http://raw.github.com/OuiShare/ouisharefest-content/master/translations/pt_BR.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/pt_BR.json'
           cache: false
 
   # These are variables will be accessible via our templates
@@ -65,7 +65,10 @@ module.exports =
       result = {}
       for key, value of fallback
         if value instanceof Object
-          result[key] = @tMerge translation[key], fallback[key]
+          if translation[key]
+            result[key] = @tMerge translation[key], fallback[key]
+          else
+            result[key] = fallback[key]
         else
           if translation[key]
             result[key] = translation[key]

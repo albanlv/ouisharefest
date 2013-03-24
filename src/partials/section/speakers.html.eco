@@ -1,5 +1,5 @@
 <div class="container-fluid hidden-phone speaker-container">
-<h2 class="hidden-phone"><%= @t.sections.speakers %></h2>
+<h2 class="hidden-phone"><%= @t.speakers.heading %></h2>
   <ul class="speakers-list">
       <div class="row-fluid">
         <% for person, index in @data.speakers : %>
@@ -25,7 +25,7 @@
     </ul>
 </div>
 <div class="visible-phone">
-  <h3><%= @t.sections.speakers %></h3>
+  <h3><%= @t.speakers.heading %></h3>
   <ul class="speakers-list">
     <% for person, index in @data.speakers : %>
       <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
