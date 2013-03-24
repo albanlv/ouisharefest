@@ -1,7 +1,7 @@
 <div class="centerpartners">
   <div class="partnersframe hidden-phone">
     <div class="partner-section">
-      <h3>Event Partners</h3>
+      <h3><%= @t.partners.event %></h3>
       <div>
         <div class="logo logo-xl">
           <% laFondrie = @data.main_partners[0] %>
@@ -31,7 +31,7 @@
       <% end %>
     </div>
     <div class="partner-section">
-      <h3>Program Partners</h3>
+      <h3><%= @t.partners.program %></h3>
       <% for partner in @data.program_partners : %>
         <div class="logo logo-m">
           <a href="<%= partner.url %>" target="_blank">
@@ -41,7 +41,7 @@
       <% end %>
     </div>
     <div class="partner-section">
-      <h3>Media Partners</h3>
+      <h3><%= @t.partners.media %></h3>
       <% for partner in @data.media_partners : %>
         <div class="logo logo-m">
           <a href="<%= partner.url %>" target="_blank">
@@ -51,7 +51,7 @@
       <% end %>
     </div>
     <div class="partner-section">
-      <h3>Supporters</h3>
+      <h3><%= @t.partners.supporters %></h3>
       <% for partner in @data.supporters : %>
         <div class="logo logo-s">
           <a href="<%= partner.url %>" target="_blank">

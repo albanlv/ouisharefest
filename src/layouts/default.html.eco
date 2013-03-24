@@ -1,5 +1,6 @@
 <% @data = @feedr.feeds.data %>
-<% @t = @feedr.feeds[@document.language][@document.language] %>
+<% translation = @feedr.feeds[@document.language][@document.language] %>
+<% @t = @tMerge translation, @feedr.feeds['en']['en'] %>
 <!doctype html>
 <html itemscope itemtype="http://schema.org/Event">
 <head>
