@@ -7,13 +7,13 @@
     <p>
       <%- @t.register.second %>
     </p>
+    <p>
+      <%- @t.register.third %>
+    </p>
     <p id='registerbutton'>
       <a href="http://www.weezevent.com/ouishare-fest" target="_blank">
         <img src="/img/register.png" />
       </a>
-    </p>
-    <p>
-      <%- @t.register.third %>
     </p>
   </div>
 </div>
