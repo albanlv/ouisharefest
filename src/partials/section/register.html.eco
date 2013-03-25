@@ -1,6 +1,11 @@
 <div class="row-fluid">
   <div class="registerright span8 offset2">
   <h2 class="hidden-phone"><%= @t.sections.register %></h2>
+    <p id='registerbutton'>
+      <a href="http://www.weezevent.com/ouishare-fest" target="_blank">
+        <img src="/img/register.png" />
+      </a>
+    </p>
     <p>
       <%- @t.register.first %>
     </p>
@@ -9,11 +14,6 @@
     </p>
     <p>
       <%- @t.register.third %>
-    </p>
-    <p id='registerbutton'>
-      <a href="http://www.weezevent.com/ouishare-fest" target="_blank">
-        <img src="/img/register.png" />
-      </a>
     </p>
   </div>
 </div>

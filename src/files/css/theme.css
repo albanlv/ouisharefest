@@ -625,7 +625,8 @@ display: block;
     overflow:hidden;
 }
 #registerbutton{
-    text-align: center;
+    float: right;
+    margin: -30px 50px 0 0;
 }
 
 /* =============================================================================
