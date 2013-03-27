@@ -32,6 +32,9 @@ module.exports =
         it:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/it.json'
           cache: false
+        nl:
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/nl.json'
+          cache: false
         pl:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/pl.json'
           cache: false
@@ -43,7 +46,7 @@ module.exports =
   templateData:
 
     # Enabled languages
-    languages: [["cs", "cs"], ["de", "de"], ["el", "el"], ["en", "en"], ["es", "es"], ["et", "et"], ["fi", "fi"], ["fr", "fr"], ["it", "it"], ["pl", "pl"], ["pt_BR", "pt(Br)"]]
+    languages: [["cs", "cs"], ["de", "de"], ["el", "el"], ["en", "en"], ["es", "es"], ["et", "et"], ["fi", "fi"], ["fr", "fr"], ["it", "it"], ["nl", "nl"], ["pl", "pl"], ["pt_BR", "pt(Br)"]]
 
     # Active sections on the website
     # to deactivate comment out with '#'
