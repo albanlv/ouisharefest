@@ -401,7 +401,6 @@ display: block;
     width: 960px;
     margin: 0 auto;
     padding: 25px 0;
-    text-align: center;
 }
 .partnersframe{
     background:white;
@@ -414,6 +413,7 @@ display: block;
 }
 .logo-xl, .logo-l{
     padding: 10px 30px;
+		display:inline-block;
 }
 .logo-xl img{
     height:140px;
@@ -424,8 +424,7 @@ display: block;
     width:140px;
 }
 .partner-section{
-  clear: both;
-  padding: 0 0 60px;
+	display:block;
 }
 .partner-section:last-of-type{
   padding-bottom: 80px;
@@ -433,18 +432,14 @@ display: block;
 .partner-section h3{
   padding-top: 2em;
 }
-.partner-section:first-of-type h3{
-  padding-top: 1em;
+/* hack to get tooltip to display properly */
+#supporters {
+	display:inline-block;
 }
 
-.partner-section:last-of-type h3{
-  padding-bottom: 0.7em;
-}
-.logo{
-  float: left;
-}
 .logo-m{
     padding: 6px 5px;
+		display:inline-block;
 }
 .logo-m img{
     height:80px;
@@ -452,13 +447,13 @@ display: block;
 }
 .logo-s{
     padding: 4px 3px;
+		display:inline-block;
 }
 .logo-s img{
     height:52px;
     width:113px;
 }
 .partnerstext p{
-  clear: both;
   margin: 0;
   padding:1em 0;
   font-size:1.3em;
