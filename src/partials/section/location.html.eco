@@ -2,11 +2,11 @@
   <div class="row-fluid">
     <div class="span10 offset2">
       <h2>
-        <%- @t.location.title %>
+        <%- @t.location.title_first %>
       </h2>
       <img alt="directions" src="<%= @data.misc.map_url %>" />
       <h2>
-        <%- @t.location.title2 %>
+        <%- @t.location.title_second %>
       </h2>
       <p>
         <%- @t.location.description %>
