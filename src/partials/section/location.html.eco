@@ -2,14 +2,14 @@
   <div class="row-fluid">
     <div class="span10 offset2">
       <h2>
-        <%= @t.location.title %>
+        <%- @t.location.title_first %>
       </h2>
-      <div id="venue-video">
-<iframe width="640" height="480" src="http://www.youtube.com/embed/M9HMDSooMvo?wmode=transparent&rel=0" frameborder="0" allowfullscreen></iframe>
-      </div>
+      <img alt="directions" src="<%= @data.misc.map_url %>" />
+      <h2>
+        <%- @t.location.title_second %>
+      </h2>
       <p>
-        <a href="http://www.cabaretsauvage.com/" target="_blank">Cabaret Sauvage</a>,
-        <%= @t.location.paris %>
+        <%- @t.location.description %>
       </p>
     </div>
   </div>
