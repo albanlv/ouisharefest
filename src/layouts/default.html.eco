@@ -64,12 +64,9 @@
       $("#supporters").tooltip({
         placement: 'left'
        });
-
-      $('#lang-dropdown').change(function() {
-        $("#lang-dropdown option:selected").each(function () {
-          window.location.href = 'http://' + window.location.host + '/' + this.value;
-        });
-      });
+       
+      $('.dropdown-toggle').dropdown()
+      
     });
   </script>
 
