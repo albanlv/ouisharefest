@@ -1,10 +1,18 @@
 <div class="container-fluid hidden-phone">
   <div class="row-fluid">
-    <div class="span10 offset2">
+    <div class="span10 offset2 location_section">
       <h2>
         <%- @t.location.title_first %>
       </h2>
-      <img alt="directions" src="<%= @data.misc.map_url %>" />
+
+			<a class='location_image' href="<%= @data.misc.cabaret_large %>">
+				<img alt="directions" src="<%= @data.misc.cabaret_small %>" />
+			</a>
+
+			<a class='location_image' href="<%= @data.misc.map_url_large %>" title='click for larger map'>
+				<img alt="directions" src="<%= @data.misc.map_url_small %>" />
+			</a>
+
       <h2>
         <%- @t.location.title_second %>
       </h2>

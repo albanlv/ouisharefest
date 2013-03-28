@@ -64,6 +64,7 @@
       $("#supporters").tooltip({
         placement: 'right'
        });
+			$('.location_image').tooltip();
 
       $('#lang-dropdown').change(function() {
         $("#lang-dropdown option:selected").each(function () {

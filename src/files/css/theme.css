@@ -298,12 +298,24 @@ display: block;
 /* =============================================================================
    LOCATION
    ========================================================================== */
+
 .location{
     padding-top:6em;
 }
 .location h3{
     font-weight:bold;
     line-height:0.4em;
+}
+.location_section img {
+	margin-left:5px;
+}
+
+.location_section img:hover {
+	-moz-box-shadow: 5px 5px 3px #888;
+	-webkit-box-shadow: 5px 5px 3px #888;
+	box-shadow: 5px 5px 3px #888;
+	opacity: .9;
+	cursor:pointer;
 }
 .cabaret{
     width:800px;
