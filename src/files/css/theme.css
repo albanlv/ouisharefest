@@ -69,17 +69,6 @@ nav {
     width: 100%;
     z-index: 10;
 }
-nav .languages {
-  color: #666
-}
-nav .languages a {
-  color: #888
-}
-nav .languages span {
-  color: #ccc !important;
-  padding:0em 0.3em;
-  font-size:1em;
-}
 .brand{
     width: 10em;
     margin-right:10em;
@@ -134,7 +123,15 @@ nav .languages span {
     max-width:100%;
 }
 .blog{color:#b3b3ff;}
-.fr{color:#b3b3ff;}
+a.dropdown-toggle{color:#b3b3ff;}
+.dropdown-menu{
+    min-width:100%;
+    width:100%;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a{
+    background-image:none;
+    background-color:#b3b3ff;
+}
 /* =============================================================================
    HEADER
    ========================================================================== */

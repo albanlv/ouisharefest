@@ -26,16 +26,13 @@
             blog
           </a>
         </li>
-        <li class="languages nav-item pull-right">
-          <select name="language" id="lang-dropdown">
-          <% for language in @languages : %>
-            <option 
-              value="<%= language[0] %>"
-              <%= 'selected' if language[0] == @document.language %>>
-              <%= language[1] %>
-            </option>
-          <% end %>
-          </select>
+        <li class="languages nav-item pull-right dropdown">
+                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Language</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                  <% for language in @languages : %>
+                  <li><a href="http://ouisharefest.com/<%= language[0] %>"> <%= language[0] %> </a></li>
+                  <% end %>
+                </ul>
         </li>
       </ul>
     </div>
