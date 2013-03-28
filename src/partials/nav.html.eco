@@ -1,24 +1,22 @@
 <!-- NAVIGATION -->
-<div class="navbar hidden-phone">
-  <nav id="nav">
-    <div class="navbar-inner">
-      <ul class="wrapper nav">
-        <li class="nav-item">
-          <a class="brand" href="#"><img src="/img/logo.svg" alt="OuiShareFest"></a>
-        </li>
+<div class="navbar">
+	<a class="brand" href="#"><img src="/img/logo.svg" alt="OuiShareFest"></a>
+    <ul class="nav_list">
+
         <% for section in @sections : %>
         <li class="nav-item">
           <a href="#<%= section %>" title="<%= @t.sections[section] %>" class="nav-link <%= section %>-nav"><%= @t.sections[section] %></a>
         </li>
         <% end %>
-        <li class="nav-item">
-          <a href="https://www.facebook.com/ouishare" target="_blank" class="facebook nav-link">
-            <img src='/img/facebook_icon.jpg' class='facebook_icon' alt="facebook">
+
+        <li class="nav-item nav_icon">
+          <a href="https://www.facebook.com/ouishare" target="_blank" class="facebook_icon nav-link">
+            <img src='/img/facebook_icon.jpg' alt="facebook">
           </a>
         </li>
-        <li class="nav-item">
-          <a href="https://twitter.com/ouisharefest" target="_blank" class="twitter nav-link">
-            <img src='/img/twitter_icon.jpg' class='twitter_icon' alt="twitter">
+        <li class="nav-item nav_icon">
+          <a href="https://twitter.com/ouisharefest" target="_blank" class="twitter_icon nav-link">
+            <img src='/img/twitter_icon.jpg' alt="twitter">
           </a>
         </li>
         <li class="nav-item">
@@ -27,14 +25,12 @@
           </a>
         </li>
         <li class="languages nav-item pull-right dropdown">
-                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Language</a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                  <% for language in @languages : %>
-                  <li><a href="http://ouisharefest.com/<%= language[0] %>"> <%= language[0] %> </a></li>
-                  <% end %>
-                </ul>
-        </li>
-      </ul>
-    </div>
-  </nav>
+					<a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Language</a>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+						<% for language in @languages : %>
+						<li><a href="http://ouisharefest.com/<%= language[0] %>"> <%= language[0] %> </a></li>
+						<% end %>
+          </ul>
+				</li>
+  </ul>
 </div>
