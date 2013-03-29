@@ -9,7 +9,7 @@
         </li>
         <% end %>
 
-        <li class="nav-item nav_icon">
+        <li class="nav-item nav_icon nav_right">
           <a href="https://www.facebook.com/ouishare" target="_blank" class="facebook_icon nav-link">
             <img src='/img/facebook_icon.jpg' alt="facebook">
           </a>
@@ -24,7 +24,7 @@
             blog
           </a>
         </li>
-        <li class="languages nav-item pull-right dropdown">
+        <li class="languages nav-item dropdown">
 					<a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Language</a>
 					<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
 						<% for language in @languages : %>

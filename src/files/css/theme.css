@@ -132,6 +132,13 @@ ul{
 	color:#b3b3ff;
 }
 	*/
+.nav_icon img {
+	border-radius: 50%;
+}
+.nav_right {
+	margin-left: 50px;
+}
+
 a.dropdown-toggle{color:#b3b3ff;}
 
 .dropdown-menu{
@@ -697,6 +704,9 @@ display: block;
 	.brand {
 		margin: 0;
 	}
+	.nav_right {
+		margin:0;
+	}
 
   .header {
     background-size: auto 100%;
@@ -709,28 +719,6 @@ display: block;
       display:none;
   }
 
-	.speakers h3 {
-			text-align: center;
-			text-transform:uppercase;
-			padding: .5em;
-			font-size:1.5em;
-	}
-	.speakers-list{
-			padding:0;
-	}
-	.speakers-name{
-			text-align:left;
-			margin:0;
-			font-size:1.5em;
-	}
-	.speakers-item {
-			text-transform:uppercase;
-			margin: 10px 0 10px 0;
-	}
-	.speakers-company a{
-			text-align: right;
-			font-size:1em;
-	}
 }
 
 @media only screen and (max-width : 600px) {
@@ -762,6 +750,12 @@ display: block;
   .content section{
       min-height:0%;
   }
+	.topics, .topics-nav, #topics {
+		display:none;
+	}
+	.aboutframe {
+		width: 80%;
+	}
 	.aboutframe h3{
 			font-size:2em;
 			font-weight:bold;
@@ -781,25 +775,44 @@ display: block;
   .logo-mobile img{
       max-width:100%;
   }
-  .topics {
-     height:0% !important;
-     padding:0;
-	}
 	.speakers{
 		padding:0;
+	}
+
+	.speakers h3 {
+			text-align: center;
+			text-transform:uppercase;
+			padding: 1em;
+			font-size:2em;
+	}
+	.speakers-list{
+			padding:0;
+	}
+	.speakers-name{
+			text-align:left;
+			margin:0;
+			font-size:1.5em;
+	}
+	.speakers-item {
+			text-transform:uppercase;
+			margin: 10px 0 10px 0;
+	}
+	.speakers-company a{
+			text-align: right;
+			font-size:1em;
 	}
 	.partners{
 			padding:0;
 	}
 	.partners-phone h3{
-			font-size:1.6em;
+			font-size:2em;
 			padding: 1.5em;
 			text-align: center;
 			text-transform: uppercase;
 	}
 	.partners-phone p{
 			color: #666;
-			font-size: 1em;
+			font-size: 1.5em;
 			text-align: center;
 			text-transform: uppercase;
 	}
@@ -814,7 +827,7 @@ display: block;
       font-weight:bold;
   }
   .team-phone h3{
-      font-size:1.2em;
+      font-size:1.5em;
       text-align: center;
       text-transform: uppercase;
       font-weight:normal;
@@ -822,6 +835,9 @@ display: block;
   .team-phone p{
       text-align: center;
   }
+	.teammember-details p {
+		font-size: 1.3em;
+	}
   .teammember-item{
       margin:0;
   }
@@ -836,10 +852,18 @@ display: block;
   .credits h2{font-size:1.2em;color:#a6a6ff;}
   .credits h3{font-size:0.8em;color:#a6a6ff;}
 
-  .register{
+  .register {
       background: white;
   }
+	.register p {
+		font-size:1.5em;
+		padding:5px;
+	}
   .registerright{
-      height:510px;
+      padding: 2em;
   }
+	.regsiterbutton {
+		clear:both;
+		margin:0;
+	}
 }
