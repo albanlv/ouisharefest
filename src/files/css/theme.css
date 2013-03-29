@@ -316,7 +316,7 @@ display: block;
     line-height:0.4em;
 }
 .location_section h2 {
-	margin-top: 25px;
+	margin: 25px 0px 25px 0px;
 }
 .location_section img {
 	margin-left:5px;
