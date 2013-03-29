@@ -1,28 +1,12 @@
-<div class="container-fluid hidden-phone">
-  <div class="row-fluid">
-    <div class="span9 offset2">
-      <div class="aboutframe">
-        <% parts = [@t.about['1'], @t.about['2']] %>
-        <% for part in parts : %>
-        <h3>
-          <%= part.title %>
-        </h3>
-        <p itemprop="description">
-          <%- part.description %>
-        </p>
-        <% end %>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="aboutframe-phone visible-phone">
-  <% parts = [@t.about['1'], @t.about['2']] %>
-  <% for part in parts : %>
-  <h3>
-    <%= part.title %>
-  </h3>
-  <p itemprop="description">
-    <%- part.description %>
-  </p>
-  <% end %>
-</div>
+	<div class='aboutframe'>
+			<% parts = [@t.about['1'], @t.about['2']] %>
+			<% for part in parts : %>
+			<h3>
+				<%= part.title %>
+			</h3>
+			<p itemprop="description">
+			<%- part.description %>
+			</p>
+			<% end %>
+	</div>
+

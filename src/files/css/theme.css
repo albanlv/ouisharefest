@@ -64,14 +64,17 @@ ul{
    ========================================================================== */
 
 .navbar {
+		position:fixed;
+		top:0;
 		background: rgba(26,23,27,1);
-		padding:0.6em 0 0.4em 0;
+		padding:0.5em 0 0.4em 0;
 		width: 100%;
 		z-index: 10;
 }
 .brand{
-		margin: .1em 8em .1em 5em;
+		margin: 0 5% 0 8%;
 		display:inline-block;
+		width:10em;
 }
 
 .brand img{
@@ -208,19 +211,15 @@ display: block;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height:100%;
     position:relative;
+		padding-top: 130px;
 }
 .aboutframe {
-    position:absolute;
-    top:50%;
-    right: 50%;
-    left:50%;
-    height: 400px;
-    width:50%;
-    margin:-200px -25% auto;
+		margin-left:auto;
+		margin-right:auto;
+		width: 50%;
     background:rgba(255,255,255, 0.8);
-    padding:2em;
+		padding:2em;
 }
 .aboutframe h3{
     font-size:1.8em;
@@ -665,18 +664,6 @@ display: block;
 
 @media only screen and (max-width : 1370px) {
 
-   .aboutframe {
-    padding:1em;
-  }
-  .aboutframe h3{
-    font-size:1.6em;
-    font-weight:bold;
-    line-height:1.2em;
-  }
-  .aboutframe p{
-    font-size: 1em;
-    margin-top:20px;
-  }
   .carousel-caption p{
       font-weight: 1em;
       line-height: 1.4em;
@@ -708,7 +695,7 @@ display: block;
 @media only screen and (max-width : 1024px) {
 
 	.brand {
-		margin: .1em;
+		margin: 0;
 	}
 
   .header {
@@ -722,6 +709,7 @@ display: block;
       display:none;
   }
 }
+
 @media only screen and (max-width : 600px) {
 
   body{
@@ -731,6 +719,10 @@ display: block;
   header{
       padding:0;
   }
+
+	.navbar {
+		position:relative;
+	}
 
 	.nav_list {
 		display:block;
@@ -747,6 +739,14 @@ display: block;
   .content section{
       min-height:0%;
   }
+	.aboutframe h3{
+			font-size:2em;
+			font-weight:bold;
+			line-height:1.6em;
+	}
+	.aboutframe p{
+			font-size: 1.5em;
+	}
   .location, .contribute{
       padding:0
   }
@@ -758,27 +758,6 @@ display: block;
   .logo-mobile img{
       max-width:100%;
   }
-  .about {
-      background: white;
-      padding: 0;
-      margin:0;
-      height: 600px;
-  }
-  .aboutframe-phone {
-    position:relative;
-    height: 600px;
-    background:white;
-    padding:2em;
-    margin:0 auto;
-  }
-  .aboutframe-phone h3{
-      font-size:1.2em;
-    font-weight:bold;
-    line-height:1.4em;
-  }
-	.aboutframe-phone p{
-			font-size: 1.2em;
-	}
   .topics {
      height:0% !important;
      padding:0;
