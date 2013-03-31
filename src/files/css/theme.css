@@ -807,7 +807,7 @@ a.supporter_header_link {
 			margin: 10px 0 10px 0;
 	}
 	.speakers-company a{
-			text-align: right;
+			display:block;
 			font-size:1em;
 	}
 	.partners{
@@ -867,9 +867,21 @@ a.supporter_header_link {
 	}
   .registerright{
       padding: 2em;
+			background-color:#fcf400;
   }
 	.regsiterbutton {
 		clear:both;
 		margin:0;
+	}
+
+	.location_image {
+		width:70%;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+
+	}
+	.location_section {
+		text-align:center;
 	}
 }
