@@ -452,6 +452,15 @@ display: block;
 #supporters {
 	display:inline-block;
 }
+.supporter_link {
+	display:inline-block;
+	margin-left: 20px;
+	text-decoration:underline;
+}
+a.supporter_header_link {
+	text-decoration:none;
+	border-bottom:0px;
+}
 
 .logo {
 	display:inline-block;

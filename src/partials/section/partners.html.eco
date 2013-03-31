@@ -52,8 +52,9 @@
     </div>
     <div class="partner-section">
 			<div class='partner-header'>
-				<a href="http://weezevent.com/ouishare-fest" target="_blank">
-				<h3 id="supporters" data-original-title='If you would like to become a supporter, click here' ><%= @t.partners.supporters %></h3>
+				<a href="http://weezevent.com/ouishare-fest" target="_blank" class='supporter_header_link'>
+			<h3 id="supporters" data-original-title='If you would like to become a supporter, click here' ><%= @t.partners.supporters %></h3>
+					<span class='supporter_link'>If you would like to become a supporter, click here.</span>
 				</a>
 			</div>
       <% for partner in @data.supporters : %>
