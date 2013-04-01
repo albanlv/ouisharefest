@@ -5,7 +5,7 @@
         <%- @t.location.title_first %>
       </h2>
 
-			<a class='location_image' href="<%= @data.misc.cabaret_large %>">
+			<a class='location_image' href="http://blog.ouisharefest.com/post/44784537195/are-you-ready-for-this-amazing-venue-the-cabaret">
 				<img alt="directions" src="<%= @data.misc.cabaret_small %>" />
 			</a>
 

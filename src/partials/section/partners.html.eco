@@ -54,7 +54,6 @@
 			<div class='partner-header'>
 				<a href="http://weezevent.com/ouishare-fest" target="_blank" class='supporter_header_link'>
 			<h3 id="supporters" data-original-title='If you would like to become a supporter, click here' ><%= @t.partners.supporters %></h3>
-					<span class='supporter_link'>If you would like to become a supporter, click here.</span>
 				</a>
 			</div>
       <% for partner in @data.supporters : %>
@@ -70,6 +69,12 @@
     <p>
       <%- @t.partners.invitation %>
     </p>
+		<p>
+				To be a supporter, 
+				<a href="http://weezevent.com/ouishare-fest" target="_blank">
+				click here. 
+				</a>
+		</p>
   </div>
 </div>
 <div class="partners-phone visible-phone">
@@ -88,5 +93,8 @@
     <p>
       <%- @t.partners.invitation %>
     </p>
+		<p>
+			<%- @t.partners.supporter_invitation %>
+		</p>
   </div>
 </div>
