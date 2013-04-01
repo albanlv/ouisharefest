@@ -470,6 +470,9 @@ a.supporter_header_link {
 .logo a {
 	border-bottom: none;
 }
+.logo-xl {
+  margin-right: 100px;
+}
 .logo-xl img{
     height:140px;
 		padding:5px;
