@@ -46,7 +46,7 @@ module.exports =
   templateData:
 
     # Enabled languages
-    languages: [["cs", "cs"], ["de", "de"], ["el", "el"], ["en", "en"], ["es", "es"], ["et", "et"], ["fi", "fi"], ["fr", "fr"], ["it", "it"], ["nl", "nl"], ["pl", "pl"], ["pt_BR", "pt(Br)"]]
+    languages: ["cs", "de", "el", "en", "es", "et", "fi", "fr", "it", "nl", "pl", "pt_BR"]
 
     # Active sections on the website
     # to deactivate comment out with '#'
@@ -78,6 +78,25 @@ module.exports =
           else
             result[key] = fallback[key]
       result
+
+    languageLabel: (languageCode) ->
+      map =
+        "cs": "Čeština"
+        "de": "Deutsch"
+        "el": "Ελληνικά"
+        "en": "English"
+        "es": "Español"
+        "et": "Eesti"
+        "fi": "Suomi"
+        "fr": "Français"
+        "it": "Italiano"
+        "nl": "Nederlands"
+        "pl": "Polski"
+        "pt_BR": "Português(Br)"
+      if map[languageCode]
+        map[languageCode]
+      else
+        languageCode
 
 
 

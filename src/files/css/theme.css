@@ -140,6 +140,7 @@ ul{
 }
 
 a.dropdown-toggle{color:#b3b3ff;}
+a.dropdown-toggle span {font-size: 70%;}
 
 .dropdown-menu{
 		min-width:100%;
