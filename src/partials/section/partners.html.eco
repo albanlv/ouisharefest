@@ -5,7 +5,7 @@
       <div>
         <div class="logo logo-xl">
           <% laFondrie = @data.main_partners[0] %>
-          <a href="<%= laFondrie.url %>" target="_blank">
+          <a href="<%= laFondrie.url %>" target="_blank" class='partner_tooltip' data-original-title="La Fonderie is a digital agency for the French region of Ile-de-France that supports public and private initiatives that contribute to the development of the digital economy in the region.">
             <img src="<%= laFondrie.logo_url %>" alt="<%= laFondrie.name %>"/>
           </a>
         </div>
@@ -17,8 +17,8 @@
         </div>
         <div class="logo logo-l">
           <% laBanquePostale = @data.main_partners[2] %>
-          <a href="<%= laBanquePostale.url %>" target="_blank">
-            <img id="laBanquePostale" src="<%= laBanquePostale.logo_url %>" alt="<%= laBanquePostale.name %>" data-original-title="<%= @data.postale[@document.language] %>" />
+          <a href="<%= laBanquePostale.url %>" target="_blank" class='partner_tooltip' data-original-title="<%= @data.postale[@document.language] %>">
+            <img id="laBanquePostale" src="<%= laBanquePostale.logo_url %>" alt="<%= laBanquePostale.name %>" />
           </a>
         </div>
       </div>
@@ -52,8 +52,8 @@
     </div>
     <div class="partner-section">
 			<div class='partner-header'>
-				<a href="http://weezevent.com/ouishare-fest" target="_blank" class='supporter_header_link'>
-			<h3 id="supporters" data-original-title='If you would like to become a supporter, click here' ><%= @t.partners.supporters %></h3>
+				<a class='partner_tooltip' data-original-title="If you would like to become a supporter, click here" href="http://weezevent.com/ouishare-fest" target="_blank" class='supporter_header_link'>
+			<h3 id="supporters"><%= @t.partners.supporters %></h3>
 				</a>
 			</div>
       <% for partner in @data.supporters : %>

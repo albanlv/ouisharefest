@@ -57,13 +57,10 @@
     $(document).ready(function(){
       $('.carousel').carousel('pause');
 
-      $("#laBanquePostale").tooltip({
+      $(".partner_tooltip").tooltip({
         placement: 'right'
        });
 
-      $("#supporters").tooltip({
-        placement: 'right'
-       });
 			$('.location_image').tooltip();
        
       $('.dropdown-toggle').dropdown()
