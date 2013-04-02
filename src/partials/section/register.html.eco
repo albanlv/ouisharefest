@@ -1,6 +1,6 @@
 <div class="row-fluid">
   <div class="registerright span8 offset2">
-  <h2><%= @t.sections.register %></h2>
+    <h2><%= @t.sections.register %></h2>
     <p id='registerbutton'>
       <a href="http://www.weezevent.com/ouishare-fest" target="_blank">
         <img src="/img/register.png" />
@@ -15,5 +15,28 @@
     <p>
       <%- @t.register.third %>
     </p>
+    <h2><%= @t.register.participants %></h2>
+    <table>
+    <% for participant in @participants : %>
+      <tr>
+        <td><%= participant.name %></td>
+          <td>
+          <% if participant.twitter : %>
+            <a href="https://twitter.com/<%= @twitterName participant.twitter %>" target="_blank">
+              @<%= @twitterName participant.twitter %>
+            </a>
+          <% end %>
+          </td>
+        <td><%= participant.organization.name %></td>
+          <td>
+          <% if participant.organization.twitter : %>
+            <a href="https://twitter.com/<%= @twitterName participant.organization.twitter %>" target="_blank">
+              @<%= @twitterName participant.organization.twitter %>
+            </a>
+          <% end %>
+          </td>
+      </tr>
+    <% end %>
+    </table>
   </div>
 </div>
