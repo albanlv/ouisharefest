@@ -452,11 +452,7 @@ display: block;
 #supporters {
 	display:inline-block;
 }
-.supporter_link {
-	display:inline-block;
-	margin-left: 20px;
-	text-decoration:underline;
-}
+
 a.supporter_header_link {
 	text-decoration:none;
 	border-bottom:0px;
@@ -494,7 +490,7 @@ a.supporter_header_link {
 }
 .partnerstext p{
   margin: 0;
-  padding:1em 0;
+  padding:.5em 0;
   font-size:1.3em;
 }
 .contact{padding:0.5em; border-radius:20% 40% 20% 40%; background-color:rgba(252,238,33,1);}

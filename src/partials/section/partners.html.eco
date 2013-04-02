@@ -70,7 +70,7 @@
       <%- @t.partners.invitation %>
     </p>
 		<p>
-				To be a supporter, 
+				To become a supporter, 
 				<a href="http://weezevent.com/ouishare-fest" target="_blank">
 				click here. 
 				</a>
