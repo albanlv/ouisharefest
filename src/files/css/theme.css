@@ -667,10 +667,13 @@ a.supporter_header_link {
 .attendee_row {
 	margin:5px 0px 5px 0px;
 	padding:10px 5px 5px 15px;
-	border: 1px solid #a6a6ff;
+	border: 1px dotted #a6a6ff;
 	vertical-align:middle;
 	word-wrap:break-word;
 	font-size:14px;
+}
+.attendee_row a{
+  font-size: .7em;	
 }
 .attendee_avatar {
 	margin-top:-8px;
@@ -682,7 +685,7 @@ a.supporter_header_link {
 .attendee_org {
 	font-size:18px;
 }
-	
+
 
 /* =============================================================================
    CONTACT

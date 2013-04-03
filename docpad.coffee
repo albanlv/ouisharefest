@@ -101,12 +101,3 @@ module.exports =
       else
         languageCode
 
-    twitterName: (rawString) ->
-      string = rawString.replace /^\s+|\s+$/g, ""
-      split = string.split('/')
-      if split.length == 4
-        split[3]
-      else if string[0] == '@'
-        string.replace '@', ''
-      else
-        string

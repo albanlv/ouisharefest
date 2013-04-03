@@ -23,29 +23,25 @@
 			<% for participant in @participants : %>
 				<div class='row-fluid attendee_row'>
 					<div class='span2 attendee_avatar'>
-						<img src="/img/blankAvatar.png"/>
+						<img src="<%= participant.avatar %>" width="48" heirght="48" />
 					</div>
-					<div class='span3 attendee_name'>	
-							<%= participant.name %>
-					</div>
-					<div class='span2'>
+					<div class='span5 attendee_name'>
+							<%= participant.name %><br />
 						<% if participant.twitter : %>
-								<a href="https://twitter.com/<%= @twitterName participant.twitter %>" target="_blank">
-									@<%= @twitterName participant.twitter %>
+								<a href="https://twitter.com/<%= participant.twitter %>" target="_blank">
+									@<%= participant.twitter %>
 								</a>
-					<% end %>
-				</div>
-				<div class='span3 attendee_org'>
-					<%= participant.organization.name %>
-				</div>
-				<div class='span2'>
-          <% if participant.organization.twitter : %>
-            <a href="https://twitter.com/<%= @twitterName participant.organization.twitter %>" target="_blank">
-              @<%= @twitterName participant.organization.twitter %>
-            </a>
-          <% end %>
-				</div>
-		</div> <!-- close row -->
+            <% end %>
+          </div>
+          <div class='span5 attendee_org'>
+            <%= participant.organization.name %><br />
+            <% if participant.organization.twitter : %>
+              <a href="https://twitter.com/<%= participant.organization.twitter %>" target="_blank">
+                @<%= participant.organization.twitter %>
+              </a>
+            <% end %>
+          </div>
+      </div> <!-- close row -->
 		<% end %>
 	</div>
   </div>
