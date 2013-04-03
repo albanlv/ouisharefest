@@ -5,6 +5,9 @@ module.exports =
         data:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/data.json'
           cache: false
+        participants:
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/participants.json'
+          cache: false
         cs:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/cs.json'
           cache: false
@@ -98,5 +101,12 @@ module.exports =
       else
         languageCode
 
-
-
+    twitterName: (rawString) ->
+      string = rawString.replace /^\s+|\s+$/g, ""
+      split = string.split('/')
+      if split.length == 4
+        split[3]
+      else if string[0] == '@'
+        string.replace '@', ''
+      else
+        string

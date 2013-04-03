@@ -639,7 +639,7 @@ a.supporter_header_link {
 .register{
     background-color: #fcf400;
     padding-top:4%;
-    height:100%;
+    min-height:100%;
 }
 .register h2{
     margin-top: .5em;

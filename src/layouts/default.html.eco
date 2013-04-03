@@ -1,4 +1,5 @@
 <% @data = @feedr.feeds.data %>
+<% @participants = @feedr.feeds.participants %>
 <% translation = @feedr.feeds[@document.language][@document.language] %>
 <% @t = @tMerge translation, @feedr.feeds['en']['en'] %>
 <!doctype html>
