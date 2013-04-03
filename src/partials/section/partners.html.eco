@@ -4,8 +4,9 @@
       <h3><%= @t.partners.event %></h3>
       <div>
         <div class="logo logo-xl">
+          <% hoverLang = if @document.language == 'fr' then 'fr' else 'en' %>
           <% laFondrie = @data.main_partners[0] %>
-          <a href="<%= laFondrie.url %>" target="_blank" class='partner_tooltip' data-original-title="La Fonderie is a digital agency for the French region of Ile-de-France that supports public and private initiatives that contribute to the development of the digital economy in the region.">
+          <a href="<%= laFondrie.url %>" target="_blank" class='partner_tooltip' data-original-title="<%= @data.fondrie[hoverLang] %>">
             <img src="<%= laFondrie.logo_url %>" alt="<%= laFondrie.name %>"/>
           </a>
         </div>
@@ -17,7 +18,7 @@
         </div>
         <div class="logo logo-l">
           <% laBanquePostale = @data.main_partners[2] %>
-          <a href="<%= laBanquePostale.url %>" target="_blank" class='partner_tooltip' data-original-title="<%= @data.postale[@document.language] %>">
+          <a href="<%= laBanquePostale.url %>" target="_blank" class='partner_tooltip' data-original-title="<%= @data.postale[hoverLang] %>">
             <img id="laBanquePostale" src="<%= laBanquePostale.logo_url %>" alt="<%= laBanquePostale.name %>" />
           </a>
         </div>
