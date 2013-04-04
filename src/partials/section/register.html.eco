@@ -23,7 +23,7 @@
 			<% for participant in @participants : %>
 				<div class='row-fluid attendee_row well'>
 					<div class='span2 attendee_avatar'>
-						<img src="<%= participant.avatar %>" width="48" heirght="48" />
+						<img src="<%= participant.avatar or '/img/blankAvatar.png' %>" width="48" heirght="48" />
 					</div>
 					<div class='span5 attendee_name'>
 							<%= participant.name %><br />
