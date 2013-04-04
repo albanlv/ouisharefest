@@ -640,19 +640,21 @@ a.supporter_header_link {
    REGISTER
    ========================================================================== */
 .register{
-    background-color: #fcf400;
     padding-top:4%;
     min-height:100%;
 }
 .register h2{
+		color:#5c2bdb;	
     margin-top: .5em;
     margin-bottom: .5em;
 }
 .register h3 {
+		color:#5c2bdb;
     font-size:2em;
     line-height:1.8em;
 }
 .register p {
+		color: #5c2bdb;
     font-size: 16px;
 		margin-bottom:5px;
 }
@@ -661,28 +663,48 @@ a.supporter_header_link {
 }
 #registerbutton{
     float: right;
-    margin: -30px 50px 0 0;
+    margin: -30px 50px 0 10px;
+		display:block;
+		width: 15em;
+		height: 8em;
+		-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+		border-radius:         40%  50%  50%  99%  / 80%   50%   50%  70%;
+}
+#registerbutton a {
+	text-decoration:none;
+}
+#registerbutton p {
+	color:#FFFFFF;
 }
 
 .attendee_row {
 	margin:5px 0px 5px 0px;
 	padding:10px 5px 5px 15px;
-	border: 1px dotted #a6a6ff;
+	border: 2px solid #a6a6ff;
+	color:#a6a6ff;
 	vertical-align:middle;
 	word-wrap:break-word;
 	font-size:14px;
 }
+.attendee_row:hover{
+	moz-box-shadow: 2px 2px 1px #a6a6ff;
+	-webkit-box-shadow: 2px 2px 1px #a6a6ff;
+	box-shadow: 2px 2px 1px #a6a6ff;
+}
 .attendee_row a{
   font-size: .7em;	
+	color:#a6a6ff;
 }
 .attendee_avatar {
 	margin-top:-8px;
 	opacity:.8;
 }
 .attendee_name {
+	color:#5c2bdb;
 	font-size: 18px;
 }
 .attendee_org {
+	color:#5c2bdb;
 	font-size:18px;
 }
 
@@ -893,7 +915,6 @@ a.supporter_header_link {
 	}
   .registerright{
       padding: 2em;
-			background-color:#fcf400;
   }
 	.regsiterbutton {
 		clear:both;

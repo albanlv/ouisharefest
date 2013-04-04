@@ -2,11 +2,11 @@
   <div class="registerright span8 offset2">
 		<div class='row'>
 			<h2><%= @t.sections.register %></h2>
-				<p id='registerbutton'>
+				<div id='registerbutton' class='call'>
 					<a href="http://www.weezevent.com/ouishare-fest" target="_blank">
-						<img src="/img/register.png" />
+						<p>Book your tickets now!</p>
 					</a>
-				</p>
+				</div>
 				<p>
 					<%- @t.register.first %>
 				</p>
@@ -21,7 +21,7 @@
 			<h2><%= @t.register.participants %></h2>
 
 			<% for participant in @participants : %>
-				<div class='row-fluid attendee_row'>
+				<div class='row-fluid attendee_row well'>
 					<div class='span2 attendee_avatar'>
 						<img src="<%= participant.avatar %>" width="48" heirght="48" />
 					</div>
