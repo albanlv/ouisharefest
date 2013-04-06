@@ -577,6 +577,11 @@ a.supporter_header_link {
     padding-top:4%;
     min-height:100%;
 }
+.tickets {
+		background: rgb(255,255,255);
+		background: rgba(255,255,255,.7);
+		padding: 20px;
+}
 .participate h2{
     margin-top: .5em;
     margin-bottom: .5em;
@@ -613,8 +618,11 @@ a.supporter_header_link {
   text-transform: uppercase;
   padding: 2em;
 }
-.attendee_list {
+.attendees_list {
 	margin-top:25px;
+	height:500px;
+	width: 100%;
+	overflow:scroll;
 }
 
 .attendee_row {
