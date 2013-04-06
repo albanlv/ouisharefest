@@ -1,0 +1,40 @@
+<footer>
+	<div class='footer'>
+
+    <div class="row">
+			<div class='span4'>
+				<h3>
+						Contact
+				</h3>
+					<p><a href="mailto:hello@ouisharefest.com">hello@ouisharefest.com</a></p>
+			</div>
+			<div class='span4 credit'>	
+				<h3>
+					<%- @t.team.design %>
+				</h3>
+				<p>
+					Nicolas Couturier,<br/> Angeline Ostinelli<br/> & Benoit Verjat.
+					<a href="httpl://www.g-u-i.net" target="_blank">g-u-i.net</a>
+				</p>
+			</div>
+			<div class='span4 credit'>
+				<h3>
+					<%- @t.team.development %>
+				</h3>
+					<p>
+					Alban Leveau-Vallier,
+					<a href="http://nukomeet.com" target="_blank">Nukomeet</a>
+				</p>
+				<p>
+					elf Pavlik
+						<a href="http://hackers4peace.net/" target="_blank">hackers4peace</a>
+				</p>
+				<p>
+						Hans Schoenburg
+						<a href="http://giftflow.org" target="_blank">GiftFlow</a>
+				</p>
+						
+			</div>
+
+	</div>
+</footer>
