@@ -616,9 +616,6 @@ a.supporter_header_link {
 }
 .attendees_list {
 	margin-top:25px;
-	height:500px;
-	width: 100%;
-	overflow:scroll;
 }
 
 .attendee_row {
@@ -646,9 +643,8 @@ a.supporter_header_link {
 	color:#5c2bdb;
   padding-top: 5px;
 }
-.award_brief {
-	display:block;
-	color:#5C2BDB;
+p.awards_text {
+	margin-top:20px;
 }
 
 
