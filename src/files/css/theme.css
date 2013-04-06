@@ -560,7 +560,7 @@ a.supporter_header_link {
 .credits h3{font-size:1.5em;color:#a6a6ff;}
 
 /* =============================================================================
-   PARTICIPATE
+   PARTICIPATE AND REGISTER
    ========================================================================== */
 .participate{
     padding-top:8em;
@@ -568,19 +568,15 @@ a.supporter_header_link {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;;
+    background-size: cover;
+		min-height:100%;
 }
-/* =============================================================================
-   REGISTER
-   ========================================================================== */
-.participate{
-    padding-top:4%;
-    min-height:100%;
-}
-.tickets {
+
+.participate_section {
 		background: rgb(255,255,255);
 		background: rgba(255,255,255,.7);
 		padding: 20px;
+		margin-bottom: 20px;
 }
 .participate h2{
     margin-top: .5em;
@@ -649,6 +645,10 @@ a.supporter_header_link {
 .attendee_name, .attendee_org {
 	color:#5c2bdb;
   padding-top: 5px;
+}
+.award_brief {
+	display:block;
+	color:#5C2BDB;
 }
 
 

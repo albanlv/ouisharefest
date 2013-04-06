@@ -1,6 +1,6 @@
 <div class="row-fluid">
   <div class="registerright span8 offset2">
-		<div class='row tickets'>
+		<div class='row participate_section'>
 			<h2><%= @t.sections.participate %></h2>
 				<div id='registerbutton' class='call'>
 					<a href="http://www.weezevent.com/ouishare-fest" target="_blank">
@@ -16,6 +16,30 @@
 				<p>
 				<%- @t.participate.third %>
 				</p>
+		</div>
+		<div class='row participate_section'>
+			<div class='span6'>
+				<h2>Share!</h2>
+				<img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/b420e195d1821b1f33ccdac82999a1d0/sharetribe_logo.png" />
+				<img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/edd6902d0810a8184ea298dca2b08093/sharetribe.png"/>
+			</div>
+			<div class='span6'>
+					<h2>Awards</h2>
+					<p>
+							<span class='award_brief'>What ? </span>
+							The first OuiShare Awards aim to highlight the values of the OuiShare community (Openness, Transparency, Action, Impact...) by rewarding exemplary projects. 
+					</p>
+					<p>
+						<span class='award_brief'>How ? </span>
+						Projects will be evaluated through open criterias (see “process” below), by the OuiShare community and by professionals and partners. 
+					</p>
+					<p>
+						<span class='award_brief'>When & Where ? </span>
+						The Award ceremony will take place at the Cabaret Sauvage, the main venue of OuiShare Fest on Friday, May 3rd - starting at 6.30 PM
+					</p>
+
+			</div>
+
 		</div>
 		<div class='row-fluid'>
 			<h2><%= @t.participate.participants %></h2>
