@@ -8,6 +8,7 @@ html {
   color: rgba(26,23,27,1);
   height:100%;
 }
+
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
@@ -203,6 +204,35 @@ padding: 0px;
 margin: 0px; border: medium none;
 display: block;
 }
+
+/* =========================================================================
+ * FOOTER
+ * ========================================================================
+ */
+
+	footer {
+		margin-top: 50px;
+		background-color:#a6a6FF;
+		opacity:.9;
+	}
+	.footer {
+		padding: 25px;
+		font-size:12px;
+		color: #5c2bdb;
+	}
+	.footer .credits h3 {
+		color:#5c2bdb;
+	}
+	.credit a {
+		margin-left:10px;
+	}
+
+	.credit p {
+		margin-bottom:.1em;
+	}
+
+
+
 /* =============================================================================
    CONTENT
  _ ========================================================================== */
@@ -615,6 +645,9 @@ a.supporter_header_link {
 }
 .attendee_list {
 	margin-top:25px;
+	height: 500px;
+	overflow:scroll;
+	border: 2px solid #a6a6ff;
 }
 
 .attendee_row {

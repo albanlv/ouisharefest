@@ -46,6 +46,7 @@
 
           <!-- / <%= section.toUpperCase() %> -->
         <% end %>
+        <%-@partial('footer.html', @) %>
       </div>
     </div>
     <!-- / CONTENT -->
