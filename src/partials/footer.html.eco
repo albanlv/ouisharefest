@@ -2,22 +2,28 @@
 	<div class='footer'>
 
     <div class="row">
-			<div class='span4'>
+			<div class='span3'>
 				<h3>
 						Contact
 				</h3>
 					<p><a href="mailto:hello@ouisharefest.com">hello@ouisharefest.com</a></p>
 			</div>
-			<div class='span4 credit'>	
+			<div class='span3 credit'>
+					<h3>Press</h3>
+					<p>
+						<a href="<%= @data.site.presskit_url %>">Download Presskit</a>
+					</p>
+			</div>
+			<div class='span3 credit'>	
 				<h3>
 					<%- @t.team.design %>
 				</h3>
 				<p>
-					Nicolas Couturier,<br/> Angeline Ostinelli<br/> & Benoit Verjat.
+					Nicolas Couturier,<br/> Angeline Ostinelli<br/> & Benoit Verjat.<br/>
 					<a href="httpl://www.g-u-i.net" target="_blank">g-u-i.net</a>
 				</p>
 			</div>
-			<div class='span4 credit'>
+			<div class='span3 credit'>
 				<h3>
 					<%- @t.team.development %>
 				</h3>
