@@ -1,20 +1,6 @@
 <div class="row-fluid">
   <div class="registerright span8 offset2">
 		<div class='row participate_section'>
-			<h2><%- @t.participate.tickets %></h2>
-				<div id='registerbutton' class='call'>
-					<a href="http://www.weezevent.com/ouishare-fest" target="_blank">
-						<p><%- @t.participate.book_tickets %></p>
-					</a>
-				</div>
-				<p>
-					<%- @t.participate.first %>
-				</p>
-				<p>
-					<%- @t.participate.second %>
-				</p>
-		</div>
-		<div class='row participate_section'>
 			<div class='span6'>
 				<h2><%- @t.participate.share_with %></h2>
 				<a href="https://share.ouisharefest.com/">

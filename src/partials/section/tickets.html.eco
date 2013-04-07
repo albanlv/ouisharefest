@@ -1,8 +1,24 @@
-<!--- attendees section -->
-
+<div class="row-fluid">
+  <div class="registerright span8 offset2">
+		<div class='row'>
+			<h2><%- @t.sections.tickets %></h2>
+				<div id='registerbutton' class='call'>
+					<a href="http://www.weezevent.com/ouishare-fest" target="_blank">
+						<p><%- @t.tickets.book_tickets %></p>
+					</a>
+				</div>
+				<p>
+					<%- @t.tickets.first %>
+				</p>
+				<p>
+					<%- @t.tickets.second %>
+				</p>
+		</div>
+  </div>
+</div>
 <div class='row-fluid attendee_section'>
 	<div class='span8 offset2 attendee_wrapper'>
-		<h2><%= @t.participate.participants %></h2>
+		<h2><%= @t.tickets.participants %></h2>
 		<div class='attendees_list'>
 
 				<% for participant in @participants : %>

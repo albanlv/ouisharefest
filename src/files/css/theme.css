@@ -95,7 +95,7 @@ ul{
 		font-size:1em;
 }
 
-.nav-link.participate-nav{
+.participate-nav, .tickets-nav{
 		color:rgba(252,238,33,1);
 }
 .nav-link:active {color:rgba(252,238,33,1);}
@@ -590,6 +590,24 @@ a.supporter_header_link {
     font-size: 16px;
 		margin-bottom:5px;
 }
+p.awards_text {
+	margin-top:20px;
+}
+
+
+/* ========================================================================
+ * TICKETS & ATTENDEES
+ *=========================================================================
+ */
+
+.tickets{
+  background-color: #e6e6ff;
+  padding-top: 30px;
+}
+.tickets p{
+  font-size: 16px;
+}
+
 #registerbutton{
     float: right;
     margin: -30px 50px 0 10px;
@@ -597,13 +615,18 @@ a.supporter_header_link {
 		display:block;
 		width: 15em;
 		height: 8em;
+    border: 1px solid white;
 		-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
 		border-radius:         40%  50%  50%  99%  / 80%   50%   50%  70%;
+	moz-box-shadow: 2px 2px 1px white;
+	-webkit-box-shadow: 2px 2px 1px white;
+	box-shadow: 2px 2px 1px white;
 }
 #registerbutton:hover{
-	moz-box-shadow: 4px 4px 2px blue;
-	-webkit-box-shadow: 4px 4px 2px blue;
-	box-shadow: 4px 4px 2px blue;
+  border-color: #5C2BDB;
+	moz-box-shadow: 4px 4px 2px #5C2BDB;
+	-webkit-box-shadow: 4px 4px 2px #5C2BDB;
+	box-shadow: 4px 4px 2px #5C2BDB;
 }
 #registerbutton a {
 	text-decoration:none;
@@ -615,17 +638,7 @@ a.supporter_header_link {
   padding: 2em;
 }
 
-
-/* ========================================================================
- * ATTENDEES aka WHO"S COMING
- *=========================================================================
- */
-
-.attendee_section{
-  background-color: #e6e6ff;
-}
 .attendee_wrapper {
-	margin-top: 30px;
 	padding:10px;
 }
 
@@ -658,10 +671,6 @@ a.supporter_header_link {
 	color:#5c2bdb;
   padding-top: 5px;
 }
-p.awards_text {
-	margin-top:20px;
-}
-
 
 /* =========================================================================
  * FOOTER
