@@ -65,6 +65,7 @@ module.exports =
       #'contribute'
       #'register'
       'participate'
+				'attendees'
     ]
 
     # Helpers

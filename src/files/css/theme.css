@@ -614,6 +614,21 @@ a.supporter_header_link {
   text-transform: uppercase;
   padding: 2em;
 }
+
+
+/* ========================================================================
+ * ATTENDEES aka WHO"S COMING
+ *=========================================================================
+ */
+
+.attendee_section{
+  background-color: #e6e6ff;
+}
+.attendee_wrapper {
+	margin-top: 30px;
+	padding:10px;
+}
+
 .attendees_list {
 	margin-top:25px;
 }
