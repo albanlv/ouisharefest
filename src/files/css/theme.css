@@ -658,12 +658,15 @@ p.awards_text {
 		opacity:.9;
 	}
 	.footer {
-		padding: 30px;
+		padding: 15px;
 		font-size:12px;
 		color: #5c2bdb;
 	}
 	.footer .credits h3 {
 		color:#5c2bdb;
+	}
+	.credit h3 {
+		font-size: 14px;
 	}
 	.credit a {
 		margin-left:10px;
@@ -671,6 +674,7 @@ p.awards_text {
 
 	.credit p {
 		margin-bottom:.1em;
+		font-size:12px;
 	}
 
 
