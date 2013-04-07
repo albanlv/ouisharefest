@@ -918,4 +918,21 @@ p.awards_text {
 	.location_section {
 		text-align:center;
 	}
+	.attendee_row {
+		margin: 2px;
+		padding:2px;
+		border:none;
+		font-size:16px;
+		text-align:center;
+	}
+	.attendee_row div.attendee_avatar {
+		display:none;
+	}
+	.attendee_name {
+		font-size:18px;
+		text-align:center;
+	}
+	.attendee_org {
+		text-align:center;
+	}
 }
