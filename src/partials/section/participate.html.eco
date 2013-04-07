@@ -24,7 +24,7 @@
 			</div>
 			<div class='span6'>
 					<h2><%- @t.participate.awards %></h2>
-					<a title='Click here for more info' class='partner_tooltip' href='https://dl.dropbox.com/u/4752604/OuiShareFest-Award.pdf'>
+					<a title='Click here for more info' class='partner_tooltip' href='http://awards.ouisharefest.com/'>
 						<img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/d21e4a6d6dc439e7034f494413b1deb1/Final_Awards_logo.png_preview_500x226.png"/>
 					</a>
 					<p class='awards_text'>
