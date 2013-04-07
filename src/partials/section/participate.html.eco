@@ -13,9 +13,6 @@
 				<p>
 					<%- @t.participate.second %>
 				</p>
-				<p>
-				<%- @t.participate.third %>
-				</p>
 		</div>
 		<div class='row participate_section'>
 			<div class='span6'>
@@ -31,7 +28,7 @@
 						<img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/d21e4a6d6dc439e7034f494413b1deb1/Final_Awards_logo.png_preview_500x226.png"/>
 					</a>
 					<p class='awards_text'>
-							<%- @t.participate.awards_description %>
+							<%= @t.participate.awards_description %>
 					</p>
 			</div>
 
