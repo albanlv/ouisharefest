@@ -61,7 +61,7 @@ module.exports =
       'about'
       'topics'
       'speakers'
-      #'schedule'
+      'program'
       'partners'
       'team'
       'location'
