@@ -1,9 +1,0 @@
-<div class="centerprogram">
-  <h2><%= @t.sections.program %><h2>
-  <a href="http://program.ouisharefest.com" target="_blank">
-    <img src="/img/program.png" alt="Fest Program" />
-  </a>
-  <a href="http://program.ouisharefest.com" target="_blank">
-    <h3>program.ouisharefest.com</h3>
-  </a>
-</div>
