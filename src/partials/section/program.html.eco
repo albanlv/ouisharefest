@@ -1,21 +1,18 @@
 <div class="row-fluid">
-  <h2><%= @t.sections.program %><h2>
-  <div class='span6'>
-    <div class='button'>
-      <a href="<%= @data.links.program %>">
-        <h3><%= @t.program.professional_days %></h3>
-        <p><%= @t.program.thu_and_fri %></p>
-        <p class="note"><%= @t.program.in_en %></p>
-      </a>
-    </div>
-  </div>
-  <div class='span6'>
-    <div class='button'>
-      <a href="<%= @data.links.day3 %>">
-        <h3><%= @t.program.open_day %></h3>
-        <p><%= @t.program.sat %></p>
-        <p class="note"><%= @t.program.in_fr_and_en %></p>
-      </a>
-    </div>
-  </div>
+	<div class='span8 offset2 program_center'>
+		<h2><%= @t.sections.program %></h2>
+			<div class='button program_button'>
+				<a href="<%= @data.links.program %>">
+					<h2><%= @t.program.professional_days %></h2>
+					<p><%= @t.program.thu_and_fri %></p>
+					<p class="note"><%= @t.program.in_en %></p>
+				</a>
+			</div>
+			<div class='button program_button'>
+				<a href="<%= @data.links.day3 %>">
+					<h2><%= @t.program.open_day %></h2>
+					<p><%= @t.program.sat %></p>
+					<p class="note"><%= @t.program.in_fr_and_en %></p>
+				</a>
+			</div>
 </div>
