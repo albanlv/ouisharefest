@@ -3,7 +3,7 @@
 		<div class='row participate_section'>
 			<h2><%- @t.participate.tickets %></h2>
 				<div id='registerbutton' class='call'>
-					<a href="http://www.weezevent.com/ouishare-fest" target="_blank">
+					<a href="<%= @data.links.tickets %>" target="_blank">
 						<p><%- @t.participate.book_tickets %></p>
 					</a>
 				</div>
@@ -17,14 +17,14 @@
 		<div class='row participate_section'>
 			<div class='span6'>
 				<h2><%- @t.participate.share_with %></h2>
-				<a href="https://share.ouisharefest.com/">
+				<a href="<%= @data.links.share %>" target="_blank">
 				<%- @t.participate.visit_community_link %>
 				<img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/edd6902d0810a8184ea298dca2b08093/sharetribe.png"/>
 				</a>
 			</div>
 			<div class='span6'>
 					<h2><%- @t.participate.awards %></h2>
-					<a title='Click here for more info' class='partner_tooltip' href='http://awards.ouisharefest.com/'>
+					<a title='Click here for more info' class='partner_tooltip' href="<%= @data.links.awards %>" target="_blank">
 						<img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/d21e4a6d6dc439e7034f494413b1deb1/Final_Awards_logo.png_preview_500x226.png"/>
 					</a>
 					<p class='awards_text'>
