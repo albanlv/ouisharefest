@@ -395,6 +395,7 @@ display: block;
    PROGRAM
    ========================================================================== */
 .program{
+  padding-top: 40px;
 }
 .program h2 {
   margin-left: 2.2em;
