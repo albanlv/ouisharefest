@@ -395,18 +395,31 @@ display: block;
    PROGRAM
    ========================================================================== */
 .program{
-  min-height: 100%;
 }
-.program h3{
-  font-size: 0.8em;
+.program h2 {
+  margin-left: 2.2em;
 }
-.centerprogram{
-    width: 700px;
-    margin: 0 auto;
-    padding: 25px 0;
+.program .span6{
+  padding: 1em;
+}
+.program .button {
+  background-color: #5C2BDB;
+  font-size: 0.6em;
+  text-align: center;
+  border-radius: 15px;
+}
+.program p{
+  font-size: 0.9em;
 }
 .program a{
+  display: block;
   border: none;
+  padding: 1em;
+  height: 9em;
+}
+.program .note{
+  font-weight: normal;
+  font-style: italic;
 }
 /* =============================================================================
    PARTNERS
