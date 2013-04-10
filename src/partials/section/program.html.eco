@@ -3,18 +3,18 @@
   <div class='span6'>
     <div class='button'>
       <a href="http://program.ouisharefest.com">
-        <h3>Professional Days</h3>
-        <p>Thursday & Friday</p>
-        <p class="note">in English</p>
+        <h3><%= @t.program.professional_days %></h3>
+        <p><%= @t.program.thu_and_fri %></p>
+        <p class="note"><%= @t.program.in_en %></p>
       </a>
     </div>
   </div>
   <div class='span6'>
     <div class='button'>
       <a href="http://program.ouisharefest.com">
-        <h3>Open Day</h3>
-        <p>Satruday</p>
-        <p class="note">in French and English</p>
+        <h3><%= @t.program.open_day %></h3>
+        <p><%= @t.program.sat %></p>
+        <p class="note"><%= @t.program.in_fr_and_en %></p>
       </a>
     </div>
   </div>
