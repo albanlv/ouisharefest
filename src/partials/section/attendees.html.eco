@@ -2,7 +2,7 @@
 
 <div class='row-fluid attendee_section'>
 	<div class='span8 offset2 attendee_wrapper'>
-		<h2><%= @t.participate.participants %></h2>
+		<h2><%= @t.tickets.participants %></h2>
 		<div class='attendees_list'>
 
 				<% for participant in @participants : %>

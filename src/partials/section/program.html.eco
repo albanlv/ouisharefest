@@ -1,9 +1,18 @@
-<div class="centerprogram">
-  <h2><%= @t.sections.program %><h2>
-  <a href="http://program.ouisharefest.com" target="_blank">
-    <img src="/img/program.png" alt="Fest Program" />
-  </a>
-  <a href="http://program.ouisharefest.com" target="_blank">
-    <h3>program.ouisharefest.com</h3>
-  </a>
+<div class="row-fluid">
+	<div class='span8 offset2 program_center'>
+		<h2><%= @t.sections.program %></h2>
+			<div class='button program_button'>
+				<a href="<%= @data.links.program %>" target="_blank">
+					<h3><%= @t.program.professional_days %></h3>
+					<p><%= @t.program.thu_and_fri %></p>
+					<p class="note"><%= @t.program.in_en %></p>
+				</a>
+			</div>
+			<div class='button program_button'>
+				<a href="<%= @data.links.day3 %>" target="_blank">
+					<h3><%= @t.program.open_day %></h3>
+					<p><%= @t.program.sat %></p>
+					<p class="note"><%= @t.program.in_fr_and_en %></p>
+				</a>
+			</div>
 </div>
