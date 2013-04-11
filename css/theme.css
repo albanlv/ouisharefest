@@ -395,18 +395,52 @@ display: block;
    PROGRAM
    ========================================================================== */
 .program{
-  min-height: 100%;
+    padding-top:80px;
 }
-.program h3{
-  font-size: 0.8em;
+#program {
+    background: url('../img/backgrounds/topic3.gif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 0;
 }
-.centerprogram{
-    width: 700px;
-    margin: 0 auto;
-    padding: 25px 0;
+.program_center {
+    border: 5px solid #a6a6ff;
+    text-align:center;
+    margin-top:130px;
+    padding: 20px 0 50px 0;
+    background: rgb(255,255,255);
+    background: rgba(255,255,255,.9);
 }
-.program a{
-  border: none;
+.program_button {
+    padding: 5px;
+    width: 40%;
+    margin:15px 10px 10px 5px;
+    display:inline-block;
+}
+.program p {
+    margin: 5px 0px 5px 0px;
+    font-size:1.2em;
+}
+.program h3 {
+    font-size: 1.5em;
+}
+
+.program .button {
+  background-color: #a6a6ff;
+  text-align: center;
+  border-radius: 15px;
+    moz-box-shadow: 4px 4px 2px #e6e6ff;;
+    -webkit-box-shadow: 4px 4px 2px #e6e6ff;
+    box-shadow: 4px 4px 2px #e6e6ff;
+}
+.button:hover {
+    background: rgb(166,166,255);
+    background: rgba(166,166,255,.8);
+}
+.program_button a:hover, .program_button h3:hover {
+    color: #FFFFFF;
 }
 /* =============================================================================
    PARTNERS
@@ -671,7 +705,7 @@ p.awards_text {
         opacity:.9;
     }
     .footer {
-        padding: 15px;
+        padding: 1% 1% 1% 8%;
         font-size:12px;
         color: #5c2bdb;
     }
