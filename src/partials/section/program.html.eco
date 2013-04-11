@@ -3,14 +3,14 @@
 		<h2><%= @t.sections.program %></h2>
 			<div class='button program_button'>
 				<a href="<%= @data.links.program %>" target="_blank">
-					<h2><%= @t.program.professional_days %></h2>
+					<h3><%= @t.program.professional_days %></h3>
 					<p><%= @t.program.thu_and_fri %></p>
 					<p class="note"><%= @t.program.in_en %></p>
 				</a>
 			</div>
 			<div class='button program_button'>
 				<a href="<%= @data.links.day3 %>" target="_blank">
-					<h2><%= @t.program.open_day %></h2>
+					<h3><%= @t.program.open_day %></h3>
 					<p><%= @t.program.sat %></p>
 					<p class="note"><%= @t.program.in_fr_and_en %></p>
 				</a>
