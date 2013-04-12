@@ -111,3 +111,27 @@ module.exports =
       else
         languageCode
 
+  # =================================
+  # # DocPad Events
+  #
+  # # Here we can define handlers for events that DocPad fires
+  # # You can find a full listing of events on the DocPad Wiki
+  events:
+
+    # Write After
+    # Used to minify our assets with grunt
+    writeAfter: (opts,next) ->
+        # Prepare
+        balUtil = require('bal-util')
+        docpad = @docpad
+        rootPath = docpad.config.rootPath
+
+        # Perform the grunt tasks
+        command = ['grunt']
+
+        # Execute
+        balUtil.spawn(command, {cwd:rootPath,output:true}, next)
+
+        # Chain
+        @
+
