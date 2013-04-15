@@ -6,7 +6,7 @@
         <div class="logo logo-xl">
           <% hoverLang = if @document.language == 'fr' then 'fr' else 'en' %>
           <% laFondrie = @data.main_partners[0] %>
-          <a href="<%= laFondrie.url %>" target="_blank" class='partner_tooltip' data-original-title="<%= @data.fondrie[hoverLang] %>">
+          <a href="<%= laFondrie.url %>" target="_blank" class='partner_tooltip' data-original-title="<%= @data.fonderie[hoverLang] %>">
             <img src="<%= laFondrie.logo_url %>" alt="<%= laFondrie.name %>"/>
           </a>
         </div>
