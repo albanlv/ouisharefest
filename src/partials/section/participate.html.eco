@@ -7,7 +7,7 @@
            <img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/4efbf6797e89819b143eef8c5c2044e2/share.png"/>
           </a>
           <p class='participate_text'>
-				    <%- @t.participate.visit_community_link %>
+				    <%- @t.participate.share %>
           </p>
         </div>
 			</div>
