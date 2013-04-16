@@ -12,20 +12,23 @@
         </div>
 			</div>
 			<div class='span4'>
-          <div class='option'>
-            <a title='Click here for more info' class='partner_tooltip' href="<%= @data.links.awards %>" target="_blank">
-              <img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/ff085328a71d39229ad185cccf8e8a9d/awards.png"/>
-            </a>
-            <p class='participate_text'>
-                <%- @t.participate.awards_description %>
-					  </p>
-          </div>
+        <div class='option'>
+          <a title='Click here for more info' class='partner_tooltip' href="<%= @data.links.awards %>" target="_blank">
+            <img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/ff085328a71d39229ad185cccf8e8a9d/awards.png"/>
+          </a>
+          <p class='participate_text'>
+              <%- @t.participate.awards_description %>
+          </p>
+        </div>
 			</div>
       <div class='span4'>
         <div class='option'>
           <a href="<%= @data.links.labs %>" target="_blank">
             <img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/23c6a498bd1a223e0834f84f65167a2c/labs_campt.png"/>
           </a>
+          <p class='participate_text'>
+              <%- @t.participate.labs %>
+          </p>
         </div>
       </div>
     </div> <!-- close row -->
@@ -35,6 +38,19 @@
           <a href="<%= @data.links.fabjam %>" target="_blank">
             <img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/41490c25a57f55154bcc94aba2a0925b/fabjam.png"/>
           </a>
+          <p class='participate_text'>
+              <%- @t.participate.fabjam %>
+          </p>
+        </div>
+      </div>
+      <div class='span4'>
+        <div class='option'>
+          <a href="<%= @data.links.tv %>" target="_blank">
+            <img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/e1cd1c26aeb247df8d5e29b96ccb18c1/tv.png"/>
+          </a>
+          <p class='participate_text'>
+              <%- @t.participate.tv %>
+          </p>
         </div>
       </div>
 		</div>
