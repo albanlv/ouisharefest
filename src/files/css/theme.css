@@ -640,12 +640,15 @@ a.supporter_header_link {
 }
 #registerbutton a {
 	text-decoration:none;
+  border:none;
 }
 #registerbutton p {
 	color:#5C2BDB;
   font-weight: bold;
   text-transform: uppercase;
   padding: 2em;
+  font-size:16px;
+  margin-bottom:5px;
 }
 
 

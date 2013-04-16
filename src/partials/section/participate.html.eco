@@ -1,20 +1,6 @@
 <div class="row-fluid">
   <div class="registerright span8 offset2">
 		<div class='row participate_section'>
-			<h2><%- @t.sections.register %></h2>
-				<div id='registerbutton' class='call'>
-					<a href="<%= @data.links.tickets %>" target="_blank">
-						<p><%- @t.tickets.book_tickets %></p>
-					</a>
-				</div>
-				<p>
-					<%- @t.tickets.first %>
-				</p>
-				<p>
-					<%- @t.tickets.second %>
-				</p>
-		</div>
-		<div class='row participate_section'>
 			<div class='span6'>
 				<h2><%- @t.participate.share_title %></h2>
 				<a href="<%= @data.links.share %>" target="_blank">
