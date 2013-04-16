@@ -618,6 +618,7 @@ a.supporter_header_link {
   width:98%;
   height:98%;
   text-align:center;
+  height:350px;
 }
 .option p {
   font-size: 16px;
@@ -629,6 +630,7 @@ a.supporter_header_link {
   margin-right:auto;
   min-width:300px;
   display:block;
+  padding:5px;
 }
 
 
@@ -637,6 +639,9 @@ a.supporter_header_link {
  * REGISTER AND ATTENDEES aka WHO"S COMING
  *=========================================================================
  */
+.registerright h2 {
+  text-align:center;
+}
 
 #registerbutton{
     float: right;
