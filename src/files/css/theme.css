@@ -95,14 +95,14 @@ ul{
 		font-size:1em;
 }
 
-.nav-link.participate-nav{
-		color:rgba(252,238,33,1);
-}
 .nav-link:active {color:rgba(252,238,33,1);}
 .nav-link:hover {color:rgba(252,238,33,1);}
 .nav-link:focus {color:rgba(252,238,33,1);}
 .nav-link .yellow {color:rgba(252,238,33,1);}
 .nav-link .current {color:rgba(252,238,33,1);}
+.participate-nav, .register-nav{
+		color:rgba(252,238,33,1);
+}
 
 /*
 .facebook_icon {

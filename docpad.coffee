@@ -68,10 +68,8 @@ module.exports =
       'partners'
       'team'
       'location'
-      #'contribute'
-      #'register'
       'participate'
-				'attendees'
+      'register'
     ]
 
     # Helpers
