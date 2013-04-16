@@ -50,12 +50,15 @@ module.exports =
         ru:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/ru.json'
           cache: false
+        sv:
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/sv.json'
+          cache: false
 
   # These are variables will be accessible via our templates
   templateData:
 
     # Enabled languages
-    languages: ["cs", "de", "el", "en", "es", "et", "fi", "fr", "hu", "it", "nl", "pl", "pt_BR", "ru"]
+    languages: ["cs", "de", "el", "en", "es", "et", "fi", "fr", "hu", "it", "nl", "pl", "pt_BR", "ru", "sv"]
 
     # Active sections on the website
     # to deactivate comment out with '#'
@@ -104,6 +107,7 @@ module.exports =
         "pl": "Polski"
         "pt_BR": "Português(Br)"
         "ru": "Русский"
+        "sv": "Svenska"
       if map[languageCode]
         map[languageCode]
       else
