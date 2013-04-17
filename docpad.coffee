@@ -8,6 +8,9 @@ module.exports =
         participants:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/participants.json'
           cache: false
+        ar:
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/ar.json'
+          cache: false
         cs:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/cs.json'
           cache: false
@@ -58,7 +61,7 @@ module.exports =
   templateData:
 
     # Enabled languages
-    languages: ["cs", "de", "el", "en", "es", "et", "fi", "fr", "hu", "it", "nl", "pl", "pt_BR", "ru", "sv"]
+    languages: ["ar", "cs", "de", "el", "en", "es", "et", "fi", "fr", "hu", "it", "nl", "pl", "pt_BR", "ru", "sv"]
 
     # Active sections on the website
     # to deactivate comment out with '#'
@@ -102,6 +105,7 @@ module.exports =
 
     languageLabel: (languageCode) ->
       map =
+        "ar": "العربية"
         "cs": "Čeština"
         "de": "Deutsch"
         "el": "Ελληνικά"

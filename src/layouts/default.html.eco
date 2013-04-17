@@ -40,7 +40,7 @@
   <!-- /GOOGLE ANALYTICS -->
 
 </head>
-<body>
+<body <%- "style='direction: rtl'" if @document.language == 'ar' %>>
 
   <div class="global">
 
