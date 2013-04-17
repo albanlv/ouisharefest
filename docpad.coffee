@@ -91,6 +91,15 @@ module.exports =
             result[key] = fallback[key]
       result
 
+    md5Theme: () ->
+      crypto = require 'crypto'
+      fs = require 'fs'
+
+      theme = fs.readFileSync 'src/files/css/theme.css'
+      md5sum = crypto.createHash 'md5'
+      md5sum.update theme
+      md5 = md5sum.digest 'hex'
+
     languageLabel: (languageCode) ->
       map =
         "cs": "Čeština"

@@ -1,3 +1,11 @@
+var crypto = require('crypto');
+var fs = require('fs');
+
+var theme = fs.readFileSync('src/files/css/theme.css');
+var md5sum = crypto.createHash('md5');
+md5sum.update(theme);
+var md5Theme = md5sum.digest('hex');
+
 /*global module:false*/
 module.exports = function(grunt) {
   grunt.initConfig({
@@ -15,7 +23,7 @@ module.exports = function(grunt) {
     cssmin: {
     dist: {
       src:['out/css/built.css'],
-      dest: 'out/css/built.min.css'
+      dest: 'out/css/' + md5Theme + '.css'
     }
     }
   });
