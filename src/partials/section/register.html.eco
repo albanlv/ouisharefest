@@ -4,6 +4,7 @@
 	<div class='span8 offset2 attendee_wrapper'>
     <div class='row ticket_section'>
       <h2><%- @t.sections.register %></h2>
+      <p>Please feel invited to take a look at <a href="http://tiny.cc/ouifest-budget" target="_blank">detailed budget</a> of this event</p>
       <iframe src="https://www.weezevent.com/widget_multi.php?14309.1" width="700" height="400" scrolling="auto" frameborder="0"></iframe>
     </div>
 		<h2><%= @t.tickets.participants %></h2>

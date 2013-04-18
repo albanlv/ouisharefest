@@ -643,6 +643,10 @@ a.supporter_header_link {
 .ticket_section iframe{
   margin: 0 auto;
 }
+.ticket_section p{
+  font-size: 16px;
+}
+
 .registerright h2 {
   text-align:center;
 }
