@@ -1,61 +1,44 @@
 module.exports =
   plugins:
     feedr:
+      cache: false
       feeds:
         data:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/data.json'
-          cache: false
         participants:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/participants.json'
-          cache: false
         ar:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/ar.json'
-          cache: false
         cs:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/cs.json'
-          cache: false
         de:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/de.json'
-          cache: false
         el:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/el.json'
-          cache: false
         en:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/en.json'
-          cache: false
         es:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/es.json'
-          cache: false
         et:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/et.json'
-          cache: false
         fi:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/fi.json'
-          cache: false
         fr:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/fr.json'
-          cache: false
         hu:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/hu.json'
-          cache: false
         it:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/it.json'
-          cache: false
         nl:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/nl.json'
-          cache: false
         pl:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/pl.json'
-          cache: false
         pt_BR:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/pt_BR.json'
-          cache: false
         ru:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/ru.json'
-          cache: false
         sv:
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/sv.json'
-          cache: false
 
   # These are variables will be accessible via our templates
   templateData:
