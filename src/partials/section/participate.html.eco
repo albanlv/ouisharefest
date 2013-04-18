@@ -18,7 +18,7 @@
             <img src="http://farm9.staticflickr.com/8125/8655551071_493da2e914_o.jpg"/>
           </a>
           <p class='participate_text'>
-              <%- @t.participate.awards_description %>
+              <%- @t.participate.awards %>
           </p>
         </div>
 			</div>
