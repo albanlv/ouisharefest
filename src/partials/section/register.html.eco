@@ -2,10 +2,10 @@
 
 <div class='row-fluid attendee_section'>
 	<div class='span8 offset2 attendee_wrapper'>
-		<div class='row ticket_section'>
+    <div class='row ticket_section'>
       <h2><%- @t.sections.register %></h2>
-      <iframe src="https://www.weezevent.com/widget_billeterie.php?id_evenement=30219&amp;code=38902&amp;cas=1" width="650" height="400"></iframe>
-		</div>
+      <iframe src="https://www.weezevent.com/widget_multi.php?14309.1" width="700" height="400" scrolling="auto" frameborder="0"></iframe>
+    </div>
 		<h2><%= @t.tickets.participants %></h2>
 		<div class='attendees_list'>
 

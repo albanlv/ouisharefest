@@ -639,6 +639,10 @@ a.supporter_header_link {
  * REGISTER AND ATTENDEES aka WHO"S COMING
  *=========================================================================
  */
+
+.ticket_section iframe{
+  margin: 0 auto;
+}
 .registerright h2 {
   text-align:center;
 }
