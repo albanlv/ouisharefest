@@ -5,7 +5,7 @@
     <div class='row ticket_section'>
       <h2><%- @t.sections.register %></h2>
       <p><%- @t.tickets.budget %><p>
-      <iframe src="https://www.weezevent.com/widget_multi.php?14309.1" width="700" height="400" scrolling="auto" frameborder="0"></iframe>
+      <iframe src="https://www.weezevent.com/widget_multi.php?14309.1" width="700" height="500" scrolling="auto" frameborder="0"></iframe>
     </div>
 		<h2><%= @t.tickets.participants %></h2>
 		<div class='attendees_list'>
