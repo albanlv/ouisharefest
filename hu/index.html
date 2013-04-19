@@ -21,12 +21,26 @@
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 
   <!-- STYLES -->
-  <link rel="stylesheet" type="text/css" href="css/built.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/148ee882fb22ec70f07689373f601282.css">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
   <!-- / STYLES -->
 
+  <!-- ASYNC GOOGLE ANALYTICS https://developers.google.com/analytics/devguides/collection/gajs/asyncTracking -->
+  <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37109643-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
+  <!-- /GOOGLE ANALYTICS -->
+
 </head>
-<body>
+<body >
 
   <div class="global">
 
@@ -69,7 +83,7 @@
         </li>
         
         <li class="nav-item">
-          <a href="#attendees" title="" class="nav-link attendees-nav"></a>
+          <a href="#register" title="Jegyek" class="nav-link register-nav">Jegyek</a>
         </li>
         
 
@@ -91,6 +105,8 @@
         <li class="languages nav-item dropdown">
                     <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Magyar <span class="arrow">&#9660;</span></a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                        
+                        <li><a href="/ar"> العربية </a></li>
                         
                         <li><a href="/cs"> Čeština </a></li>
                         
@@ -119,6 +135,8 @@
                         <li><a href="/pt_BR"> Português(Br) </a></li>
                         
                         <li><a href="/ru"> Русский </a></li>
+                        
+                        <li><a href="/sv"> Svenska </a></li>
                         
           </ul>
                 </li>
@@ -167,25 +185,37 @@
           <!-- ABOUT -->
 
           <section class="about" id="about">
-                <div class='aboutframe'>
-            
-            
-            <h3>
-                Az első Európa-szintű esemény az együttműködő gazdaságnak szentelve.
-            </h3>
-            <p itemprop="description">
-            Három napos nemzetközi fesztivál ami összehoz vállalkozókat, designereket, közgazdászokat, befektetőket, politikusokat és fogyasztókat hogy közösen megteremtsék az együttműködésre épülő jövőt. <br/><strong>Párizs, Május 2-3-4, 2013.</strong>
-            </p>
-            
-            <h3>
-                Nem egy n-edik gazdasági konferencia.
-            </h3>
-            <p itemprop="description">
-            Egy igazi közösségi alkotás: az Ouishare Fest-en számos közösségi eseménnyel és nagyon sok jó élő zenével találkozhatsz.<br/><strong>Az első két nap</strong> szakmai napm több mint 500 résztvevővel.<br/><strong>A harmadik nap</strong> nyílt nap, mindenki számára ingyenes a részvétel.
-            </p>
-            
+            <div class='row-fluid about_video'>
+  <div class='span8 offset2 videoframe'>
+    <iframe width="774" height="500" src="http://www.youtube.com/embed/On8d7oft-WU?wmode=transparent&rel=0" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+<div class='row-fluid about_text'>
+  <div class='span8 offset2 aboutframe'>
+    <div class='row-fluid'>
+    
+    
+      <div class='about_part span6'>
+        <h3>
+          Az első Európa-szintű esemény az együttműködő gazdaságnak szentelve.
+        </h3>
+        <p itemprop="description">
+        Három napos nemzetközi fesztivál ami összehoz vállalkozókat, designereket, közgazdászokat, befektetőket, politikusokat és fogyasztókat hogy közösen megteremtsék az együttműködésre épülő jövőt. <br/><strong>Párizs, Május 2-3-4, 2013.</strong>
+        </p>
+      </div>
+    
+      <div class='about_part span6'>
+        <h3>
+          Nem egy n-edik gazdasági konferencia.
+        </h3>
+        <p itemprop="description">
+        Egy igazi közösségi alkotás: az Ouishare Fest-en számos közösségi eseménnyel és nagyon sok jó élő zenével találkozhatsz.<br/><strong>Az első két nap</strong> szakmai napm több mint 500 résztvevővel.<br/><strong>A harmadik nap</strong> nyílt nap, mindenki számára ingyenes a részvétel.
+        </p>
+      </div>
+    
     </div>
-
+  </div>
+</div>
 
           </section>
 
@@ -208,7 +238,7 @@
     
     
     <div class="item active">
-      <img src='/img/backgrounds/topic1.gif' alt=""/>
+      <img src='/img/backgrounds/topic1.png' alt=""/>
       <div class="carousel-caption">
         <h3>
           Eljött az együttműködő gazdaság ideje Európában.
@@ -220,7 +250,7 @@
     </div>
     
     <div class="item ">
-      <img src='/img/backgrounds/topic2.gif' alt=""/>
+      <img src='/img/backgrounds/topic2.png' alt=""/>
       <div class="carousel-caption">
         <h3>
           Közösségi fogyasztás
@@ -232,7 +262,7 @@
     </div>
     
     <div class="item ">
-      <img src='/img/backgrounds/topic3.gif' alt=""/>
+      <img src='/img/backgrounds/topic3.png' alt=""/>
       <div class="carousel-caption">
         <h3>
           &quot;Makers&quot; és a közösségi gyártás
@@ -244,7 +274,7 @@
     </div>
     
     <div class="item ">
-      <img src='/img/backgrounds/topic4.gif' alt=""/>
+      <img src='/img/backgrounds/topic4.png' alt=""/>
       <div class="carousel-caption">
         <h3>
           P2P finanszírozás
@@ -256,7 +286,7 @@
     </div>
     
     <div class="item ">
-      <img src='/img/backgrounds/topic5.gif' alt=""/>
+      <img src='/img/backgrounds/topic5.png' alt=""/>
       <div class="carousel-caption">
         <h3>
           Nyílt tudás
@@ -461,6 +491,21 @@
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
             
             <span class="speaker-photo hidden-phone">
+              <a title="@mollysturner" href="https://twitter.com/mollysturner" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8124/8643266944_014b70b9e8_q.jpg" alt="Molly Turner" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Molly Turner</h3>
+            <span class="speakers-company"><p><a href="http://www.airbnb.com/" target="_blank">Airbnb</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
               <a title="@edial" href="https://twitter.com/edial" target="_blank">
                 <img class="photo" src="/img/speakers/Speakers_Dekker_Edial.jpg" alt="Edial Dekker" itemprop="image">
               </a>
@@ -501,24 +546,39 @@
           </li>
         </div>
         
+      </div>
+      <div class="row-fluid">
+      
       
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
             
             <span class="speaker-photo hidden-phone">
-              <a title="@cgiorgi" href="https://twitter.com/cgiorgi" target="_blank">
-                <img class="photo" src="/img/speakers/speakers_Giorgi_Cedric.jpg" alt="Cédric Giorgi" itemprop="image">
+              <a title="@izakaminska" href="https://twitter.com/izakaminska" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8535/8643267046_6b94375d28_q.jpg" alt="Izabella Kaminska" itemprop="image">
               </a>
             </span>
             
-            <h3 class="speakers-name">Cédric Giorgi</h3>
-            <span class="speakers-company"><p><a href="http://www.cookening.com/" target="_blank">Cookening</a></p></span>
+            <h3 class="speakers-name">Izabella Kaminska</h3>
+            <span class="speakers-company"><p><a href="http://www.ft.com" target="_blank">Financial Times</a></p></span>
           </li>
         </div>
         
-      </div>
-      <div class="row-fluid">
       
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@100fabrizio" href="https://twitter.com/100fabrizio" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8108/8643267200_061d14f4cf_q.jpg" alt="Fabrizio Sestini" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Fabrizio Sestini</h3>
+            <span class="speakers-company"><p><a href="http://ec.europa.eu/" target="_blank">European Commission</a></p></span>
+          </li>
+        </div>
+        
       
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -564,6 +624,39 @@
           </li>
         </div>
         
+      </div>
+      <div class="row-fluid">
+      
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@cgiorgi" href="https://twitter.com/cgiorgi" target="_blank">
+                <img class="photo" src="/img/speakers/speakers_Giorgi_Cedric.jpg" alt="Cédric Giorgi" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Cédric Giorgi</h3>
+            <span class="speakers-company"><p><a href="http://www.cookening.com/" target="_blank">Cookening</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@LaBanquePostale" href="https://twitter.com/LaBanquePostale" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8542/8645382856_d97b113391_q.jpg" alt="Alexandre Brouillou" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Alexandre Brouillou</h3>
+            <span class="speakers-company"><p><a href="https://www.labanquepostale.fr/accueil.html" target="_blank">La Banque Postale</a></p></span>
+          </li>
+        </div>
+        
       
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -594,9 +687,6 @@
           </li>
         </div>
         
-      </div>
-      <div class="row-fluid">
-      
       
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -612,6 +702,9 @@
           </li>
         </div>
         
+      </div>
+      <div class="row-fluid">
+      
       
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -672,9 +765,6 @@
           </li>
         </div>
         
-      </div>
-      <div class="row-fluid">
-      
       
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -690,6 +780,9 @@
           </li>
         </div>
         
+      </div>
+      <div class="row-fluid">
+      
       
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -740,13 +833,28 @@
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
             
             <span class="speaker-photo hidden-phone">
-              <a title="@juliannebecker" href="https://twitter.com/juliannebecker" target="_blank">
-                <img class="photo" src="/img/speakers/becker.jpg" alt="Julianne Becker" itemprop="image">
+              <a title="@GroupeLaPoste" href="https://twitter.com/GroupeLaPoste" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8527/8647100155_372449a395_q.jpg" alt="Delphine Desgurse" itemprop="image">
               </a>
             </span>
             
-            <h3 class="speakers-name">Julianne Becker</h3>
-            <span class="speakers-company"><p><a href="https://www.deskwanted.com/" target="_blank">Deskwanted </a></p></span>
+            <h3 class="speakers-name">Delphine Desgurse</h3>
+            <span class="speakers-company"><p><a href="http://www.laposte.fr/" target="_blank">La Poste</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@pretdunion" href="https://twitter.com/pretdunion" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8389/8647120351_468a163c3b_q.jpg" alt="Charles Egly" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Charles Egly</h3>
+            <span class="speakers-company"><p><a href="http://www.pret-dunion.fr/" target="_blank">Prêt d'Union</a></p></span>
           </li>
         </div>
         
@@ -758,12 +866,27 @@
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
             
             <span class="speaker-photo hidden-phone">
-              <a title="@GargaBloom" href="https://twitter.com/GargaBloom" target="_blank">
-                <img class="photo" src="/img/speakers/Speakers_VanDenBroek_Eric.jpg" alt="Eric van der Broek" itemprop="image">
+              <a title="@juliannebecker" href="https://twitter.com/juliannebecker" target="_blank">
+                <img class="photo" src="/img/speakers/becker.jpg" alt="Julianne Becker" itemprop="image">
               </a>
             </span>
             
-            <h3 class="speakers-name">Eric van der Broek</h3>
+            <h3 class="speakers-name">Julianne Becker</h3>
+            <span class="speakers-company"><p><a href="https://www.deskwanted.com/" target="_blank">Deskwanted </a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@GargaBloom" href="https://twitter.com/GargaBloom" target="_blank">
+                <img class="photo" src="/img/speakers/Speakers_VanDenBroek_Eric.jpg" alt="Eric van den Broek" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Eric van den Broek</h3>
             <span class="speakers-company"><p><a href="http://www.mutinerie.org/" target="_blank">Mutinerie Coworking</a></p></span>
           </li>
         </div>
@@ -813,6 +936,9 @@
           </li>
         </div>
         
+      </div>
+      <div class="row-fluid">
+      
       
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -828,9 +954,6 @@
           </li>
         </div>
         
-      </div>
-      <div class="row-fluid">
-      
       
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -891,6 +1014,9 @@
           </li>
         </div>
         
+      </div>
+      <div class="row-fluid">
+      
       
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -906,9 +1032,6 @@
           </li>
         </div>
         
-      </div>
-      <div class="row-fluid">
-      
       
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -969,6 +1092,9 @@
           </li>
         </div>
         
+      </div>
+      <div class="row-fluid">
+      
       
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -984,9 +1110,6 @@
           </li>
         </div>
         
-      </div>
-      <div class="row-fluid">
-      
       
         <div class="span2">
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
@@ -1037,6 +1160,24 @@
           <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
             
             <span class="speaker-photo hidden-phone">
+              <a title="@wwsdo" href="https://twitter.com/wwsdo" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8382/8643266750_d6305423ea_q.jpg" alt="Shabnam Avar" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Shabnam Avar</h3>
+            <span class="speakers-company"><p><a href="http://about.me/shabnam_anvar" target="_blank"></a></p></span>
+          </li>
+        </div>
+        
+      </div>
+      <div class="row-fluid">
+      
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
               <a title="@javicreus" href="https://twitter.com/javicreus" target="_blank">
                 <img class="photo" src="http://farm9.staticflickr.com/8125/8638771772_b2c12c9e59_q.jpg" alt="Javi Creus" itemprop="image">
               </a>
@@ -1059,6 +1200,675 @@
             
             <h3 class="speakers-name">Andrea Cattabriga</h3>
             <span class="speakers-company"><p><a href="http://www.slowd.it/" target="_blank">Slowd.it</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@gloeckler" href="https://twitter.com/gloeckler" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8538/8645382850_d319011200_q.jpg" alt="Philipp Gloeckler" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Philipp Gloeckler</h3>
+            <span class="speakers-company"><p><a href="https://whyownit.com/" target="_blank">WhyOwnIt</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@katieneeds" href="https://twitter.com/katieneeds" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8262/8643266972_00c27969ef_q.jpg" alt="Katie Needs" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Katie Needs</h3>
+            <span class="speakers-company"><p><a href=" http://www.gidsy.com" target="_blank">Gidsy</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@zoupic" href="https://twitter.com/zoupic" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8099/8643267668_fed0de386e_q.jpg" alt="Etienne Hayem" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Etienne Hayem</h3>
+            <span class="speakers-company"><p><a href=" http://www.zoupic.com" target="_blank">Zoupic</a></p></span>
+          </li>
+        </div>
+        
+      </div>
+      <div class="row-fluid">
+      
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@nathStern" href="https://twitter.com/nathStern" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8245/8643266970_7feb9cb2ed_q.jpg" alt="Nathan Stern" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Nathan Stern</h3>
+            <span class="speakers-company"><p><a href="http://about.me/nathan.stern" target="_blank">Social Engineer</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@Sharelex" href="https://twitter.com/Sharelex" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8110/8644285973_ebde523531_q.jpg" alt="Anne-Laure Brun-Buisson" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Anne-Laure Brun-Buisson</h3>
+            <span class="speakers-company"><p><a href="http://sharelex.org/" target="_blank">Sharelex</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@schignard" href="https://twitter.com/schignard" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8113/8659218235_f0c050e8c2_q.jpg" alt="Simon Chignard" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Simon Chignard</h3>
+            <span class="speakers-company"><p><a href="http://DonneesOuvertes.info" target="_blank">DonnéesOuvertes.info</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@chacon" href="https://twitter.com/chacon" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8396/8643267676_8ed6fc54cd_q.jpg" alt="Scott Chacon" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Scott Chacon</h3>
+            <span class="speakers-company"><p><a href="http://www.github.com" target="_blank">Github</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@gagarine" href="https://twitter.com/gagarine" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8259/8643266670_3f5878b69a_q.jpg" alt="Simon Perdrisat" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Simon Perdrisat</h3>
+            <span class="speakers-company"><p><a href="http://democratieouverte.org/" target="_blank">Democratie Ouverte</a></p></span>
+          </li>
+        </div>
+        
+      </div>
+      <div class="row-fluid">
+      
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@grousico" href="https://twitter.com/grousico" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8266/8643266950_43ec2c3f9d_q.jpg" alt="Marie Prenat" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Marie Prenat</h3>
+            <span class="speakers-company"><p><a href="http://www.talalilala.com/" target="_blank">Talalilala</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@AlexGrandremy" href="https://twitter.com/AlexGrandremy" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8381/8643267702_f5728ac869_q.jpg" alt="Alexandre Grandrémy" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Alexandre Grandrémy</h3>
+            <span class="speakers-company"><p><a href="http://www.deways.com/" target="_blank">Deways</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@guillaumeverag" href="https://twitter.com/guillaumeverag" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8537/8643267114_f700b99c4e_q.jpg" alt="Guillaume Verhaeghe" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Guillaume Verhaeghe</h3>
+            <span class="speakers-company"><p><a href="http://djengo.be/" target="_blank">Djengo</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@popaulin" href="https://twitter.com/popaulin" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8110/8642166733_83f2ae37da_q.jpg" alt="Paulin Dementhon" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Paulin Dementhon</h3>
+            <span class="speakers-company"><p><a href="https://www.drivy.com/" target="_blank">Drivy/Voiturelib</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@" href="https://twitter.com/" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8396/8642167665_0d214594dc_q.jpg" alt="Anne-Cécile Ragot" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Anne-Cécile Ragot</h3>
+            <span class="speakers-company"><p><a href="http://www.taoaproject.org/" target="_blank">TAOA</a></p></span>
+          </li>
+        </div>
+        
+      </div>
+      <div class="row-fluid">
+      
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@NicolasBard" href="https://twitter.com/NicolasBard" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8381/8648195956_b5d3ddeaf7_q.jpg" alt="Nicolas Bard" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Nicolas Bard</h3>
+            <span class="speakers-company"><p><a href="http://www.icimontreuil.com/" target="_blank">Made in Montreuil</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@mdchouk" href="https://twitter.com/mdchouk" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8403/8642166813_0e75cf2e7b_q.jpg" alt="Marc-David Choukroun" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Marc-David Choukroun</h3>
+            <span class="speakers-company"><p><a href="http://www.laruchequiditoui.fr" target="_blank">La Ruche qui dit Oui</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@dcht00" href="https://twitter.com/dcht00" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8125/8643987369_3dbe23ccd2_q.jpg" alt="David Potocnik" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">David Potocnik</h3>
+            <span class="speakers-company"><p><a href="http://totalism.org" target="_blank">CHT</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@DebbieWossk" href="https://twitter.com/DebbieWossk" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8266/8644005287_8dbf6de5f2_q.jpg" alt="Debbie Wosskow" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Debbie Wosskow</h3>
+            <span class="speakers-company"><p><a href="http://www.lovehomeswap.com/" target="_blank">Love Home Swap</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@riggasconi" href="https://twitter.com/riggasconi" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8240/8645047190_69439a73bd_q.jpg" alt="Sebastiano Scròfina" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Sebastiano Scròfina</h3>
+            <span class="speakers-company"><p><a href="http://www.dropis.com" target="_blank">Dropis</a></p></span>
+          </li>
+        </div>
+        
+      </div>
+      <div class="row-fluid">
+      
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@Coconutsurfing" href="https://twitter.com/Coconutsurfing" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8247/8643951215_4ff1f9e588_q.jpg" alt="Christian Vanizette" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Christian Vanizette</h3>
+            <span class="speakers-company"><p><a href="we.makesense.org" target="_blank">MakeSense</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@YrOfOpenSource" href="https://twitter.com/YrOfOpenSource" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8545/8645390776_f800c62e91_q.jpg" alt="Sam Muirhead" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Sam Muirhead</h3>
+            <span class="speakers-company"><p><a href="http://www.yearofopensource.net/" target="_blank">Year of Open Source</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@" href="https://twitter.com/" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8117/8659218387_a2950bd0d2_q.jpg" alt="Matthew Slater" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Matthew Slater</h3>
+            <span class="speakers-company"><p><a href="http://communityforge.net" target="_blank">CommunityForge</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@webisteme" href="https://twitter.com/webisteme" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8526/8643951193_9a0b79f9f9_q.jpg" alt="Eli Gothill" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Eli Gothill</h3>
+            <span class="speakers-company"><p><a href="www.punkmoney.org/" target="_blank">PunkMoney</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@Ramon10" href="https://twitter.com/Ramon10" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8383/8645083992_ccb4284d26_q.jpg" alt="Ramon Blanco" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Ramon Blanco</h3>
+            <span class="speakers-company"><p><a href="http://etece.es/" target="_blank">Etece.es</a></p></span>
+          </li>
+        </div>
+        
+      </div>
+      <div class="row-fluid">
+      
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@marc6arthur" href="https://twitter.com/marc6arthur" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8521/8643992033_b4ea606dca_q.jpg" alt="Marc-Arthur Gauthey" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Marc-Arthur Gauthey</h3>
+            <span class="speakers-company"><p><a href="https://www.cupofteach.com/" target="_blank">Cup of Teach</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@galasounds" href="https://twitter.com/galasounds" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8245/8655319970_6bed139f5b_q.jpg" alt="Galina Emelina" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Galina Emelina</h3>
+            <span class="speakers-company"><p><a href="https://www.facebook.com/d.collective.space" target="_blank">D.Collective Berlin</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@fractastical" href="https://twitter.com/fractastical" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8534/8645756018_5f715cdd53_q.jpg" alt="Joel Dietz" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Joel Dietz</h3>
+            <span class="speakers-company"><p><a href="evrgr" target="_blank">Evergreen</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@" href="https://twitter.com/" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8110/8650471257_092307d10e_q.jpg" alt="Paul Bourgine" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Paul Bourgine</h3>
+            <span class="speakers-company"><p><a href="http://www.crea.polytechnique.fr/" target="_blank">CREA</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@" href="https://twitter.com/" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8099/8650471271_2429aba403_q.jpg" alt="Dominique Boullier" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Dominique Boullier</h3>
+            <span class="speakers-company"><p><a href="http://www.medialab.sciences-po.fr/fr" target="_blank">Science Po/ Medialab</a></p></span>
+          </li>
+        </div>
+        
+      </div>
+      <div class="row-fluid">
+      
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@remisussan" href="https://twitter.com/remisussan" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8108/8651569472_ea0dc5ddd9_q.jpg" alt="Rémi Sussan" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Rémi Sussan</h3>
+            <span class="speakers-company"><p><a href="http://www.internetactu.net" target="_blank">InternetActu</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@AlbertCanig" href="https://twitter.com/AlbertCanig" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8398/8651569532_133f735fe1_q.jpg" alt="Albert Cañigueral Bagó" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Albert Cañigueral Bagó</h3>
+            <span class="speakers-company"><p><a href="http://www.ouishare.net/es/" target="_blank">OuiShare Spain &amp; LATAM</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@Bernd_Fesel" href="https://twitter.com/Bernd_Fesel" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8249/8644351941_908f6b07b1_q.jpg" alt="Bernd Fesel" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Bernd Fesel</h3>
+            <span class="speakers-company"><p><a href="http://www.e-c-c-e.de/" target="_blank">European Center for Creative Economy</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@Laurentblparis" href="https://twitter.com/Laurentblparis" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8538/8652575705_7b592dc2f5_q.jpg" alt="Laurent Blanchard" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Laurent Blanchard</h3>
+            <span class="speakers-company"><p><a href="http://yooneed.com/" target="_blank">Yooneed</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@LDBenyayer" href="https://twitter.com/LDBenyayer" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8110/8660453006_b3972cb632_q.jpg" alt="Louis-David Benyayer" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Louis-David Benyayer</h3>
+            <span class="speakers-company"><p><a href="http://withoutmodel.com" target="_blank">Without Model</a></p></span>
+          </li>
+        </div>
+        
+      </div>
+      <div class="row-fluid">
+      
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@Ghaylam" href="https://twitter.com/Ghaylam" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8396/8652571603_fe5efb384f_q.jpg" alt="Jean-Christophe Peyssard" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Jean-Christophe Peyssard</h3>
+            <span class="speakers-company"><p><a href="http://www.openedition.org/" target="_blank">OpenEdition</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@KimTjoa" href="https://twitter.com/KimTjoa" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8251/8654216799_2f83bf14ea_q.jpg" alt="Kim Tjoa" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Kim Tjoa</h3>
+            <span class="speakers-company"><p><a href="www.floow2.com" target="_blank">FLOOW2</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@" href="https://twitter.com/" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8099/8660318456_2cfda9f0dc_q.jpg" alt="Nathalia Nogueira" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Nathalia Nogueira</h3>
+            <span class="speakers-company"><p><a href="https://www.facebook.com/d.collective.space" target="_blank">D.Collective Berlin</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@" href="https://twitter.com/" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8118/8659218327_eb7c032a12_q.jpg" alt="Jan Goslicki" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Jan Goslicki</h3>
+            <span class="speakers-company"><p><a href="http://bitcoinsinberlin.com/" target="_blank">Bitcoins in Berlin</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@ebavere" href="https://twitter.com/ebavere" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8118/8659218365_032200b529_q.jpg" alt="Eva Beritbach" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Eva Beritbach</h3>
+            <span class="speakers-company"><p><a href="https://www.facebook.com/d.collective.space" target="_blank">D.Collective Berlin</a></p></span>
+          </li>
+        </div>
+        
+      </div>
+      <div class="row-fluid">
+      
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@julien_hering" href="https://twitter.com/julien_hering" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8102/8659218319_97527f31dc_q.jpg" alt="Julien Hering" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Julien Hering</h3>
+            <span class="speakers-company"><p><a href="http://www.scoop.it/u/julien_hering_phd" target="_blank">TreeOfScience</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@bianchiniPhd" href="https://twitter.com/bianchiniPhd" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8117/8660388586_9a55e1796d_q.jpg" alt="Laurence Bianchini" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Laurence Bianchini</h3>
+            <span class="speakers-company"><p><a href="http://www.mysciencework.com" target="_blank">MyScienceWork</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@julientherier" href="https://twitter.com/julientherier" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8104/8659218299_1c35ee637c_q.jpg" alt="Julien Thérier" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Julien Thérier</h3>
+            <span class="speakers-company"><p><a href="http://www.shazino.com/" target="_blank">Shazino</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@PaulRichardet" href="https://twitter.com/PaulRichardet" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8109/8660318544_0cb6563494_q.jpg" alt="Paul Richardet" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Paul Richardet</h3>
+            <span class="speakers-company"><p><a href="http://siliconsentier.org" target="_blank">Silicon Sentier</a></p></span>
+          </li>
+        </div>
+        
+      
+        <div class="span2">
+          <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+            
+            <span class="speaker-photo hidden-phone">
+              <a title="@xtof_fr" href="https://twitter.com/xtof_fr" target="_blank">
+                <img class="photo" src="http://farm9.staticflickr.com/8108/8660318530_34a59e84e3_q.jpg" alt="Christophe Ducamp" itemprop="image">
+              </a>
+            </span>
+            
+            <h3 class="speakers-name">Christophe Ducamp</h3>
+            <span class="speakers-company"><p><a href="http://indiewebcamp.com" target="_blank"> IndieWebCamp</a></p></span>
           </li>
         </div>
         
@@ -1219,6 +2029,19 @@
       <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
         <p>
           <span class="speakers-name pull-left">
+            <a href="https://twitter.com/mollysturner" target="_blank">
+              Molly Turner
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.airbnb.com/">Airbnb</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
             <a href="https://twitter.com/edial" target="_blank">
               Edial Dekker
             </a>
@@ -1258,12 +2081,25 @@
       <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
         <p>
           <span class="speakers-name pull-left">
-            <a href="https://twitter.com/cgiorgi" target="_blank">
-              Cédric Giorgi
+            <a href="https://twitter.com/izakaminska" target="_blank">
+              Izabella Kaminska
             </a>
           </span>
           <span class="speakers-company pull-right">
-            <a href="http://www.cookening.com/">Cookening</a>
+            <a href="http://www.ft.com">Financial Times</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/100fabrizio" target="_blank">
+              Fabrizio Sestini
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://ec.europa.eu/">European Commission</a>
           </span>
         </p>
       </li>
@@ -1303,6 +2139,32 @@
           </span>
           <span class="speakers-company pull-right">
             <a href="http://ulule.com/">Ulule</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/cgiorgi" target="_blank">
+              Cédric Giorgi
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.cookening.com/">Cookening</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/LaBanquePostale" target="_blank">
+              Alexandre Brouillou
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="https://www.labanquepostale.fr/accueil.html">La Banque Postale</a>
           </span>
         </p>
       </li>
@@ -1453,6 +2315,32 @@
       <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
         <p>
           <span class="speakers-name pull-left">
+            <a href="https://twitter.com/GroupeLaPoste" target="_blank">
+              Delphine Desgurse
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.laposte.fr/">La Poste</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/pretdunion" target="_blank">
+              Charles Egly
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.pret-dunion.fr/">Prêt d'Union</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
             <a href="https://twitter.com/juliannebecker" target="_blank">
               Julianne Becker
             </a>
@@ -1467,7 +2355,7 @@
         <p>
           <span class="speakers-name pull-left">
             <a href="https://twitter.com/GargaBloom" target="_blank">
-              Eric van der Broek
+              Eric van den Broek
             </a>
           </span>
           <span class="speakers-company pull-right">
@@ -1700,6 +2588,19 @@
       <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
         <p>
           <span class="speakers-name pull-left">
+            <a href="https://twitter.com/wwsdo" target="_blank">
+              Shabnam Avar
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://about.me/shabnam_anvar"></a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
             <a href="https://twitter.com/javicreus" target="_blank">
               Javi Creus
             </a>
@@ -1719,6 +2620,565 @@
           </span>
           <span class="speakers-company pull-right">
             <a href="http://www.slowd.it/">Slowd.it</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/gloeckler" target="_blank">
+              Philipp Gloeckler
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="https://whyownit.com/">WhyOwnIt</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/katieneeds" target="_blank">
+              Katie Needs
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href=" http://www.gidsy.com">Gidsy</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/zoupic" target="_blank">
+              Etienne Hayem
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href=" http://www.zoupic.com">Zoupic</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/nathStern" target="_blank">
+              Nathan Stern
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://about.me/nathan.stern">Social Engineer</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/Sharelex" target="_blank">
+              Anne-Laure Brun-Buisson
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://sharelex.org/">Sharelex</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/schignard" target="_blank">
+              Simon Chignard
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://DonneesOuvertes.info">DonnéesOuvertes.info</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/chacon" target="_blank">
+              Scott Chacon
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.github.com">Github</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/gagarine" target="_blank">
+              Simon Perdrisat
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://democratieouverte.org/">Democratie Ouverte</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/grousico" target="_blank">
+              Marie Prenat
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.talalilala.com/">Talalilala</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/AlexGrandremy" target="_blank">
+              Alexandre Grandrémy
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.deways.com/">Deways</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/guillaumeverag" target="_blank">
+              Guillaume Verhaeghe
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://djengo.be/">Djengo</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/popaulin" target="_blank">
+              Paulin Dementhon
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="https://www.drivy.com/">Drivy/Voiturelib</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/" target="_blank">
+              Anne-Cécile Ragot
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.taoaproject.org/">TAOA</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/NicolasBard" target="_blank">
+              Nicolas Bard
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.icimontreuil.com/">Made in Montreuil</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/mdchouk" target="_blank">
+              Marc-David Choukroun
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.laruchequiditoui.fr">La Ruche qui dit Oui</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/dcht00" target="_blank">
+              David Potocnik
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://totalism.org">CHT</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/DebbieWossk" target="_blank">
+              Debbie Wosskow
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.lovehomeswap.com/">Love Home Swap</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/riggasconi" target="_blank">
+              Sebastiano Scròfina
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.dropis.com">Dropis</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/Coconutsurfing" target="_blank">
+              Christian Vanizette
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="we.makesense.org">MakeSense</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/YrOfOpenSource" target="_blank">
+              Sam Muirhead
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.yearofopensource.net/">Year of Open Source</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/" target="_blank">
+              Matthew Slater
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://communityforge.net">CommunityForge</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/webisteme" target="_blank">
+              Eli Gothill
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="www.punkmoney.org/">PunkMoney</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/Ramon10" target="_blank">
+              Ramon Blanco
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://etece.es/">Etece.es</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/marc6arthur" target="_blank">
+              Marc-Arthur Gauthey
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="https://www.cupofteach.com/">Cup of Teach</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/galasounds" target="_blank">
+              Galina Emelina
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="https://www.facebook.com/d.collective.space">D.Collective Berlin</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/fractastical" target="_blank">
+              Joel Dietz
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="evrgr">Evergreen</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/" target="_blank">
+              Paul Bourgine
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.crea.polytechnique.fr/">CREA</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/" target="_blank">
+              Dominique Boullier
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.medialab.sciences-po.fr/fr">Science Po/ Medialab</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/remisussan" target="_blank">
+              Rémi Sussan
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.internetactu.net">InternetActu</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/AlbertCanig" target="_blank">
+              Albert Cañigueral Bagó
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.ouishare.net/es/">OuiShare Spain &amp; LATAM</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/Bernd_Fesel" target="_blank">
+              Bernd Fesel
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.e-c-c-e.de/">European Center for Creative Economy</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/Laurentblparis" target="_blank">
+              Laurent Blanchard
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://yooneed.com/">Yooneed</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/LDBenyayer" target="_blank">
+              Louis-David Benyayer
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://withoutmodel.com">Without Model</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/Ghaylam" target="_blank">
+              Jean-Christophe Peyssard
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.openedition.org/">OpenEdition</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/KimTjoa" target="_blank">
+              Kim Tjoa
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="www.floow2.com">FLOOW2</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/" target="_blank">
+              Nathalia Nogueira
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="https://www.facebook.com/d.collective.space">D.Collective Berlin</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/" target="_blank">
+              Jan Goslicki
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://bitcoinsinberlin.com/">Bitcoins in Berlin</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/ebavere" target="_blank">
+              Eva Beritbach
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="https://www.facebook.com/d.collective.space">D.Collective Berlin</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/julien_hering" target="_blank">
+              Julien Hering
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.scoop.it/u/julien_hering_phd">TreeOfScience</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/bianchiniPhd" target="_blank">
+              Laurence Bianchini
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.mysciencework.com">MyScienceWork</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/julientherier" target="_blank">
+              Julien Thérier
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://www.shazino.com/">Shazino</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/PaulRichardet" target="_blank">
+              Paul Richardet
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://siliconsentier.org">Silicon Sentier</a>
+          </span>
+        </p>
+      </li>
+    
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <p>
+          <span class="speakers-name pull-left">
+            <a href="https://twitter.com/xtof_fr" target="_blank">
+              Christophe Ducamp
+            </a>
+          </span>
+          <span class="speakers-company pull-right">
+            <a href="http://indiewebcamp.com"> IndieWebCamp</a>
           </span>
         </p>
       </li>
@@ -1744,7 +3204,7 @@
                 </a>
             </div>
             <div class='button program_button'>
-                <a href="http://www.strikingly.com/ouisharefestive" target="_blank">
+                <a href="http://4mai.ouisharefest.com/" target="_blank">
                     <h3>Nyílt nap</h3>
                     <p>Szombat</p>
                     <p class="note">franciául és angolul</p>
@@ -1781,6 +3241,12 @@
           
           <a href="https://www.labanquepostale.fr/accueil.html" target="_blank" class='partner_tooltip' data-original-title="Both a Bank and a citizen, La Banque Postale provides services to the people, their life, their financial concerns, the area they live in. La Banque Postale has a strong presence in the community, a strong value of sharing and a strong commitment to sustainability. It is commited to the community's daily economic and social life.">
             <img id="laBanquePostale" src="http://farm9.staticflickr.com/8519/8547417797_3848ae3dcb_o.png" alt="La banque postal" />
+          </a>
+        </div>
+        <div class="logo">
+          
+          <a href="https://www.google.com" target="_blank">
+            <img src="http://farm9.staticflickr.com/8113/8654216317_f9c43c2f01_o.png" alt="Google"/>
           </a>
         </div>
       </div>
@@ -1922,7 +3388,7 @@
         </div>
       
         <div class="logo logo-m">
-          <a href="www.nouvellefabrique.fr" target="_blank">
+          <a href="http://www.nouvellefabrique.fr/" target="_blank">
             <img src="http://farm9.staticflickr.com/8102/8638921089_ff83acf236_o.png" alt="Nouvelle Fabrique"/>
           </a>
         </div>
@@ -1930,6 +3396,12 @@
         <div class="logo logo-m">
           <a href="http://www.agence-ondine.com/" target="_blank">
             <img src="http://farm9.staticflickr.com/8109/8639006017_da4db31b1e_o.png" alt="Ondine"/>
+          </a>
+        </div>
+      
+        <div class="logo logo-m">
+          <a href="http://www.v2rf.org/" target="_blank">
+            <img src="https://farm9.staticflickr.com/8262/8654980464_6b88a65ca4_m.jpg" alt="Vision to Reality Foundation"/>
           </a>
         </div>
       
@@ -2030,12 +3502,6 @@
         </div>
       
         <div class="logo logo-s">
-          <a href="http://www.v2rf.org/" target="_blank">
-            <img src="http://farm9.staticflickr.com/8522/8552961240_05472f4caf_o.png" alt="Vision to Reality Foundation"/>
-          </a>
-        </div>
-      
-        <div class="logo logo-s">
           <a href="http://ulule.com/" target="_blank">
             <img src="http://farm9.staticflickr.com/8535/8637663215_6af0b33970_o.png" alt="Ulule"/>
           </a>
@@ -2077,6 +3543,24 @@
           </a>
         </div>
       
+        <div class="logo logo-s">
+          <a href="https://www.cookening.com/" target="_blank">
+            <img src="http://farm9.staticflickr.com/8389/8653058290_a83d005853_o.png" alt="Cookening"/>
+          </a>
+        </div>
+      
+        <div class="logo logo-s">
+          <a href="http://www.trustcloud.com/" target="_blank">
+            <img src="http://farm9.staticflickr.com/8245/8654695961_86144db235_o.png" alt="TrustCloud"/>
+          </a>
+        </div>
+      
+        <div class="logo logo-s">
+          <a href="http://yooneed.com/" target="_blank">
+            <img src="http://farm9.staticflickr.com/8107/8655110066_d01d4c0a9f_o.png" alt="Yooneed"/>
+          </a>
+        </div>
+      
     </div>
   </div>
   <div class="partnerstext hidden-phone">
@@ -2111,6 +3595,12 @@
     <p>
       <a href="https://www.labanquepostale.fr/accueil.html" target="_blank">
         La banque postal
+      </a>
+    </p>
+    
+    <p>
+      <a href="https://www.google.com" target="_blank">
+        Google
       </a>
     </p>
     
@@ -2251,7 +3741,7 @@
     </p>
     
     <p>
-      <a href="www.nouvellefabrique.fr" target="_blank">
+      <a href="http://www.nouvellefabrique.fr/" target="_blank">
         Nouvelle Fabrique
       </a>
     </p>
@@ -2259,6 +3749,12 @@
     <p>
       <a href="http://www.agence-ondine.com/" target="_blank">
         Ondine
+      </a>
+    </p>
+    
+    <p>
+      <a href="http://www.v2rf.org/" target="_blank">
+        Vision to Reality Foundation
       </a>
     </p>
     
@@ -2351,12 +3847,6 @@
     </p>
     
     <p>
-      <a href="http://www.v2rf.org/" target="_blank">
-        Vision to Reality Foundation
-      </a>
-    </p>
-    
-    <p>
       <a href="http://ulule.com/" target="_blank">
         Ulule
       </a>
@@ -2395,6 +3885,24 @@
     <p>
       <a href="http://www.altereco.com/" target="_blank">
         Alter Eco
+      </a>
+    </p>
+    
+    <p>
+      <a href="https://www.cookening.com/" target="_blank">
+        Cookening
+      </a>
+    </p>
+    
+    <p>
+      <a href="http://www.trustcloud.com/" target="_blank">
+        TrustCloud
+      </a>
+    </p>
+    
+    <p>
+      <a href="http://yooneed.com/" target="_blank">
+        Yooneed
       </a>
     </p>
     
@@ -2670,7 +4178,7 @@
               </h3>
               <p>
                 <span class="teammember-tags">
-                  #Design #Communication
+                  #Design #Technic #Labs
                 </span>
                 <br/>
                 <span class="teammember-twitter">
@@ -3225,7 +4733,7 @@
           </h3>
           <p>
             <span class="teammember-tags">
-              #Design #Communication
+              #Design #Technic #Labs
             </span>
             <br/>
             <span class="teammember-twitter">
@@ -3538,54 +5046,80 @@
 
           <section class="participate" id="participate">
             <div class="row-fluid">
-  <div class="registerright span8 offset2">
+  <div class="registerright">
+    <h2>Ways You Can Participate</h2>
         <div class='row participate_section'>
-            <h2>Jegyek</h2>
-                <div id='registerbutton' class='call'>
-                    <a href="http://www.weezevent.com/ouishare-fest" target="_blank">
-                        <p>Megveszem a jegyemet!</p>
-                    </a>
-                </div>
-                <p>
-                    <strong>Első és második nap</strong> szakmai napok
-                </p>
-                <p>
-                    <strong>Harmadik nap</strong> nyílt nap, ingyenes belépés minden résztvevőnek
-                </p>
+            <div class='span4'>
+        <div class='option'>
+          <a href="http://share.ouisharefest.com/" target="_blank">
+           <img src="http://farm9.staticflickr.com/8109/8655550965_c3090bc89d_o.jpg"/>
+          </a>
+          <p class='participate_text'>
+                    Share accommodation, rides, things and more with other attendees on our OuiShare Fest sharing platform
+          </p>
         </div>
-        <div class='row participate_section'>
-            <div class='span6'>
-                <h2>Lépj kapcsolatba más résztvevőkkel</h2>
-                <a href="http://share.ouisharefest.com/" target="_blank">
-                Az OuiShare Fest közösségi oldalon láthatod a többi résztvevő kéréseit és ajánlatait
-                <img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/edd6902d0810a8184ea298dca2b08093/sharetribe.png"/>
-                </a>
             </div>
-            <div class='span6'>
-                    <h2>OuiShare Fest Awards</h2>
-                    <a title='Click here for more info' class='partner_tooltip' href="http://awards.ouisharefest.com/" target="_blank">
-                        <img src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/515c1e1017ef341c6a004423/d21e4a6d6dc439e7034f494413b1deb1/Final_Awards_logo.png_preview_500x226.png"/>
-                    </a>
-                    <p class='awards_text'>
-                            Számos díjat osztunk ki az együttműködő gazdaságot építő projekteknek és start-upoknak akik hozzájárulnak az <a href='http://ouishare.net/about/our-values/'> az OuiShare közösség értékeinek</a> népszerüsítéséhez.
-                    </p>
+            <div class='span4'>
+        <div class='option'>
+          <a href="http://awards.ouisharefest.com/" target="_blank">
+            <img src="http://farm9.staticflickr.com/8125/8655551071_493da2e914_o.jpg"/>
+          </a>
+          <p class='participate_text'>
+              A series of prizes to honor projects and startups from the collaborative economy. Vote for your favorite project now till April 30
+          </p>
+        </div>
             </div>
-
+      <div class='span4'>
+        <div class='option'>
+          <a href="http://labs.ouishare.net" target="_blank">
+            <img src="http://farm9.staticflickr.com/8115/8655550999_c98077a5af_o.jpg"/>
+          </a>
+          <p class='participate_text'>
+              Let's continue to hack the collaborative economy together, 5-6-7 May, working on coding projects and visioning future ecosystems
+          </p>
+        </div>
+      </div>
+    </div> <!-- close row -->
+    <div class='row participate_section'>
+      <div class='span4'>
+        <div class='option'>
+          <a href="http://fabjam.org" target="_blank">
+            <img src="http://farm9.staticflickr.com/8125/8655551039_c172d9e732_o.jpg"/>
+          </a>
+          <p class='participate_text'>
+              Join our one day event that brings together fabspaces worldwide for a creative fab-sprint
+          </p>
+        </div>
+      </div>
+      <div class='span4'>
+        <div class='option'>
+          <a href="https://www.youtube.com/user/OuiShareTV" target="_blank">
+            <img src="http://farm9.staticflickr.com/8121/8655550923_cbbea5164d_o.jpg"/>
+          </a>
+          <p class='participate_text'>
+              Subscribe to OuiShare TV to see recordings of all our sessions
+          </p>
+        </div>
+      </div>
         </div>
   </div>
-</div>
 
           </section>
 
           <!-- / PARTICIPATE -->
         
-          <!-- ATTENDEES -->
+          <!-- REGISTER -->
 
-          <section class="attendees" id="attendees">
+          <section class="register" id="register">
             <!--- attendees section -->
 
 <div class='row-fluid attendee_section'>
     <div class='span8 offset2 attendee_wrapper'>
+    <div class='row ticket_section'>
+      <h2>Jegyek</h2>
+      <p>See our <a href='http://tiny.cc/ouifest-budget' target='_blank'>detailed budget</a><p>
+      <iframe src="https://www.weezevent.com/widget_multi.php?14309.1" width="700" height="500" scrolling="auto" frameborder="0"></iframe>
+    </div>
         <h2>Akik már biztos ott lesznek</h2>
         <div class='attendees_list'>
 
@@ -3971,28 +5505,6 @@
                             
                                 <a href="https://twitter.com/s_fredriksson" target="_blank">
                                     @s_fredriksson
-                                </a>
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="http://a0.twimg.com/profile_images/3466831178/75b0e17f28d5e1881dae7913ff4b1082_normal.jpeg" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                pascal verwaerde
-                            
-                                    <a href="https://twitter.com/shareyousee" target="_blank">
-                                        @shareyousee
-                                    </a>
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            SHAREYOUSEE
-                            
-                                <a href="https://twitter.com/shareyousee" target="_blank">
-                                    @shareyousee
                                 </a>
                             
                         </div>
@@ -4739,132 +6251,6 @@
                             <img src="/img/blankAvatar.png" width="48" heirght="48" />
                         </div>
                         <div class='span5 attendee_name'>
-                                Rachel Arnould
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Louis-David Benyayer
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Marc Chataigner
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Samuel Manassé
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Benoit Renoul
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Caro Glandorf
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Donatienne Lavoillote
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Alix Heuer
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Quynh Duong
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
                                 Marie Prenat
                             
                         </div>
@@ -4921,48 +6307,6 @@
                             <img src="/img/blankAvatar.png" width="48" heirght="48" />
                         </div>
                         <div class='span5 attendee_name'>
-                                Yvette Naufal
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Fabien Gury
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Brice Wandebrouck
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
                                 Maud Chabanier
                             
                         </div>
@@ -4991,7 +6335,7 @@
                             <img src="/img/blankAvatar.png" width="48" heirght="48" />
                         </div>
                         <div class='span5 attendee_name'>
-                                Clara Falala
+                                Véronique Blaise
                             
                         </div>
                         <div class='span5 attendee_org'>
@@ -5388,7 +6732,7 @@
             
                     <div class='row-fluid attendee_row'>
                         <div class='span2 attendee_avatar'>
-                            <img src="http://a0.twimg.com/profile_images/3413967488/631138a7b635c5099a8dafa10d8cabd6_normal.png" width="48" heirght="48" />
+                            <img src="http://a0.twimg.com/profile_images/3505780270/47469f8303a1fb4d6461644d4cad7b99_normal.png" width="48" heirght="48" />
                         </div>
                         <div class='span5 attendee_name'>
                                 Thomas Roche
@@ -6024,7 +7368,7 @@
             
                     <div class='row-fluid attendee_row'>
                         <div class='span2 attendee_avatar'>
-                            <img src="http://a0.twimg.com/profile_images/2881628296/bd34c16308a92745d219d9700b031705_normal.jpeg" width="48" heirght="48" />
+                            <img src="http://a0.twimg.com/profile_images/3510547864/941b6631a1bf2d62d932ed4eceb6320c_normal.jpeg" width="48" heirght="48" />
                         </div>
                         <div class='span5 attendee_name'>
                                 Jonathan Malka
@@ -6520,258 +7864,6 @@
             
                     <div class='row-fluid attendee_row'>
                         <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Chapuis David
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Daniel Aurélie
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Verwaerde Pascal
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Chambaud Nicolas
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Gothill Eli
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Fossé Arthur 
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Souren Kasper
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Ferriere Laetitia
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                RaySicar Pritha
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Canat David
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Sacepe Karine
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Carrega Fabrice
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Harvey Nicole
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Gury Fabien
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Rodrigues David
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Reggio Elena
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Sinet Ludovic
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Arrault Mathilde
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
                             <img src="http://a0.twimg.com/profile_images/2578671474/8yx5gvn57cy137k4j5u3_normal.jpeg" width="48" heirght="48" />
                         </div>
                         <div class='span5 attendee_name'>
@@ -7038,7 +8130,7 @@
             
                     <div class='row-fluid attendee_row'>
                         <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                            <img src="http://a0.twimg.com/profile_images/3393698534/569a4dfc0a2ed2d65e0709903055295f_normal.jpeg" width="48" heirght="48" />
                         </div>
                         <div class='span5 attendee_name'>
                                 Lucy Gao
@@ -7138,48 +8230,6 @@
             
                     <div class='row-fluid attendee_row'>
                         <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Nathalia Nogueira
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Galina Emelina
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
-                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
-                        </div>
-                        <div class='span5 attendee_name'>
-                                Eva Breitbach
-                            
-                        </div>
-                        <div class='span5 attendee_org'>
-                            
-                            
-                        </div>
-                    </div> <!-- close row -->
-            
-                    <div class='row-fluid attendee_row'>
-                        <div class='span2 attendee_avatar'>
                             <img src="http://a0.twimg.com/profile_images/2934100792/10d68fc4e1e4b6315fb2a854d7864fb4_normal.jpeg" width="48" heirght="48" />
                         </div>
                         <div class='span5 attendee_name'>
@@ -7200,31 +8250,787 @@
                         </div>
                     </div> <!-- close row -->
             
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Hans Louis Paintner
+                            
+                                    <a href="https://twitter.com/H Louis Paintner" target="_blank">
+                                        @H Louis Paintner
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Hochschule München
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/3161587814/62b79056cf67ebc8087c655e3f5c4892_normal.jpeg" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Marine Desbans
+                            
+                                    <a href="https://twitter.com/mdesbans" target="_blank">
+                                        @mdesbans
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Schibsted Développement
+                            
+                                <a href="https://twitter.com/SchibstedGrowth" target="_blank">
+                                    @SchibstedGrowth
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/1420305425/Screen_shot_2011-06-30_at_14.27.50_normal.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Imran Azam
+                            
+                                    <a href="https://twitter.com/moiazam" target="_blank">
+                                        @moiazam
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            sharemystorage.com
+                            
+                                <a href="https://twitter.com/sharemystorage" target="_blank">
+                                    @sharemystorage
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Martin Descours
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            *collectivemind
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/3247985350/7f2c1d24236645d39ac4fe9a4fed2451_normal.jpeg" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Aliya Akhmetkereeva
+                            
+                                    <a href="https://twitter.com/AliyaLucky" target="_blank">
+                                        @AliyaLucky
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Istituto Europeo di Design
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/3330430716/9d435d61275384a6e3b713a6d498460a_normal.jpeg" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Simon Sarazin
+                            
+                                    <a href="https://twitter.com/simons_fr" target="_blank">
+                                        @simons_fr
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Imagination for People
+                            
+                                <a href="https://twitter.com/ipvoices" target="_blank">
+                                    @ipvoices
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/809088262/manga_normal.jpg" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                David Nguyen
+                            
+                                    <a href="https://twitter.com/nguyedav" target="_blank">
+                                        @nguyedav
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Peertrust
+                            
+                                <a href="https://twitter.com/nguyedav" target="_blank">
+                                    @nguyedav
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Germaine Satia
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Freelancer
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                THIERRY BENSOUSSAN
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            AFFINITEAM
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Mattias Jay
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Jansen Amanda
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Boon Jeroen
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Panel Benoît 
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                 Antti
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Hain Louise
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Santerre Christopher
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Aurélien Marty
+                            
+                                    <a href="https://twitter.com/Aurélien@LaVieCheap" target="_blank">
+                                        @Aurélien@LaVieCheap
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            La Vie Cheap
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Thibault Humbert
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            X44 / Gardermesenfants.fr
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Christophe Rosso
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            X44 / gardermesenfants.fr
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/3375501858/0b1e697e67118781ecdc3613e002b6da_normal.jpeg" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Adrien Pinson
+                            
+                                    <a href="https://twitter.com/adrienpinson" target="_blank">
+                                        @adrienpinson
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            JeLoueMonCampingCar.com
+                            
+                                <a href="https://twitter.com/moncampingcar" target="_blank">
+                                    @moncampingcar
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Stanislas Jourdan
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                JAUME GURT DAVI
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            INFOJOBS, S.A.
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/1230867207/Tete_Quad_58_normal.jpg" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Frédéric JOURDAN
+                            
+                                    <a href="https://twitter.com/snootlab" target="_blank">
+                                        @snootlab
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            snootlab
+                            
+                                <a href="https://twitter.com/snootlab" target="_blank">
+                                    @snootlab
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Arthur De Grave
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Diana Filippova
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Emilie Morcillo
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Renaud POLLY
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            CCI Entreprendre en France
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/3475556544/a108facbcd75d9c3c5d19f1dd0864170_normal.jpeg" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Vincent Roy
+                            
+                                    <a href="https://twitter.com/makeitmarseille" target="_blank">
+                                        @makeitmarseille
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Make it Marseille
+                            
+                                <a href="https://twitter.com/makeitmarseille" target="_blank">
+                                    @makeitmarseille
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Esther Val
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            NA
+                            
+                                <a href="https://twitter.com/Romareda" target="_blank">
+                                    @Romareda
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Emilie ROUCHON
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Les AAC / Paracommand'art
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Josef Davies Coates
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Hervé Dornier
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/3532414885/ab71c77821b5b68af8da22fb85e7bcbb_normal.jpeg" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Nicolas DEBOCK
+                            
+                                    <a href="https://twitter.com/ndebock" target="_blank">
+                                        @ndebock
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            XAnge
+                            
+                                <a href="https://twitter.com/ndebock" target="_blank">
+                                    @ndebock
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/3291988823/525af40ebea79a8f404b1de22b78a7f6_normal.jpeg" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Arnaud BURGOT
+                            
+                                    <a href="https://twitter.com/aburgot" target="_blank">
+                                        @aburgot
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Ulule.com
+                            
+                                <a href="https://twitter.com/ululefr" target="_blank">
+                                    @ululefr
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/2874151223/106944e336afa1b626a9c89ace0e83c1_normal.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Josse Blais
+                            
+                                    <a href="https://twitter.com/KamaXe" target="_blank">
+                                        @KamaXe
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            ProjetY
+                            
+                                <a href="https://twitter.com/KamaXe" target="_blank">
+                                    @KamaXe
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/1562240664/mini-80_normal.jpeg" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Jean-François Gigand
+                            
+                                    <a href="https://twitter.com/okapi_p" target="_blank">
+                                        @okapi_p
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Geonef
+                            
+                                <a href="https://twitter.com/geogeonef" target="_blank">
+                                    @geogeonef
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Maher Barboura
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Under definition
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/sticky/default_profile_images/default_profile_6_normal.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                sophie van nuffel
+                            
+                                    <a href="https://twitter.com/sophienour" target="_blank">
+                                        @sophienour
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            SMartBe
+                            
+                                <a href="https://twitter.com/smartbe" target="_blank">
+                                    @smartbe
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/858040970/n799435243_1890_normal.jpg" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Karol ARNAUD
+                            
+                                    <a href="https://twitter.com/karolarnaud" target="_blank">
+                                        @karolarnaud
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Pitch Me
+                            
+                                <a href="https://twitter.com/karolarnaud" target="_blank">
+                                    @karolarnaud
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Anissia Tcherniaeff
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Djump
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/3512845073/f3a026d4f50644d9e98346d8cf63c1e8_normal.jpeg" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Jason Savsani
+                            
+                                    <a href="https://twitter.com/allowsit" target="_blank">
+                                        @allowsit
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Meal Sharing
+                            
+                                <a href="https://twitter.com/mealsharing" target="_blank">
+                                    @mealsharing
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="http://a0.twimg.com/profile_images/3317874805/0dd1323e83f226903f30f6603ab8fc26_normal.jpeg" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                Adam Mark
+                            
+                                    <a href="https://twitter.com/adamwmark" target="_blank">
+                                        @adamwmark
+                                    </a>
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Meal Sharing
+                            
+                                <a href="https://twitter.com/mealsharing" target="_blank">
+                                    @mealsharing
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                John Franchi
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            Meal Sharing
+                            
+                                <a href="https://twitter.com/mealsharing" target="_blank">
+                                    @mealsharing
+                                </a>
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
+                    <div class='row-fluid attendee_row'>
+                        <div class='span2 attendee_avatar'>
+                            <img src="/img/blankAvatar.png" width="48" heirght="48" />
+                        </div>
+                        <div class='span5 attendee_name'>
+                                OLAF KLARGAARD
+                            
+                        </div>
+                        <div class='span5 attendee_org'>
+                            ma-residence.fr
+                            
+                        </div>
+                    </div> <!-- close row -->
+            
         </div>
     </div>
 </div>
 
           </section>
 
-          <!-- / ATTENDEES -->
+          <!-- / REGISTER -->
         
         <footer>
     <div class='footer'>
 
     <div class="row">
-            <div class='span3 credit'>
+            <div class='span2 offset2 credit'>
                 <h3>
                         Contact
                 </h3>
                     <p><a href="mailto:hello@ouisharefest.com">hello@ouisharefest.com</a></p>
             </div>
-            <div class='span3 credit'>
+            <div class='span2 credit'>
                     <h3>Press</h3>
                     <p>
                         <a href="https://dl.dropbox.com/u/4752604/Presskit.zip">Download Presskit</a>
                     </p>
             </div>
-            <div class='span3 credit'>    
+            <div class='span2 credit'>    
                 <h3>
                     Design
                 </h3>
@@ -7233,7 +9039,7 @@
                     <a href="httpl://www.g-u-i.net" target="_blank">g-u-i.net</a>
                 </p>
             </div>
-            <div class='span3 credit'>
+            <div class='span2 credit'>
                 <h3>
                     Fejlesztés
                 </h3>
@@ -7261,35 +9067,7 @@
 
   </div>
 
-  <script src="js/built.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('.carousel').carousel('pause');
-
-      $(".partner_tooltip").tooltip({
-        placement: 'right'
-       });
-
-            $('.location_image').tooltip();
-
-      $('.dropdown-toggle').dropdown()
-
-    });
-  </script>
-
-  <!-- GOOGLE ANALYTICS -->
-  <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-37109643-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-  </script>
-  <!-- /GOOGLE ANALYTICS -->
+  <script defer type="text/javascript" src="/js/built.min.js"></script>
 
 </body>
 </html>

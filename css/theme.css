@@ -95,14 +95,14 @@ ul{
         font-size:1em;
 }
 
-.nav-link.participate-nav{
-        color:rgba(252,238,33,1);
-}
 .nav-link:active {color:rgba(252,238,33,1);}
 .nav-link:hover {color:rgba(252,238,33,1);}
 .nav-link:focus {color:rgba(252,238,33,1);}
 .nav-link .yellow {color:rgba(252,238,33,1);}
 .nav-link .current {color:rgba(252,238,33,1);}
+.participate-nav, .register-nav{
+        color:rgba(252,238,33,1);
+}
 
 /*
 .facebook_icon {
@@ -195,7 +195,7 @@ a.dropdown-toggle span {font-size: 70%;}
 overflow: hidden;
 height:600px;
 }
-iframe {
+.iframe-rwd iframe {
 width: 100%;
 height: 100%;
 overflow: hidden;
@@ -220,14 +220,11 @@ display: block;
     -o-background-size: cover;
     background-size: cover;
     position:relative;
-        padding-top: 130px;
+        padding: 80px 0px 80px 0px;
 }
 .aboutframe {
-        margin-left:auto;
-        margin-right:auto;
-        width: 50%;
     background:rgba(255,255,255, 0.8);
-        padding:2em;
+    padding:2em;
 }
 .aboutframe h3{
     font-size:1.8em;
@@ -237,10 +234,18 @@ display: block;
 .aboutframe p{
     font-size: 1.2em;
 }
+.videoframe {
+  height:500px;
+  margin-bottom:40px;
+}
+.videoframe iframe {
+  width:100%;
+}
+
 /* =============================================================================
    TOPICS
    ========================================================================== */
-.topics {
+topics {
    color:white;
    height:100% !important;
    display:block;
@@ -409,9 +414,10 @@ display: block;
     border: 5px solid #a6a6ff;
     text-align:center;
     margin-top:130px;
-    padding: 20px 0 50px 0;
+    padding: 10px 0 50px 0;
     background: rgb(255,255,255);
     background: rgba(255,255,255,.9);
+    border-radius:15px;
 }
 .program_button {
     padding: 5px;
@@ -595,7 +601,7 @@ a.supporter_header_link {
    PARTICIPATE AND REGISTER
    ========================================================================== */
 .participate{
-    padding-top:8em;
+    padding:4em 1em;
     background: url('../img/backgrounds/topic6.gif') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -605,23 +611,51 @@ a.supporter_header_link {
 }
 
 .participate_section {
-        background: rgb(255,255,255);
-        background: rgba(255,255,255,.7);
-        padding: 20px;
+        padding: 15px;
         margin-bottom: 20px;
 }
-.participate h2{
-    margin-top: .5em;
-    margin-bottom: .5em;
+.participate .option {
+    background: rgb(255,255,255);
+    background: rgba(255,255,255,.7);
+  margin-left:auto;
+  margin-right:auto;
+  padding: 2%;
+  width:98%;
+  height:98%;
+  text-align:center;
+  height:350px;
 }
-.participate h3 {
-    font-size:2em;
-    line-height:1.8em;
+.option p {
+  font-size: 16px;
+  margin-top: 20px;
 }
-.participate p {
-    font-size: 16px;
-        margin-bottom:5px;
+
+.option img {
+  margin-left:auto;
+  margin-right:auto;
+  min-width:300px;
+  display:block;
+  padding:5px;
 }
+
+
+
+/* ========================================================================
+ * REGISTER AND ATTENDEES aka WHO"S COMING
+ *=========================================================================
+ */
+
+.ticket_section iframe{
+  margin: 0 auto;
+}
+.ticket_section p{
+  font-size: 16px;
+}
+
+.registerright h2 {
+  text-align:center;
+}
+
 #registerbutton{
     float: right;
     margin: -30px 50px 0 10px;
@@ -637,21 +671,19 @@ a.supporter_header_link {
     -webkit-box-shadow: 4px 4px 2px blue;
     box-shadow: 4px 4px 2px blue;
 }
+
 #registerbutton a {
     text-decoration:none;
+  border:none;
 }
 #registerbutton p {
     color:#5C2BDB;
   font-weight: bold;
   text-transform: uppercase;
   padding: 2em;
+  font-size:16px;
+  margin-bottom:5px;
 }
-
-
-/* ========================================================================
- * ATTENDEES aka WHO"S COMING
- *=========================================================================
- */
 
 .attendee_section{
   background-color: #e6e6ff;
@@ -690,9 +722,6 @@ a.supporter_header_link {
     color:#5c2bdb;
   padding-top: 5px;
 }
-p.awards_text {
-    margin-top:20px;
-}
 
 
 /* =========================================================================
@@ -711,6 +740,9 @@ p.awards_text {
     }
     .footer .credits h3 {
         color:#5c2bdb;
+    }
+    .credit {
+        margin-right:30px;
     }
     .credit h3 {
         font-size: 14px;
@@ -895,7 +927,7 @@ p.awards_text {
     .team-list{
             padding:0;
     }
-    .team-phone h2{
+    .team-phone h2 {
             font-size:1.6em;
       padding: 1.5em;
       text-align: center;
