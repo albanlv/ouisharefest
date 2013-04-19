@@ -12,7 +12,7 @@
     <% topics = [@t.topics['1'], @t.topics['2'], @t.topics['3'], @t.topics['4'], @t.topics['5']] %>
     <% for topic, index in topics : %>
     <div class="item <%= 'active' if index == 0 %>">
-      <img src='/img/backgrounds/topic<%= index + 1 %>.gif' alt=""/>
+      <img src='/img/backgrounds/topic<%= index + 1 %>.png' alt=""/>
       <div class="carousel-caption">
         <h3>
           <%= topic.title %>
