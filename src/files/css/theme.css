@@ -220,14 +220,11 @@ display: block;
     -o-background-size: cover;
     background-size: cover;
     position:relative;
-		padding-top: 130px;
+		padding: 80px 0px 80px 0px;
 }
 .aboutframe {
-		margin-left:auto;
-		margin-right:auto;
-		width: 50%;
     background:rgba(255,255,255, 0.8);
-		padding:2em;
+    padding:2em;
 }
 .aboutframe h3{
     font-size:1.8em;
@@ -237,10 +234,15 @@ display: block;
 .aboutframe p{
     font-size: 1.2em;
 }
+.videoframe {
+  height:500px;
+  margin-bottom:40px;
+
+}
 /* =============================================================================
    TOPICS
    ========================================================================== */
-.topics {
+topics {
    color:white;
    height:100% !important;
    display:block;
@@ -914,7 +916,7 @@ a.supporter_header_link {
 	.team-list{
 			padding:0;
 	}
-	.team-phone h2{
+	.team-phone h2 {
 			font-size:1.6em;
       padding: 1.5em;
       text-align: center;
