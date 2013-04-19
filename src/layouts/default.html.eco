@@ -66,21 +66,7 @@
 
   </div>
 
-  <script src="/js/built.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('.carousel').carousel('pause');
-
-      $(".partner_tooltip").tooltip({
-        placement: 'right'
-       });
-
-			$('.location_image').tooltip();
-
-      $('.dropdown-toggle').dropdown()
-
-    });
-  </script>
+  <script defer type="text/javascript" src="/js/built.min.js"></script>
 
 </body>
 </html>
