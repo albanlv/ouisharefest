@@ -2,20 +2,11 @@
 
 <div class='row-fluid attendee_section'>
 	<div class='span8 offset2 attendee_wrapper'>
-		<div class='row ticket_section'>
-			<h2><%- @t.sections.register %></h2>
-				<div id='registerbutton' class='call'>
-					<a href="<%= @data.links.tickets %>" target="_blank">
-						<p><%- @t.tickets.book_tickets %></p>
-					</a>
-				</div>
-				<p>
-					<%- @t.tickets.first %>
-				</p>
-				<p>
-					<%- @t.tickets.second %>
-				</p>
-		</div>
+    <div class='row ticket_section'>
+      <h2><%- @t.sections.register %></h2>
+      <p><%- @t.tickets.budget %><p>
+      <iframe src="https://www.weezevent.com/widget_multi.php?14309.1" width="700" height="400" scrolling="auto" frameborder="0"></iframe>
+    </div>
 		<h2><%= @t.tickets.participants %></h2>
 		<div class='attendees_list'>
 

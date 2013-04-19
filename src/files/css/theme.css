@@ -195,7 +195,7 @@ a.dropdown-toggle span {font-size: 70%;}
 overflow: hidden;
 height:600px;
 }
-iframe {
+.iframe-rwd iframe {
 width: 100%;
 height: 100%;
 overflow: hidden;
@@ -641,6 +641,14 @@ a.supporter_header_link {
  * REGISTER AND ATTENDEES aka WHO"S COMING
  *=========================================================================
  */
+
+.ticket_section iframe{
+  margin: 0 auto;
+}
+.ticket_section p{
+  font-size: 16px;
+}
+
 .registerright h2 {
   text-align:center;
 }
